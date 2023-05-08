@@ -1,0 +1,77 @@
+.codexLabs {
+  position: relative;
+  line-height: 19.2px;
+}
+.pmuitypographyRoot {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-0) var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privacy {
+  position: relative;
+  text-decoration: underline;
+  line-height: 19.2px;
+}
+.divmuigrid2Root1,
+.divmuistackRoot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divmuistackRoot {
+  flex-direction: row;
+  padding: var(--padding-10xs) 25.020000457763672px var(--padding-0)
+    var(--padding-0);
+  gap: 8.84px;
+  margin-top: -3.82px;
+}
+.divmuigrid2Root1 {
+  position: absolute;
+  top: calc(50% - 23.18px);
+  left: 60px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 3.8600006103515625px 0.20000076293945312px
+    var(--padding-9xs);
+}
+.svgmuisvgiconRoot {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.divmuigrid2Root2 {
+  position: absolute;
+  top: -4px;
+  right: -12px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lgi) var(--padding-lg) var(--padding-lgi)
+    var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.divmuigrid2Root {
+  position: relative;
+  width: 1496px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.divmuiboxRoot {
+  position: absolute;
+  top: 1774.31px;
+  left: 0;
+  background-color: var(--wireframe2);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xl) var(--padding-193xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs-8);
+  color: var(--color-gray-600);
+  font-family: var(--font-inter);
+}

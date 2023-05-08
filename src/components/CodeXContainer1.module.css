@@ -1,0 +1,63 @@
+.codexCommunity {
+  line-height: 160%;
+  text-transform: capitalize;
+  color: var(--wireframe);
+}
+.buildOnCodex,
+.codexCommunity,
+.codexIsDesigned,
+.theCodexCommunity {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.codexIsDesigned {
+  align-self: stretch;
+  font-size: var(--font-size-29xl);
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.buildOnCodex,
+.theCodexCommunity {
+  line-height: 160%;
+}
+.theCodexCommunity {
+  align-self: stretch;
+}
+.buildOnCodex {
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-family: var(--p1sb);
+  color: var(--wireframe2);
+  text-align: left;
+}
+.buttonCta,
+.codexCommunityParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonCta {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-13xl);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(-82.77deg, #089df1, #082df1 62.19%, #08abf1);
+  box-shadow: 0 5px 35px #0159dd;
+  flex-direction: row;
+}
+.codexCommunityParent {
+  position: absolute;
+  top: 83px;
+  left: 720px;
+  width: 630px;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--wireframe2);
+  font-family: var(--p1sb);
+}

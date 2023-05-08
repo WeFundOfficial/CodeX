@@ -1,0 +1,156 @@
+.toImplementChild {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 1440px;
+  height: 600px;
+}
+.xpander {
+  position: absolute;
+  top: 1417px;
+  left: 130px;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  width: 98px;
+}
+.groupIcon,
+.toImplementItem {
+  position: absolute;
+  top: 4089px;
+  left: -2px;
+  width: 233px;
+  height: 0;
+}
+.groupIcon {
+  height: 29.45%;
+  width: 11.56%;
+  top: 12.83%;
+  right: 77.71%;
+  bottom: 57.72%;
+  left: 10.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.card1Parent {
+  position: absolute;
+  top: 1669px;
+  left: 469px;
+  width: 970px;
+  height: 382px;
+}
+.groupIcon1,
+.groupIcon2 {
+  position: absolute;
+  height: 2.34%;
+  width: 8.3%;
+  top: 41.06%;
+  right: 84.75%;
+  bottom: 56.61%;
+  left: 6.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon2 {
+  height: 2.32%;
+  width: 8.86%;
+  top: 48.55%;
+  right: 51.62%;
+  bottom: 49.13%;
+  left: 39.51%;
+}
+.frameChild {
+  position: relative;
+  width: 233px;
+  height: 0;
+  flex-shrink: 0;
+}
+.frameParent,
+.lineParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.frameParent {
+  align-self: stretch;
+  height: 584px;
+  flex-shrink: 0;
+  padding: var(--padding-0) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+}
+.lineParent {
+  position: absolute;
+  top: 3340px;
+  left: calc(50% - 717px);
+  width: 1437px;
+  height: 624px;
+  align-items: flex-end;
+}
+.image16Icon,
+.image17Icon,
+.image18Icon {
+  position: absolute;
+  left: 559px;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.image16Icon {
+  top: 3548px;
+  width: 1221px;
+  height: 673px;
+  mix-blend-mode: lighten;
+}
+.image17Icon,
+.image18Icon {
+  top: 0;
+  width: 2829px;
+  height: 1585px;
+}
+.image18Icon {
+  top: 1559px;
+}
+.image16Parent,
+.image17Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2829px;
+  height: 3144px;
+}
+.image16Parent {
+  top: 816px;
+  height: 4221px;
+  opacity: 0.5;
+}
+.image16Icon1 {
+  position: absolute;
+  top: 0;
+  left: 559px;
+  width: 1204px;
+  height: 664px;
+  object-fit: cover;
+  mix-blend-mode: lighten;
+}
+.groupParent {
+  position: absolute;
+  top: 80px;
+  left: -559px;
+  width: 2829px;
+  height: 5037px;
+}
+.toImplement {
+  position: relative;
+  background-color: var(--black-100);
+  width: 100%;
+  height: 5205px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-700);
+  font-family: var(--p1sb);
+}

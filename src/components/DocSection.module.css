@@ -1,0 +1,101 @@
+.frameChild {
+  position: relative;
+  width: 233px;
+  height: 0;
+  flex-shrink: 0;
+}
+.cardBottom {
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  font-family: var(--p1sb);
+  font-size: var(--font-size-17xl);
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    125.84deg,
+    rgba(50, 181, 255, 0.7),
+    rgba(0, 26, 255, 0.7) 46.88%,
+    rgba(50, 181, 255, 0.7) 96.35%
+  );
+  width: 405px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discussionForum,
+.getInvolved,
+.participateInOpen {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-family: var(--p1sb);
+  text-align: left;
+}
+.discussionForum {
+  font-size: var(--font-size-17xl);
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--wireframe2);
+  display: inline-block;
+  width: 328px;
+}
+.getInvolved,
+.participateInOpen {
+  line-height: 160%;
+}
+.participateInOpen {
+  font-size: var(--p1sb-size);
+  font-weight: 500;
+  color: var(--wireframe2);
+  display: inline-block;
+  width: 326px;
+  height: 104px;
+  flex-shrink: 0;
+}
+.getInvolved {
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-skyblue);
+}
+.cardBottom2,
+.cardBottomParent {
+  display: flex;
+  align-items: flex-start;
+}
+.cardBottom2 {
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    125.84deg,
+    rgba(50, 181, 255, 0.7),
+    rgba(0, 26, 255, 0.7) 46.88%,
+    rgba(50, 181, 255, 0.7) 96.35%
+  );
+  width: 405px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.cardBottomParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-77xl) var(--padding-61xl);
+  justify-content: space-between;
+}
+.lineParent {
+  position: absolute;
+  top: 764px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}

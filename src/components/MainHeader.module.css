@@ -1,0 +1,144 @@
+.analytics,
+.blocks,
+.transactions,
+.validators {
+  position: absolute;
+  top: 6px;
+  left: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.analytics,
+.blocks,
+.validators {
+  left: 241.05px;
+}
+.blocks,
+.validators {
+  left: 427.33px;
+}
+.blocks {
+  left: 615.54px;
+}
+.divmuiboxRoot {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 728.59px;
+  width: 687.06px;
+  height: 40px;
+}
+.mainnet {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.selectNetwork {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs-5) 40.44999694824219px var(--padding-4xs-5)
+    var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.fieldsetmuioutlinedinputNotc,
+.svgmuisvgiconRoot {
+  position: absolute;
+  margin: 0 !important;
+  overflow: hidden;
+}
+.svgmuisvgiconRoot {
+  top: 8.5px;
+  right: 7px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fieldsetmuioutlinedinputNotc {
+  height: calc(100% + 5px);
+  width: 100%;
+  top: -5px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.divmuiinputbaseRoot {
+  position: absolute;
+  top: 19.5px;
+  left: 1479.66px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.iconDark {
+  position: absolute;
+  top: 25px;
+  left: calc(50% + 675.11px);
+  width: 30px;
+  height: 30px;
+}
+.svgmuisvgiconRoot1 {
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.pmuitypographyRoot {
+  position: absolute;
+  top: -4px;
+  left: 54px;
+  overflow: hidden;
+}
+.connectWallet {
+  position: absolute;
+  top: 8px;
+  left: 53.89px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 139.09px;
+}
+.buttonmuibuttonbaseRoot {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 1657.11px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(-82.77deg, #089df1, #082df1 62.19%, #08abf1);
+  width: 214.89px;
+  height: 40px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-1000);
+}
+.codex31Icon {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.divmuitoolbarRoot {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1872px;
+  height: 80px;
+  text-align: center;
+  font-size: var(--p1sb-size);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

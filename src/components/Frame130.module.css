@@ -1,0 +1,44 @@
+.theFirstEcosystem {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  width: 580px;
+  flex-shrink: 0;
+}
+.frameInner {
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  font-family: var(--p1sb);
+  font-size: var(--font-size-13xl);
+  width: 563px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.theFirstEcosystemProvidesNParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-61xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.lineGroup {
+  position: absolute;
+  top: 756px;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-29xl);
+}

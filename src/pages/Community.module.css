@@ -1,0 +1,16 @@
+.image16Icon {
+  position: absolute;
+  top: 111px;
+  left: 0;
+  width: 1110px;
+  height: 612px;
+  object-fit: cover;
+  mix-blend-mode: lighten;
+}
+.community {
+  position: relative;
+  background-color: var(--black-100);
+  width: 100%;
+  height: 1547px;
+  overflow: hidden;
+}
