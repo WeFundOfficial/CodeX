@@ -19,7 +19,11 @@ const WhitepaperSection: FunctionComponent = () => {
       <div className={styles.findUsParent}>
         <div className={styles.whitepaper}>find us</div>
         <div className={styles.mditwitterParent}>
-          <img className={styles.mditwitterIcon} alt="" src="/mditwitter.svg" />
+          <img
+            className={styles.mditwitterIcon}
+            alt=""
+            src="/mditwitter1.svg"
+          />
           <img
             className={styles.mditwitterIcon}
             alt=""

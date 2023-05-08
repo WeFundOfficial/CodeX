@@ -5,6 +5,12 @@ import {
   useLocation,
 } from "react-router-dom";
 import AppbunzzdevByHtmltodesig from "./pages/AppbunzzdevByHtmltodesig";
+import TeamDark from "./pages/TeamDark";
+import AndreaVersion from "./pages/AndreaVersion";
+import CodeToFlowLEVEL1 from "./pages/CodeToFlowLEVEL1";
+import FinderterramoneyByHtmlto from "./pages/FinderterramoneyByHtmlto";
+import FinderterramoneyByHtmlto1 from "./pages/FinderterramoneyByHtmlto1";
+import LEVEL2 from "./pages/LEVEL2";
 import Libreries from "./pages/Libreries";
 import AppbunzzdevByHtmltodesig1 from "./pages/AppbunzzdevByHtmltodesig1";
 import AppbunzzdevByHtmltodesig2 from "./pages/AppbunzzdevByHtmltodesig2";
@@ -31,6 +37,30 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/team-dark":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/andrea-version":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/code-to-flow-level-1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/finderterramoney-by-htmltodesign-free-version-07052023-170914-gmt7":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/finderterramoney-by-htmltodesign-free-version-07052023-153556-gmt7":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/level-2":
         title = "";
         metaDescription = "";
         break;
@@ -81,6 +111,18 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<AppbunzzdevByHtmltodesig />} />
+      <Route path="/team-dark" element={<TeamDark />} />
+      <Route path="/andrea-version" element={<AndreaVersion />} />
+      <Route path="/code-to-flow-level-1" element={<CodeToFlowLEVEL1 />} />
+      <Route
+        path="/finderterramoney-by-htmltodesign-free-version-07052023-170914-gmt7"
+        element={<FinderterramoneyByHtmlto />}
+      />
+      <Route
+        path="/finderterramoney-by-htmltodesign-free-version-07052023-153556-gmt7"
+        element={<FinderterramoneyByHtmlto1 />}
+      />
+      <Route path="/level-2" element={<LEVEL2 />} />
       <Route path="/libreries" element={<Libreries />} />
       <Route
         path="/appbunzzdev-by-htmltodesign-free-version-07052023-171505-gmt7"

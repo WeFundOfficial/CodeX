@@ -192,7 +192,7 @@ const ToImplement: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <img className={styles.groupIcon} alt="" src="/group.svg" />
+          <img className={styles.groupIcon} alt="" src="/group3.svg" />
         </div>
         <div className={styles.card12}>
           <div className={styles.frameChild} />
@@ -217,7 +217,7 @@ const ToImplement: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <img className={styles.groupIcon1} alt="" src="/group1.svg" />
+        <img className={styles.groupIcon1} alt="" src="/group11.svg" />
         <div className={styles.card13}>
           <div className={styles.frameChild} />
           <div className={styles.iconParent}>
@@ -244,7 +244,7 @@ const ToImplement: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <img className={styles.groupIcon2} alt="" src="/group2.svg" />
+        <img className={styles.groupIcon2} alt="" src="/group21.svg" />
         <div className={styles.frameGroup}>
           <div className={styles.logoNewParent}>
             <div className={styles.logoNew}>
@@ -275,7 +275,7 @@ const ToImplement: FunctionComponent = () => {
               <img
                 className={styles.mditwitterIcon}
                 alt=""
-                src="/mditwitter.svg"
+                src="/mditwitter1.svg"
               />
               <img
                 className={styles.mditwitterIcon}

@@ -14,7 +14,7 @@ const ExploreraptoslabscomByHtml: FunctionComponent = () => {
           <img
             className={styles.svgmuisvgiconRoot}
             alt=""
-            src="/svgmuisvgiconroot.svg"
+            src="/svgmuisvgiconroot3.svg"
           />
           <div className={styles.back}>Back</div>
           <div className={styles.search}>

@@ -14,14 +14,14 @@ const DarkExplorer: FunctionComponent = () => {
           <img
             className={styles.svgmuisvgiconRoot}
             alt=""
-            src="/svgmuisvgiconroot.svg"
+            src="/svgmuisvgiconroot3.svg"
           />
           <div className={styles.back}>Back</div>
           <div className={styles.search}>
             <img
               className={styles.svgmuisvgiconRoot1}
               alt=""
-              src="/svgmuisvgiconroot1.svg"
+              src="/svgmuisvgiconroot11.svg"
             />
             <div className={styles.divplaceholder}>
               <div className={styles.searchExplorer}>Search Explorer</div>
@@ -42,7 +42,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot2}
                   alt=""
-                  src="/svgmuisvgiconroot2.svg"
+                  src="/svgmuisvgiconroot21.svg"
                 />
               </div>
               <div className={styles.timestamp}>Timestamp</div>
@@ -55,14 +55,14 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot3}
                   alt=""
-                  src="/svgmuisvgiconroot3.svg"
+                  src="/svgmuisvgiconroot31.svg"
                 />
                 <div className={styles.div1}>05/07/2023 15:41:50</div>
                 <div className={styles.divmuistackRoot3}>
                   <img
                     className={styles.imageIcon}
                     alt=""
-                    src="/image@2x.png"
+                    src="/image1@2x.png"
                   />
                   <div className={styles.amuitypographyRoot}>
                     <div className={styles.xf92b7d9c}>0x834d…a5d7</div>
@@ -77,7 +77,7 @@ const DarkExplorer: FunctionComponent = () => {
                   <img
                     className={styles.imageIcon}
                     alt=""
-                    src="/image1@2x.png"
+                    src="/image11@2x.png"
                   />
                   <div className={styles.amuitypographyRoot1}>
                     <div className={styles.xf92b7d9c}>0xc350…6cc9</div>
@@ -190,7 +190,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot11.svg"
+                      src="/svgmuisvgiconroot1110.svg"
                     />
                   </div>
                 </div>
@@ -372,14 +372,14 @@ const DarkExplorer: FunctionComponent = () => {
                   <img
                     className={styles.imageIcon}
                     alt=""
-                    src="/image11@2x.png"
+                    src="/image111@2x.png"
                   />
                   <div className={styles.amuitypographyRoot11}>
                     <div className={styles.xf92b7d9c}>0xc284…94eb</div>
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot21.svg"
+                      src="/svgmuisvgiconroot211.svg"
                     />
                   </div>
                 </div>
@@ -580,7 +580,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot3}
                   alt=""
-                  src="/svgmuisvgiconroot31.svg"
+                  src="/svgmuisvgiconroot311.svg"
                 />
                 <div className={styles.div1}>05/07/2023 15:41:44</div>
                 <div className={styles.divmuistackRoot7}>

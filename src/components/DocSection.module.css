@@ -8,7 +8,7 @@
   border: 0;
   background-color: transparent;
   font-weight: 600;
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
   font-size: var(--h3sb-size);
   border-radius: var(--br-base);
   background: linear-gradient(
@@ -31,7 +31,7 @@
 .participateInOpen {
   position: relative;
   letter-spacing: 0.05em;
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
   text-align: left;
 }
 .discussionForum {
@@ -48,7 +48,7 @@
   line-height: 160%;
 }
 .participateInOpen {
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   font-weight: 500;
   color: var(--wireframe2);
   display: inline-block;

@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
+import { FunctionComponent } from "react";
 import styles from "./FrameComponent.module.css";
 
 type FrameComponentType = {
@@ -6,16 +6,9 @@ type FrameComponentType = {
 };
 
 const FrameComponent: FunctionComponent<FrameComponentType> = ({ onClose }) => {
-  const onFrameContainer1Click = useCallback(() => {
-    // Please sync "community" to the project
-  }, []);
-
   return (
     <div className={styles.frameParent}>
-      <div
-        className={styles.codexCommunityWrapper}
-        onClick={onFrameContainer1Click}
-      >
+      <div className={styles.codexCommunityWrapper}>
         <div className={styles.codexCommunity}>Codex Community</div>
       </div>
       <div className={styles.discussionForumWrapper}>

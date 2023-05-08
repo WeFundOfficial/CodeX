@@ -1,0 +1,1323 @@
+.imageIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.image {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.svgcanBadgeIcon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.edit {
+  position: relative;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.anavLink {
+  background-color: #4f2ac4;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs-5) 24.449996948242188px var(--padding-9xs-5)
+    var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+  color: #d1d1ff;
+}
+.svgcanBadgeIcon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.anavLink1 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs-5) 24.149993896484375px var(--padding-9xs-5)
+    var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.65;
+}
+.svgcanBadgeIcon2 {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.anavLink2,
+.divbtnGroup,
+.divtopLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.anavLink2 {
+  padding: var(--padding-9xs-5) 23.970001220703125px var(--padding-9xs-5)
+    var(--padding-5xl);
+  align-items: center;
+  gap: var(--gap-12xs);
+  opacity: 0.65;
+}
+.divbtnGroup,
+.divtopLeft {
+  align-items: flex-start;
+}
+.divtopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: var(--padding-0) 77.42999267578125px var(--padding-0)
+    var(--padding-xs);
+  align-items: center;
+  gap: var(--gap-xs);
+  color: var(--color-gray-2100);
+}
+.untitledFlowchart {
+  position: relative;
+  line-height: 36px;
+}
+.spanname,
+.svgh2dA69e9c2bIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.spanname {
+  top: 1px;
+  left: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0.5400009155273438px var(--padding-0)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.svgh2dA69e9c2bIcon {
+  height: calc(100% - 21px);
+  width: calc(100% - 135.54px);
+  top: 10.5px;
+  right: 1px;
+  bottom: 10.5px;
+  left: 134.54px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.buttonbtn {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-10xs);
+  height: 36px;
+  overflow: hidden;
+}
+.clrDropdown,
+.login {
+  position: absolute;
+  display: flex;
+}
+.clrDropdown {
+  top: calc(50% - 18px);
+  left: calc(50% + 39.73px);
+  background-color: var(--color-gray-2400);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.login {
+  top: 11.5px;
+  left: 16.99px;
+  line-height: 36px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+.abtn {
+  position: relative;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--wireframe2);
+  box-sizing: border-box;
+  width: 72px;
+  height: 36px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.signUp {
+  position: absolute;
+  top: 11.5px;
+  left: 13px;
+  line-height: 36px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abtn1 {
+  position: relative;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--wireframe2);
+  box-sizing: border-box;
+  width: 75.2px;
+  height: 36px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.divflexVerticalAlign {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-7xs)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.share {
+  position: absolute;
+  top: 10.5px;
+  left: 24.48px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41.23px;
+  height: 15px;
+}
+.buttonbtn1 {
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: #21a362;
+  border: 1px solid #00693d;
+  box-sizing: border-box;
+  width: 90px;
+  height: 36px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.divheaderShareButtonRight {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 12.000015258789062px var(--padding-0)
+    var(--padding-0);
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerheader {
+  position: relative;
+  background-color: var(--color-gray-2400);
+  width: 1440px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.divasSplitGutterIcon {
+  position: absolute;
+  top: calc(50% - 322.5px);
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 645px;
+  object-fit: cover;
+}
+.divasSplitGutter {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 359px;
+  background-color: var(--color-darkslategray-400);
+  width: 4px;
+}
+.divaceActiveLine,
+.divaceLayer {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.divaceActiveLine {
+  top: 171px;
+  background-color: var(--color-gray-2700);
+  height: 19px;
+}
+.divaceLayer {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.b {
+  color: var(--color-honeydew);
+}
+.welcomeToCode2flowContainer {
+  position: absolute;
+  top: 0.5px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 185.02px;
+  height: 18px;
+}
+.divaceLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000000.06px;
+  height: 19px;
+}
+.if {
+  color: var(--color-lightsalmon);
+}
+.inDoubt {
+  color: var(--color-greenyellow);
+}
+.ifinDoubtTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.b1,
+.ifinDoubt {
+  position: absolute;
+  top: 0.5px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 114.63px;
+  height: 18px;
+}
+.b1 {
+  left: 123.23px;
+  width: 9.01px;
+}
+.divaceLine1,
+.pressHelp {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  width: 1000000.06px;
+  height: 19px;
+}
+.pressHelp {
+  top: 0.5px;
+  left: 17.61px;
+  display: flex;
+  align-items: center;
+  width: 97.01px;
+  height: 18px;
+}
+.divaceLine2,
+.whileready {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 1000000.06px;
+  height: 19px;
+}
+.whileready {
+  top: 0.5px;
+  left: 17.61px;
+  display: flex;
+  align-items: center;
+  width: 123.42px;
+  height: 18px;
+}
+.divaceLine3 {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 1000000.06px;
+  height: 19px;
+}
+.readHelp,
+.spanaceIndentGuideIcon {
+  position: absolute;
+  top: 0.5px;
+  height: 18px;
+}
+.spanaceIndentGuideIcon {
+  left: 0;
+  width: 17.61px;
+  object-fit: cover;
+}
+.readHelp {
+  left: 35.21px;
+  display: flex;
+  align-items: center;
+  width: 88.21px;
+}
+.b4,
+.divaceLine4 {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  width: 1000000.06px;
+  height: 19px;
+}
+.b4 {
+  top: 95.5px;
+  display: flex;
+  align-items: center;
+  width: 9.01px;
+  height: 18px;
+}
+.theFlowchartUpdates {
+  top: 114.5px;
+  color: var(--color-gray-2200);
+  width: 211.41px;
+}
+.asYouType,
+.improveYourWorkflowContainer,
+.theFlowchartUpdates {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+.asYouType {
+  top: 133.5px;
+  color: var(--color-gray-2200);
+  width: 123.41px;
+}
+.improveYourWorkflowContainer {
+  top: 0.5px;
+  width: 202.63px;
+}
+.divaceLayer1,
+.divaceLine5 {
+  position: absolute;
+  width: 1000000.06px;
+}
+.divaceLine5 {
+  top: 152px;
+  left: 0;
+  height: 19px;
+}
+.divaceLayer1 {
+  right: -999695.65px;
+  bottom: -999352px;
+  height: 1000000px;
+  overflow: hidden;
+}
+.divaceCursor {
+  position: absolute;
+  right: 295.41px;
+  bottom: 458px;
+  border-left: 2px solid var(--wireframe2);
+  box-sizing: border-box;
+  width: 9px;
+  height: 19px;
+  opacity: 0.2;
+}
+.divaceContent {
+  position: absolute;
+  right: 0;
+  bottom: -58px;
+  width: 308.41px;
+  height: 648px;
+}
+.divaceScroller {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 50.59px);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50.59px;
+  background-color: var(--color-gray-2300);
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  top: 0.5px;
+  left: 29.2px;
+  display: flex;
+  align-items: center;
+  width: 9px;
+  height: 18px;
+}
+.spanaceFoldWidgetIcon {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  border-radius: var(--br-10xs);
+  width: 11px;
+  height: 19px;
+  object-fit: cover;
+}
+.divaceGutterCell {
+  position: absolute;
+  width: 100%;
+  top: 19px;
+  right: 0;
+  left: 0;
+  height: 19px;
+}
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  position: absolute;
+  top: 38.5px;
+  left: 29.2px;
+  display: flex;
+  align-items: center;
+  width: 9px;
+  height: 18px;
+}
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  top: 57.5px;
+}
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  top: 76.5px;
+}
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  top: 95.5px;
+}
+.div6,
+.div7,
+.div8,
+.div9 {
+  top: 114.5px;
+}
+.div7,
+.div8,
+.div9 {
+  top: 133.5px;
+}
+.div8,
+.div9 {
+  top: 152.5px;
+}
+.div9 {
+  top: 0.5px;
+  left: 20.4px;
+  width: 17.8px;
+}
+.divaceGutter,
+.divaceLayer3 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 51px;
+  height: 1000000px;
+  overflow: hidden;
+}
+.divaceGutter {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  text-align: right;
+  color: var(--color-lightslategray-100);
+}
+.divcodeEditorWrap {
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gray-2300);
+  width: 359px;
+  overflow: hidden;
+}
+.copyright20132023 {
+  position: relative;
+  line-height: 24px;
+}
+.divcodeEditor,
+.divselfhostedInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divselfhostedInfo {
+  background-color: var(--color-darkslategray-400);
+  flex-direction: row;
+  padding: var(--padding-8xs-5) 58.619998931884766px var(--padding-7xs-5)
+    59.380001068115234px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+}
+.divcodeEditor {
+  flex-direction: column;
+  z-index: 0;
+}
+.svgcanBadgeIcon3 {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.pseudo,
+.pseudo1 {
+  position: absolute;
+  top: -33px;
+  left: calc(50% - 36px);
+  border-radius: 36px;
+  background-color: var(--color-orangered-100);
+  border: 1px solid var(--color-lightsalmon);
+  box-sizing: border-box;
+  width: 72px;
+  height: 72px;
+  opacity: 0.45;
+}
+.pseudo1 {
+  top: -24.43px;
+  left: calc(50% - 27.43px);
+  border-radius: 27.43px;
+  width: 54.86px;
+  height: 54.86px;
+  opacity: 0.78;
+}
+.divcodeEditorControlsWrapp,
+.signpostToggle {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+}
+.signpostToggle {
+  top: 4px;
+  right: 4px;
+  border-radius: var(--br-10xs);
+  background-color: #ff5b1a;
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.divcodeEditorControlsWrapp {
+  height: calc(100% - 603px);
+  width: calc(100% - 317px);
+  top: 1px;
+  right: 8px;
+  bottom: 602px;
+  left: 309px;
+  display: flex;
+  flex-direction: row;
+  padding: 8.899999618530273px var(--padding-3xs) 11.100000381469727px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.asSplitArea,
+.divpageDomObject {
+  position: absolute;
+  background-color: var(--wireframe2);
+}
+.asSplitArea {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divpageDomObject {
+  top: -38.33px;
+  left: 251px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  width: 575px;
+  height: 766.66px;
+}
+.groupIcon,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 5%;
+  right: 0;
+  bottom: -5%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 102.78%;
+  width: 78.29%;
+  top: -1.39%;
+  right: 21.93%;
+  bottom: -1.39%;
+  left: -0.22%;
+}
+.welcomenbsptonbspcode2flow {
+  position: absolute;
+  top: 25.28%;
+  left: 10.86%;
+}
+.terminatorBlock1,
+.vectorIcon1 {
+  position: absolute;
+  height: 9.94%;
+  width: 34.68%;
+  top: 0;
+  right: 44.56%;
+  bottom: 90.06%;
+  left: 20.76%;
+}
+.vectorIcon1 {
+  height: 102.91%;
+  width: 99.24%;
+  top: -1.45%;
+  right: 2.16%;
+  bottom: -1.45%;
+  left: -1.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ifsBlock2,
+.innbspdoubt {
+  position: absolute;
+  top: 25.28%;
+  left: 27.11%;
+}
+.ifsBlock2 {
+  height: 9.94%;
+  width: 18.88%;
+  top: 17.96%;
+  right: 55.96%;
+  bottom: 72.1%;
+  left: 25.15%;
+}
+.terminatorBlock1IfsBlockIcon,
+.vectorIcon2 {
+  position: absolute;
+  height: 8.4%;
+  width: 1.29%;
+  top: 9.97%;
+  right: 65.1%;
+  bottom: 81.63%;
+  left: 33.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2 {
+  height: 102.78%;
+  width: 71.37%;
+  top: -1.39%;
+  right: 29.11%;
+  bottom: -1.39%;
+  left: -0.48%;
+}
+.pressnbsphelp,
+.processBlock3 {
+  position: absolute;
+  top: 25.28%;
+  left: 6.75%;
+}
+.processBlock3 {
+  height: 9.94%;
+  width: 15.89%;
+  top: 39.23%;
+  right: 68.62%;
+  bottom: 50.83%;
+  left: 15.48%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 86.58%;
+  width: 31.45%;
+  top: -0.83%;
+  right: 63.3%;
+  bottom: 14.25%;
+  left: 5.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon4 {
+  height: 24.8%;
+  width: 8.54%;
+  top: 77.45%;
+  right: 92.28%;
+  bottom: -2.25%;
+  left: -0.82%;
+}
+.nbsptruenbsp,
+.vectorIcon5 {
+  position: absolute;
+  top: 33%;
+  left: 20.76%;
+}
+.vectorIcon5 {
+  height: 2.23%;
+  width: 33.28%;
+  top: 68.37%;
+  right: 55.28%;
+  bottom: 29.4%;
+  left: 11.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ifsBlock2ProcessBlock3,
+.vectorIcon6 {
+  position: absolute;
+  height: 12.42%;
+  width: 21.11%;
+  top: 26.73%;
+  right: 54.69%;
+  bottom: 60.85%;
+  left: 24.21%;
+}
+.vectorIcon6 {
+  height: 102.78%;
+  width: 80.43%;
+  top: -1.39%;
+  right: 19.78%;
+  bottom: -1.39%;
+  left: -0.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.improvenbspyournbspworkflo {
+  position: absolute;
+  top: 25.28%;
+  left: 11.07%;
+}
+.terminatorBlock7 {
+  position: absolute;
+  height: 9.94%;
+  width: 35.24%;
+  top: 90.06%;
+  right: 36.63%;
+  bottom: 0;
+  left: 28.14%;
+}
+.vectorIcon7,
+.vectorIcon8 {
+  position: absolute;
+  height: 95.65%;
+  width: 24.37%;
+  top: -0.16%;
+  right: 75.85%;
+  bottom: 4.51%;
+  left: -0.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon8 {
+  height: 5.23%;
+  width: 5.59%;
+  top: 95.43%;
+  right: 73.39%;
+  bottom: -0.66%;
+  left: 21.02%;
+}
+.nbspfalsenbsp,
+.vectorIcon9 {
+  position: absolute;
+  top: 46.74%;
+  left: 23.81%;
+}
+.vectorIcon9 {
+  height: 0.44%;
+  width: 23.92%;
+  top: 53.66%;
+  right: 52.26%;
+  bottom: 45.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ifsBlock2TerminatorBlock,
+.vectorIcon10 {
+  position: absolute;
+  height: 63.46%;
+  width: 23.07%;
+  top: 26.58%;
+  right: 40.2%;
+  bottom: 9.96%;
+  left: 36.74%;
+}
+.vectorIcon10 {
+  height: 23%;
+  width: 10.41%;
+  top: 79.5%;
+  right: 77.15%;
+  bottom: -2.51%;
+  left: 12.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.nbsp,
+.nopBlock4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nopBlock4 {
+  height: 5.52%;
+  width: 6.78%;
+  top: 53.95%;
+  right: 74.57%;
+  bottom: 40.52%;
+  left: 18.66%;
+}
+.processBlock3NopBlock4Icon,
+.vectorIcon11 {
+  position: absolute;
+  height: 9.28%;
+  width: 0.92%;
+  top: 49.18%;
+  right: 79.26%;
+  bottom: 41.54%;
+  left: 19.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon11 {
+  height: 102.97%;
+  width: 102.97%;
+  top: -1.49%;
+  right: -1.48%;
+  bottom: -1.49%;
+  left: -1.49%;
+}
+.ifsBlock5,
+.ready1 {
+  position: absolute;
+  top: 25.28%;
+  left: 29.59%;
+}
+.ifsBlock5 {
+  height: 9.94%;
+  width: 14.64%;
+  top: 68.78%;
+  right: 72.83%;
+  bottom: 21.27%;
+  left: 12.53%;
+}
+.nopBlock4IfsBlock5Icon,
+.vectorIcon12 {
+  position: absolute;
+  height: 9.58%;
+  width: 1.29%;
+  top: 59.61%;
+  right: 79.5%;
+  bottom: 30.81%;
+  left: 19.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon12 {
+  height: 102.78%;
+  width: 70.32%;
+  top: -1.39%;
+  right: 30.18%;
+  bottom: -1.39%;
+  left: -0.5%;
+}
+.processBlock6,
+.readnbsphelp {
+  position: absolute;
+  top: 25.28%;
+  left: 7.03%;
+}
+.processBlock6 {
+  height: 9.94%;
+  width: 15.26%;
+  top: 90.06%;
+  right: 84.74%;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon13,
+.vectorIcon14 {
+  position: absolute;
+  height: 86.87%;
+  width: 36.44%;
+  top: -0.89%;
+  right: 58.8%;
+  bottom: 14.02%;
+  left: 4.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon14 {
+  height: 23.96%;
+  width: 8.01%;
+  top: 78.26%;
+  right: 92.74%;
+  bottom: -2.22%;
+  left: -0.75%;
+}
+.nbspfalsenbsp1,
+.vectorIcon15 {
+  position: absolute;
+  top: 36.72%;
+  left: 20.4%;
+}
+.vectorIcon15 {
+  height: 2.1%;
+  width: 34.78%;
+  top: 70.15%;
+  right: 54.6%;
+  bottom: 27.75%;
+  left: 10.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ifsBlock5ProcessBlock6 {
+  position: absolute;
+  height: 13.14%;
+  width: 22.08%;
+  top: 76.83%;
+  right: 69.93%;
+  bottom: 10.03%;
+  left: 7.99%;
+}
+.vectorIcon16,
+.vectorIcon17 {
+  position: absolute;
+  height: 94%;
+  width: 48.03%;
+  top: -0.81%;
+  right: 52.16%;
+  bottom: 6.81%;
+  left: -0.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon17 {
+  height: 17.18%;
+  width: 8.06%;
+  top: 83.98%;
+  right: 45.45%;
+  bottom: -1.16%;
+  left: 46.49%;
+}
+.nbsptruenbsp1,
+.vectorIcon18 {
+  position: absolute;
+  top: 33.14%;
+  left: 30.83%;
+}
+.vectorIcon18 {
+  height: 2.05%;
+  width: 21.97%;
+  top: 65.66%;
+  right: 48.25%;
+  bottom: 32.3%;
+  left: 29.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ifsBlock5TerminatorBlock {
+  position: absolute;
+  height: 13.51%;
+  width: 24.18%;
+  top: 77.18%;
+  right: 53.61%;
+  bottom: 9.31%;
+  left: 22.21%;
+}
+.processBlock6NopBlock4Icon,
+.vectorIcon19 {
+  position: absolute;
+  height: 31.74%;
+  width: 14.93%;
+  top: 58.31%;
+  right: 80.21%;
+  bottom: 9.96%;
+  left: 4.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon19 {
+  height: 102.78%;
+  width: 49.13%;
+  top: -1.39%;
+  right: 51.05%;
+  bottom: -1.39%;
+  left: -0.18%;
+}
+.vectorIcon20,
+.vectorIcon21 {
+  position: absolute;
+  left: 46.62%;
+}
+.vectorIcon20 {
+  height: 16.67%;
+  top: 0;
+  bottom: 83.33%;
+  max-height: 100%;
+  width: 0;
+}
+.vectorIcon21 {
+  width: 2.15%;
+  top: 16.66%;
+  right: 51.23%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+}
+.nbspnbspthenbspflowchart {
+  position: absolute;
+  top: 7.22%;
+  left: 1.43%;
+}
+.commentBlock8,
+.nbspnbspasnbspyounbspty {
+  position: absolute;
+  top: 43.33%;
+  left: 12.01%;
+}
+.commentBlock8 {
+  height: 9.94%;
+  width: 42.75%;
+  top: 68.78%;
+  right: 0;
+  bottom: 21.27%;
+  left: 57.25%;
+}
+.commentBlock8TerminatorBlIcon {
+  position: absolute;
+  height: 11.94%;
+  width: 14.05%;
+  top: 78.62%;
+  right: 38.26%;
+  bottom: 9.44%;
+  left: 47.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame1,
+.graph0 {
+  position: absolute;
+  height: 95.42%;
+  width: 123.86%;
+  top: 1.08%;
+  right: -24.62%;
+  bottom: 3.5%;
+  left: 0.76%;
+}
+.frame1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.group,
+.group1,
+.group2 {
+  position: absolute;
+  height: 47.69%;
+  width: 88.27%;
+  top: 5%;
+  right: 5.86%;
+  bottom: 47.31%;
+  left: 5.86%;
+}
+.group,
+.group1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.group {
+  height: 118.86%;
+  width: 53.39%;
+  top: -5.94%;
+  right: 23.31%;
+  bottom: -12.92%;
+  left: 23.31%;
+}
+.frame {
+  position: relative;
+  width: 1077px;
+  height: 645px;
+  flex-shrink: 0;
+}
+.svgh2dAcc7c661 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divborder {
+  position: absolute;
+  height: calc(100% - 600.31px);
+  width: calc(100% - 889.8px);
+  top: 313.08px;
+  right: 429.35px;
+  bottom: 287.23px;
+  left: 460.45px;
+  border-radius: var(--br-5xs);
+  border: 4px solid #eb341c;
+  box-sizing: border-box;
+}
+.buttonbtnIcon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.divbtnGroup1,
+.divbtnGroup2 {
+  position: absolute;
+  top: 16px;
+  left: 1019px;
+  border-radius: var(--br-11xs-5);
+  background-color: var(--color-gray-2800);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divbtnGroup2 {
+  top: 76px;
+  flex-direction: column;
+}
+.buttonbtnIcon3 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  opacity: 0.4;
+}
+.divbtnGroup3 {
+  position: absolute;
+  top: 178px;
+  left: 1019px;
+  border-radius: var(--br-11xs-5);
+  background-color: var(--color-gray-2800);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divdiagramViewer {
+  position: relative;
+  background-color: var(--color-gray-2100);
+  width: 1077px;
+  height: 645px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.asSplitArea1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 363px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 11.56px;
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.asSplit {
+  position: relative;
+  width: 1440px;
+  height: 645px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.divcontentArea,
+.divmainContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcontentArea {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  text-align: left;
+  font-size: 14.67px;
+  font-family: var(--font-ubuntu-mono);
+}
+.divmainContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-2100);
+  flex-direction: column;
+}
+.iframeg6q3m7vred9816834556339Icon {
+  position: absolute;
+  top: 607px;
+  left: 1356px;
+  width: 64px;
+  height: 60px;
+  overflow: hidden;
+}
+.codeToFlowLevel1 {
+  position: relative;
+  width: 100%;
+  height: 687px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--wireframe2);
+  font-family: var(--font-inter);
+}

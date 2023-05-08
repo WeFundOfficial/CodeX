@@ -1,0 +1,244 @@
+.terrafinder6c4bb07ajpgIcon {
+  width: 1440px;
+  height: 687px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.divindexCover3bwae,
+.mainnet,
+.terrafinder6c4bb07ajpgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.divindexCover3bwae {
+  background-color: rgba(8, 32, 128, 0.85);
+  width: 1440px;
+  height: 687px;
+}
+.mainnet {
+  letter-spacing: -0.2px;
+  line-height: 19.5px;
+  text-transform: capitalize;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.pseudo {
+  position: absolute;
+  top: 8.25px;
+  left: 11px;
+  width: 107px;
+  height: 19.5px;
+  overflow: hidden;
+}
+.selectselectnetworksSelect {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 80px);
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-gray-2600);
+  box-sizing: border-box;
+  width: 160px;
+  height: 36px;
+}
+.arrowDropDown {
+  position: absolute;
+  top: 8.37px;
+  left: 8.5px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.2px;
+  height: 18px;
+}
+.divselectnetworksAddon2gxn {
+  position: absolute;
+  height: calc(100% - 2px);
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  border-left: 1px solid var(--color-gray-2600);
+  box-sizing: border-box;
+  width: 34px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-material-icons);
+}
+.divselectoptionsRight2qqmj {
+  position: absolute;
+  height: calc(100% - 124px);
+  width: calc(100% - 1280px);
+  top: 24px;
+  right: 40px;
+  bottom: 100px;
+  left: 1240px;
+  color: var(--wireframe2);
+}
+.logo909802fasvgIcon {
+  position: absolute;
+  top: 194.88px;
+  left: calc(50% - 132px);
+  width: 264px;
+  height: 34px;
+  overflow: hidden;
+}
+.pseudo1,
+.searchBlock {
+  position: absolute;
+  height: 26.5px;
+}
+.searchBlock {
+  top: 0;
+  left: 0;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 553.2px;
+}
+.pseudo1 {
+  top: 11.25px;
+  left: 10px;
+  width: 553px;
+  overflow: hidden;
+}
+.inputh2d7f7cc9f3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 304px);
+  border-bottom: 1px solid var(--color-gray-2500);
+  box-sizing: border-box;
+  width: 608px;
+  height: 50px;
+}
+.search {
+  position: absolute;
+  top: 12.5px;
+  left: 579px;
+  font-size: var(--h5sb-size);
+  line-height: 39px;
+  font-family: var(--font-material-icons);
+  color: var(--wireframe2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24.2px;
+  height: 24px;
+}
+.divsearchGroup1zhcg {
+  position: absolute;
+  width: calc(100% - 832px);
+  top: 323.38px;
+  right: 416px;
+  left: 416px;
+  height: 50px;
+  font-size: 22px;
+}
+.logo909802fasvgIcon1 {
+  position: absolute;
+  top: 28px;
+  left: 40px;
+  width: 160px;
+  height: 21px;
+  overflow: hidden;
+}
+.pseudo2,
+.searchBlock1 {
+  position: absolute;
+  height: 19.5px;
+}
+.searchBlock1 {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 434.79px;
+}
+.pseudo2 {
+  top: 9.75px;
+  left: 10px;
+  width: 434.59px;
+  overflow: hidden;
+}
+.inputh2d6fdf89e {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid var(--color-gray-2500);
+  box-sizing: border-box;
+  height: 40px;
+}
+.search1 {
+  position: absolute;
+  top: 9px;
+  left: 463.59px;
+  font-size: var(--font-size-2xl);
+  line-height: 39px;
+  font-family: var(--font-material-icons);
+  color: var(--wireframe2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21.2px;
+  height: 21px;
+}
+.divsearchGroup1zhcg1 {
+  position: absolute;
+  width: calc(100% - 950.41px);
+  top: 20px;
+  right: 330px;
+  left: 620.41px;
+  height: 40px;
+}
+.selectselectnetworksSelect1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-gray-2600);
+  box-sizing: border-box;
+  width: 160px;
+  height: 36px;
+}
+.divselectoptionsRight2qqmj1 {
+  position: absolute;
+  height: calc(100% - 43.5px);
+  width: calc(100% - 1280px);
+  top: 24px;
+  right: 40px;
+  bottom: 19.5px;
+  left: 1240px;
+  font-size: var(--font-size-smi);
+  color: var(--wireframe2);
+}
+.divheaderInnerRfkiw {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 79.5px;
+}
+.divheaderHeader1rp9o {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(-82.77deg, #089df1, #082df1 62.19%, #08abf1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1440px;
+  height: 80px;
+  font-size: var(--p1sb-size);
+}
+.finderterramoneyByHtmlto {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-2600);
+  font-family: var(--font-inter);
+}

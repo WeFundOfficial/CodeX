@@ -14,7 +14,7 @@
 .codexIsAContainer {
   border: 0;
   font-weight: 600;
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
   background-color: transparent;
   align-self: stretch;
   position: relative;
@@ -86,7 +86,7 @@
   font-weight: 600;
 }
 .coreFocus {
-  font-size: var(--font-size-13xl);
+  font-size: var(--h4sb-size);
   line-height: 140%;
   text-transform: capitalize;
 }
@@ -118,7 +118,7 @@
   width: 628px;
   flex-shrink: 0;
   gap: var(--gap-xl);
-  font-size: var(--font-size-13xl);
+  font-size: var(--h4sb-size);
 }
 .theCodexFoundationIsKeyBeParent {
   position: absolute;
@@ -216,8 +216,8 @@
   border: 0;
   background-color: transparent;
   font-weight: 600;
-  font-family: var(--h6sb);
-  font-size: var(--font-size-13xl);
+  font-family: var(--p1sb);
+  font-size: var(--h4sb-size);
   width: 563px;
   flex-shrink: 0;
   display: flex;
@@ -278,10 +278,10 @@
 }
 .designed,
 .x1 {
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
 }
 .designed {
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   font-weight: 500;
 }
 .x1 {
@@ -367,7 +367,7 @@
   width: 595px;
 }
 .designedForAll {
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   line-height: 160%;
   font-weight: 500;
 }
@@ -413,7 +413,7 @@
   width: 140px;
 }
 .designedForAll1 {
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   font-weight: 500;
   width: 595px;
 }
@@ -536,7 +536,7 @@
   padding: var(--padding-29xl) var(--padding-61xl) var(--padding-77xl);
   box-sizing: border-box;
   justify-content: space-between;
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
 }
 .discussionForum {
   position: relative;
@@ -546,11 +546,11 @@
   position: relative;
   letter-spacing: 0.05em;
   line-height: 160%;
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
   text-align: left;
 }
 .participateInOpen {
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   font-weight: 500;
   color: var(--wireframe2);
   display: inline-block;
@@ -589,7 +589,7 @@
   line-height: 140%;
   text-transform: capitalize;
   font-weight: 600;
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
   color: var(--wireframe2);
   text-align: left;
   display: inline-block;
@@ -634,7 +634,7 @@
   width: 328px;
 }
 .participateInOpen5 {
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   line-height: 160%;
   font-weight: 500;
   width: 326px;
@@ -681,7 +681,7 @@
   width: 1437px;
   height: 624px;
   align-items: flex-end;
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
 }
 .image16Icon,
 .image17Icon,
@@ -782,7 +782,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-529xl);
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
 }
 .toImplement {
   position: relative;
@@ -793,5 +793,5 @@
   text-align: left;
   font-size: var(--h6sb-size);
   color: var(--wireframe2);
-  font-family: var(--h6sb);
+  font-family: var(--p1sb);
 }

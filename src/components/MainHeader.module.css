@@ -138,7 +138,7 @@
   width: 1872px;
   height: 80px;
   text-align: center;
-  font-size: var(--p1m-size);
+  font-size: var(--p1sb-size);
   color: var(--color-gray-200);
   font-family: var(--font-inter);
 }
