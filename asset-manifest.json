@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeX/static/css/main.1dbc257e.css",
+    "main.js": "/CodeX/static/js/main.47a294ad.js",
+    "static/js/787.dc02c6fb.chunk.js": "/CodeX/static/js/787.dc02c6fb.chunk.js",
+    "index.html": "/CodeX/index.html",
+    "main.1dbc257e.css.map": "/CodeX/static/css/main.1dbc257e.css.map",
+    "main.47a294ad.js.map": "/CodeX/static/js/main.47a294ad.js.map",
+    "787.dc02c6fb.chunk.js.map": "/CodeX/static/js/787.dc02c6fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dbc257e.css",
+    "static/js/main.47a294ad.js"
+  ]
+}
