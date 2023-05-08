@@ -8,8 +8,8 @@
   border: 0;
   background-color: transparent;
   font-weight: 600;
-  font-family: var(--p1sb);
-  font-size: var(--font-size-17xl);
+  font-family: var(--h6sb);
+  font-size: var(--h3sb-size);
   border-radius: var(--br-base);
   background: linear-gradient(
     125.84deg,
@@ -31,11 +31,11 @@
 .participateInOpen {
   position: relative;
   letter-spacing: 0.05em;
-  font-family: var(--p1sb);
+  font-family: var(--h6sb);
   text-align: left;
 }
 .discussionForum {
-  font-size: var(--font-size-17xl);
+  font-size: var(--h3sb-size);
   line-height: 140%;
   text-transform: capitalize;
   font-weight: 600;
@@ -48,7 +48,7 @@
   line-height: 160%;
 }
 .participateInOpen {
-  font-size: var(--p1sb-size);
+  font-size: var(--p1m-size);
   font-weight: 500;
   color: var(--wireframe2);
   display: inline-block;
@@ -57,7 +57,7 @@
   flex-shrink: 0;
 }
 .getInvolved {
-  font-size: var(--font-size-xl);
+  font-size: var(--h6sb-size);
   text-transform: capitalize;
   font-weight: 600;
   color: var(--color-skyblue);

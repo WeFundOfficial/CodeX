@@ -13,7 +13,7 @@
 }
 .codexIsDesigned {
   align-self: stretch;
-  font-size: var(--font-size-29xl);
+  font-size: var(--h1sb-size);
   line-height: 140%;
   text-transform: capitalize;
 }
@@ -25,9 +25,9 @@
   align-self: stretch;
 }
 .buildOnCodex {
-  font-size: var(--font-size-xl);
+  font-size: var(--h6sb-size);
   text-transform: capitalize;
-  font-family: var(--p1sb);
+  font-family: var(--h6sb);
   color: var(--wireframe2);
   text-align: left;
 }
@@ -57,7 +57,7 @@
   box-sizing: border-box;
   gap: var(--gap-13xl);
   text-align: left;
-  font-size: var(--font-size-xl);
+  font-size: var(--h6sb-size);
   color: var(--wireframe2);
-  font-family: var(--p1sb);
+  font-family: var(--h6sb);
 }

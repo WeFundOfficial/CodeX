@@ -1410,9 +1410,9 @@
   border-radius: var(--br-10xs);
   background-color: var(--wireframe2);
   flex-direction: column;
-  font-size: var(--p1sb-size);
+  font-size: var(--p1m-size);
   color: var(--contrast-black-99);
-  font-family: var(--p1sb);
+  font-family: var(--h6sb);
 }
 .divmuiboxRoot {
   position: absolute;

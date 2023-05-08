@@ -1,32 +1,25 @@
-.card1Child,
 .icon {
   position: relative;
-  width: 233px;
-  height: 0;
-  flex-shrink: 0;
-}
-.icon {
   border-radius: var(--br-base);
   width: 160px;
   height: 160px;
+  flex-shrink: 0;
   overflow: hidden;
 }
 .simplifiedLanguageBlock,
-.xpander {
+.xpander1 {
   position: relative;
   letter-spacing: 0.05em;
   font-weight: 600;
   display: inline-block;
 }
-.xpander {
+.xpander1 {
   line-height: 160%;
   text-transform: capitalize;
   width: 140px;
 }
 .simplifiedLanguageBlock {
-  font-size: var(--font-size-17xl);
   line-height: 140%;
-  color: var(--wireframe2);
   width: 595px;
 }
 .designed1,
@@ -34,15 +27,15 @@
   text-transform: capitalize;
 }
 .designed,
-.x {
-  font-family: var(--p1sb);
+.x1 {
+  font-family: var(--h6sb);
 }
 .designed {
-  font-size: var(--p1sb-size);
+  font-size: var(--p1m-size);
   font-weight: 500;
 }
-.x {
-  font-size: var(--font-size-xl);
+.x1 {
+  font-size: var(--h6sb-size);
 }
 .forAllDevelopersWithoutAn {
   text-transform: lowercase;
@@ -64,7 +57,6 @@
   line-height: 160%;
   text-transform: lowercase;
   font-weight: 600;
-  font-family: var(--font-inter);
   background: linear-gradient(
     -90deg,
     #00c2ff,
@@ -101,8 +93,7 @@
   top: 1145px;
   left: 0;
   flex-direction: column;
-  text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--contrast-black70);
-  font-family: var(--p1sb);
+  color: var(--wireframe2);
+  font-size: var(--h3sb-size);
+  font-family: var(--font-inter);
 }

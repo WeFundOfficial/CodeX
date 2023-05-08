@@ -78,7 +78,7 @@
   box-sizing: border-box;
   justify-content: space-between;
   text-align: left;
-  font-size: var(--p1sb-size);
+  font-size: var(--p1m-size);
   color: var(--wireframe2);
-  font-family: var(--p1sb);
+  font-family: var(--h6sb);
 }

@@ -1,0 +1,48 @@
+.buildingWidelyUsedWeb3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.c {
+  font-size: var(--font-size-11xl);
+}
+.ode {
+  font-size: var(--h6sb-size);
+}
+.codexIsAContainer {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--h6sb);
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: lowercase;
+  color: var(--wireframe2);
+  text-align: left;
+}
+.buildingWidelyUsedWeb3ApplParent,
+.buttonCtaParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.buildingWidelyUsedWeb3ApplParent {
+  position: absolute;
+  top: 160px;
+  left: 720px;
+  width: 630px;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-0);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h1sb-size);
+  color: var(--wireframe2);
+  font-family: var(--h6sb);
+}

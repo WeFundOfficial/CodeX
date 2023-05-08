@@ -1,0 +1,91 @@
+.card1Child,
+.icon {
+  position: relative;
+  width: 233px;
+  height: 0;
+  flex-shrink: 0;
+}
+.icon {
+  border-radius: var(--br-base);
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}
+.simplifiedLanguageBlock,
+.xpander {
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.xpander {
+  align-self: stretch;
+  line-height: 160%;
+  color: var(--contrast-black70);
+}
+.simplifiedLanguageBlock {
+  font-size: var(--h3sb-size);
+  line-height: 140%;
+  display: inline-block;
+  width: 595px;
+}
+.designedForAll,
+.joinTheCodex {
+  position: relative;
+  line-height: 160%;
+}
+.designedForAll {
+  font-size: var(--p1m-size);
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  width: 595px;
+}
+.joinTheCodex {
+  text-transform: lowercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  background: linear-gradient(
+    -90deg,
+    #00c2ff,
+    #5a72c9 34.38%,
+    #03c3ff 61.98%,
+    #5e89f8 98.44%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.xpanderParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.card1,
+.iconParent,
+.xpanderParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.iconParent {
+  background: linear-gradient(
+    -79.43deg,
+    rgba(10, 35, 252, 0.5),
+    rgba(0, 8, 77, 0)
+  );
+  flex-direction: row;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  align-items: flex-start;
+  gap: var(--gap-36xl);
+}
+.card1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--h6sb-size);
+  color: var(--wireframe2);
+  font-family: var(--h6sb);
+}
