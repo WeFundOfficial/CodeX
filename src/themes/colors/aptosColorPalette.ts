@@ -15,16 +15,16 @@ export const grey = {
 
 // Primary Palette
 export const primary = {
-  50: "#edfffe",
-  100: "#c2ffff",
-  200: "#84feff",
-  300: "#3ffdff",
-  400: "#06f7f7",
-  500: "#00dadc",
-  600: "#00adb2",
-  700: "#00878d",
-  800: "#00686f",
-  900: "#06565b",
+  50: "#009DFF",
+  100: "#009DFF",
+  200: "#009DFF",
+  300: "#009DFF",
+  400: "#009DFF",
+  500: "#009DFF",
+  600: "#009DFF",
+  700: "#009DFF",
+  800: "#009DFF",
+  900: "#009DFF",
 };
 
 export const aptosColor = primary[600];
@@ -36,4 +36,4 @@ export const codeBlockColor: string = "rgba(14,165,233,0.1)";
 export const codeBlockColorClickableOnHover: string = "rgba(14,165,233,0.2)";
 // use rgb for codeblock in modal otherwise it will be transparent and not very visible
 export const codeBlockColorRgbLight: string = "#E3ECF3";
-export const codeBlockColorRgbDark: string = "#212D32";
+export const codeBlockColorRgbDark: string = "#ffffff";
