@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import DiscussionForm1 from "./DiscussionForm1";
-import styles from "./DocumentationContainer11.module.css";
-const DocumentationContainer11: FunctionComponent = () => {
+import DiscussionForm11 from "./DiscussionForm11";
+import styles from "./FormContainer111.module.css";
+const FormContainer111: FunctionComponent = () => {
   return (
     <div className={styles.cardBottomParent}>
-      <div className={styles.cardBottom}>
+      <form className={styles.cardBottom}>
         <Button
           className={styles.discussionForum}
           sx={{ width: 328 }}
@@ -19,18 +19,18 @@ const DocumentationContainer11: FunctionComponent = () => {
           and get involved in the Codex ecosystem.
         </div>
         <div className={styles.getInvolved}>get started</div>
-      </div>
-      <DiscussionForm11 getInvolvedDisplay="inline-block" />
-      <div className={styles.cardBottom1}>
-        <div className={styles.discussionForum1}>Discord</div>
-        <div className={styles.participateInOpen1}>
-          Join our Discord to chat with us directly, take part in our growing
-          ecosystem, and participate in Move Mondays.
+      </form>
+      <DiscussionForm111 />
+      <form className={styles.cardBottom}>
+        <div className={styles.discussionForum1}>telegram</div>
+        <div className={styles.participateInOpen}>
+          Join our Telegram to chat with us directly, take part in our growing
+          ecosystem.
         </div>
         <div className={styles.getInvolved}>join us</div>
-      </div>
+      </form>
     </div>
   );
 };
 
-export default DocumentationContainer11;
+export default FormContainer111;

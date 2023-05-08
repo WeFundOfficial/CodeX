@@ -1,13 +1,13 @@
 import { FunctionComponent, useMemo } from "react";
 import CSS, { Property } from "csstype";
-import styles from "./DiscussionForm11.module.css";
+import styles from "./DiscussionForm111.module.css";
 
-type DiscussionForm1Type = {
+type DiscussionForm11Type = {
   /** Style props */
   getInvolvedDisplay?: Property.Display;
 };
 
-const DiscussionForm11: FunctionComponent<DiscussionForm1Type> = ({
+const DiscussionForm111: FunctionComponent<DiscussionForm11Type> = ({
   getInvolvedDisplay,
 }) => {
   const getInvolvedStyle: CSS.Properties = useMemo(() => {
@@ -34,4 +34,4 @@ const DiscussionForm11: FunctionComponent<DiscussionForm1Type> = ({
   );
 };
 
-export default DiscussionForm11;
+export default DiscussionForm111;

@@ -1,13 +1,13 @@
 import { FunctionComponent } from "react";
-import styles from "./LanguageContainer11.module.css";
-const LanguageContainer11: FunctionComponent = () => {
+import styles from "./LanguageContainer1111.module.css";
+const LanguageContainer1111: FunctionComponent = () => {
   return (
     <div className={styles.card1}>
-      <div className={styles.frameChild} />
+      <div className={styles.card1Child} />
       <div className={styles.iconParent}>
         <img className={styles.icon} alt="" src="/icon.svg" />
         <div className={styles.xpanderParent}>
-          <div className={styles.xpander1}>Xpander</div>
+          <div className={styles.xpander}>Xpander</div>
           <div className={styles.simplifiedLanguageBlock}>
             Simplified Language, Block - Compiler Based
           </div>
@@ -22,7 +22,7 @@ const LanguageContainer11: FunctionComponent = () => {
               <span
                 className={styles.designed}
               >{` for all developers, without any programming knowledge. `}</span>
-              <span className={styles.x1}>x</span>
+              <span className={styles.x}>x</span>
               <span className={styles.designed}>
                 pander is a block-based compiler smart contract derived from
                 several advanced languages ​​such as Rust, Solidity, Ruby, Skala
@@ -43,4 +43,4 @@ const LanguageContainer11: FunctionComponent = () => {
   );
 };
 
-export default LanguageContainer11;
+export default LanguageContainer1111;

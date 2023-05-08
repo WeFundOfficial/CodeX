@@ -1,8 +1,8 @@
 import { FunctionComponent, useMemo } from "react";
 import CSS, { Property } from "csstype";
-import styles from "./UpgradeabilityCard11.module.css";
+import styles from "./UpgradeabilityCard111.module.css";
 
-type UpgradeabilityCard1Type = {
+type UpgradeabilityCard11Type = {
   featuresText?: string;
   compatibilityFeaturesText?: string;
   evmCosmwasmFeaturesText?: string;
@@ -16,7 +16,7 @@ type UpgradeabilityCard1Type = {
   propTextTransform?: Property.TextTransform;
 };
 
-const UpgradeabilityCard11: FunctionComponent<UpgradeabilityCard1Type> = ({
+const UpgradeabilityCard111: FunctionComponent<UpgradeabilityCard11Type> = ({
   featuresText,
   compatibilityFeaturesText,
   evmCosmwasmFeaturesText,
@@ -70,4 +70,4 @@ const UpgradeabilityCard11: FunctionComponent<UpgradeabilityCard1Type> = ({
   );
 };
 
-export default UpgradeabilityCard11;
+export default UpgradeabilityCard111;

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import styles from "./CodexContainer11.module.css";
-const CodexContainer21: FunctionComponent = () => {
+import styles from "./CodexContainer111.module.css";
+const CodexContainer211: FunctionComponent = () => {
   return (
     <div className={styles.theCodexFoundationIsKeyBeParent}>
       <div className={styles.theCodexFoundationContainer}>
@@ -52,4 +52,4 @@ const CodexContainer21: FunctionComponent = () => {
   );
 };
 
-export default CodexContainer21;
+export default CodexContainer211;

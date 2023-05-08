@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import styles from "./CodexOverviewSection11.module.css";
-const CodexOverviewSection11: FunctionComponent = () => {
+import styles from "./CodexOverviewSection111.module.css";
+const CodexOverviewSection111: FunctionComponent = () => {
   return (
     <div className={styles.lineParent}>
       <div className={styles.frameChild} />
@@ -23,4 +23,4 @@ const CodexOverviewSection11: FunctionComponent = () => {
   );
 };
 
-export default CodexOverviewSection11;
+export default CodexOverviewSection111;

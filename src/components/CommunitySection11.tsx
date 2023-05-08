@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import styles from "./CommunitySection11.module.css";
-const CommunitySection11: FunctionComponent = () => {
+import styles from "./CommunitySection111.module.css";
+const CommunitySection111: FunctionComponent = () => {
   return (
     <div className={styles.frameParent}>
       <div className={styles.logoNewParent}>
@@ -38,4 +38,4 @@ const CommunitySection11: FunctionComponent = () => {
   );
 };
 
-export default CommunitySection11;
+export default CommunitySection111;

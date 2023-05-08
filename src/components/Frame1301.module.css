@@ -1,3 +1,9 @@
+.frameChild {
+  position: relative;
+  width: 233px;
+  height: 0;
+  flex-shrink: 0;
+}
 .theFirstEcosystem {
   position: relative;
   letter-spacing: 0.05em;
@@ -8,7 +14,7 @@
   width: 580px;
   flex-shrink: 0;
 }
-.frameInner {
+.frameItem {
   border: 0;
   background-color: transparent;
   font-weight: 600;
@@ -30,7 +36,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.lineGroup {
+.lineParent {
   position: absolute;
   top: 756px;
   left: 0;
@@ -40,5 +46,8 @@
   align-items: flex-end;
   justify-content: flex-start;
   gap: var(--gap-13xl);
+  text-align: left;
   font-size: var(--h1sb-size);
+  color: var(--wireframe2);
+  font-family: var(--h6sb);
 }

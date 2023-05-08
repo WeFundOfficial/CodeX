@@ -2,8 +2,8 @@ import { FunctionComponent, useState, useCallback } from "react";
 import { Button } from "@mui/material";
 import FrameComponent from "./FrameComponent";
 import PortalPopup from "./PortalPopup";
-import styles from "./Header21.module.css";
-const Header21: FunctionComponent = () => {
+import styles from "./Header211.module.css";
+const Header211: FunctionComponent = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
 
   const openFrame = useCallback(() => {
@@ -58,4 +58,4 @@ const Header21: FunctionComponent = () => {
   );
 };
 
-export default Header21;
+export default Header211;

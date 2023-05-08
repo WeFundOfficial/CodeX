@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import styles from "./Web3Card11.module.css";
-const Web3Card11: FunctionComponent = () => {
+import styles from "./Web3Card111.module.css";
+const Web3Card111: FunctionComponent = () => {
   return (
     <div className={styles.buildingWidelyUsedWeb3ApplParent}>
       <div className={styles.buildingWidelyUsedWeb3}>
@@ -32,4 +32,4 @@ const Web3Card11: FunctionComponent = () => {
   );
 };
 
-export default Web3Card11;
+export default Web3Card111;
