@@ -2,10 +2,10 @@ import Link from "next/link";
 import "./community.css";
 
 /* eslint-disable @next/next/no-img-element */
-const Xpander = () => {
+const Simple = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row px-4 lg:px-16 py-16 w-full lg:w-[900px] gap-4 lg:gap-16 rounded-sm relative left-markbar"
+      className="flex flex-col lg:flex-row ml-4 lg:ml-[40%] pr-4 lg:pr-16 py-16 gap-4 lg:gap-16 rounded-sm relative right-markbar"
       style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 100%)" }}
     >
       <div
@@ -15,15 +15,17 @@ const Xpander = () => {
           minWidth: "160px"
         }}
       >
-        <img src="/images/community/xpander.png" alt="xpander" />
+        <img src="/images/community/compatibility.png" alt="compatibility" />
       </div>
       <div className="w-full lg:w-[596px]" style={{ maxWidth: "596px" }}>
-        <span className="text-xl text-[#999999]">Xpander</span>
+        <span className="text-xl text-[#999999]">
+          User Experiance
+        </span>
         <h1 className="text-2xl lg:text-3xl text-white mt-4">
-          Simplified Language, Block - Compiler Based
+          Simple Development, Enjoyable Applications
         </h1>
         <p className="text-sm lg:text-base text-white mt-4">
-          Designed for all developers, without any programming knowledge. xpander is a block-based compiler smart contract derived from several advanced languages ​​such as Rust, Solidity, Ruby, Skala and many more. By implementing a sequential-level programming structure, developers are able to create no-code applications and contracts while more advanced developers are able to contribute to convert processing flows directly into working applications. Veteran coders can continue to create compiler-level code and contribute directly to the code libraries within the CodeX protocol.
+          The ecosystem being built by CodeX is poised to improve rapid adoption and development of blockchain technologies by removing the common barriers to entering the industry - the steep learning curve to build on web 3.0 infrastructures and the ambiguous safety and security risks associated blockchain interactions for new web 3.0 users. With Codex’s reliable infrastructure, developers can focus on making great applications and end-users can enjoy a friendly, seamless experience.
         </p>
         <div className="w-full mt-4">
           <Link href=""
@@ -39,4 +41,4 @@ const Xpander = () => {
     </div >
   )
 }
-export default Xpander;
+export default Simple;
