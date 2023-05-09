@@ -1,0 +1,19 @@
+.right-markbar::before{
+  position: absolute;
+  content: "";
+  width: 233px;
+  height: 6px;
+  background: linear-gradient(270deg, #2400FF 0%, #00A3FF 33.75%, #2400FF 67.49%, #00D1FF 92.8%);
+  right: 0;
+  top: -6px;
+}
+
+.left-markbar::before{
+  position: absolute;
+  content: "";
+  width: 233px;
+  height: 6px;
+  background: linear-gradient(270deg, #2400FF 0%, #00A3FF 33.75%, #2400FF 67.49%, #00D1FF 92.8%);
+  left: 0;
+  top: -6px;
+}
