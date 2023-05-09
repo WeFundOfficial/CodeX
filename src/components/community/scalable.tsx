@@ -15,7 +15,7 @@ const Scalable = () => {
           minWidth: "160px"
         }}
       >
-        <img src="/images/community/xpander.png" alt="xpander" />
+        <img src="/images/community/scalable.png" alt="xpander" />
       </div>
       <div className="w-full lg:w-[596px]" style={{ maxWidth: "596px" }}>
         <span className="text-xl text-[#999999]">
