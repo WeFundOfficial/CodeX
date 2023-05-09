@@ -19,10 +19,10 @@ const Compatibility = () => {
       </div>
       <div className="w-full lg:w-[596px]" style={{ maxWidth: "596px" }}>
         <span className="text-xl text-[#999999]">Upgradeability</span>
-        <h1 className="text-2xl lg:text-3xl text-white mt-4">
+        <h1 className="text-2xl lg:text-3xl  mt-4">
           Compatibility Cosmos SDK & EVM
         </h1>
-        <p className="text-sm lg:text-base text-white mt-4">
+        <p className="text-sm lg:text-base  mt-4">
           Combining the Ethereum Virtual Machine (EVM) and CosmWasm can provide developers with a powerful set of tools to build decentralized applications. CodeX supports the functionality for developers to be multichain allowing EVM ecosystem and Cosmoswasm ecosystem to be able interact seamlessly.
         </p>
         <div className="w-full mt-4">

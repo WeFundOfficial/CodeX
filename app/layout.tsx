@@ -8,6 +8,7 @@ import { RecoilRoot } from "recoil";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 
 interface Props {
@@ -26,6 +27,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
         <RecoilRoot>
           <Navbar />
           {children}
+          <Footer />
         </RecoilRoot>
       </body>
     </html>

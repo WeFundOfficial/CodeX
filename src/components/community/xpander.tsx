@@ -19,10 +19,10 @@ const Xpander = () => {
       </div>
       <div className="w-full lg:w-[596px]" style={{ maxWidth: "596px" }}>
         <span className="text-xl text-[#999999]">Xpander</span>
-        <h1 className="text-2xl lg:text-3xl text-white mt-4">
+        <h1 className="text-2xl lg:text-3xl  mt-4">
           Simplified Language, Block - Compiler Based
         </h1>
-        <p className="text-sm lg:text-base text-white mt-4">
+        <p className="text-sm lg:text-base  mt-4">
           Designed for all developers, without any programming knowledge. xpander is a block-based compiler smart contract derived from several advanced languages ​​such as Rust, Solidity, Ruby, Skala and many more. By implementing a sequential-level programming structure, developers are able to create no-code applications and contracts while more advanced developers are able to contribute to convert processing flows directly into working applications. Veteran coders can continue to create compiler-level code and contribute directly to the code libraries within the CodeX protocol.
         </p>
         <div className="w-full mt-4">

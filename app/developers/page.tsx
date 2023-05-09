@@ -1,7 +1,15 @@
+"use client"
+
+import Hero from "@/components/developers/hero";
+import Level from "@/components/developers/level";
+
 const Developers = () => {
 
   return (
-    <h1>Developers</h1>
+    <div className="w-full bg-black">
+      <Hero />
+      <Level />
+    </div>
   )
 };
 

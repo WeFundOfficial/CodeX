@@ -21,10 +21,10 @@ const Scalable = () => {
         <span className="text-xl text-[#999999]">
           Performace
         </span>
-        <h1 className="text-2xl lg:text-3xl text-white mt-4">
+        <h1 className="text-2xl lg:text-3xl  mt-4">
           Scalable & Reliable
         </h1>
-        <p className="text-sm lg:text-base text-white mt-4">
+        <p className="text-sm lg:text-base  mt-4">
           Codex focuses on performance for the user. With a parallel, batch-optimized, and modular transaction processing pipeline, plus innovations like combining between Proof-of-stake, Proof-of-History and Proof-of-Contribute, Codex brings advance performance to developers and a seamless experience for end users.
         </p>
         <div className="w-full mt-4">

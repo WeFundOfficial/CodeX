@@ -21,10 +21,10 @@ const Simple = () => {
         <span className="text-xl text-[#999999]">
           User Experiance
         </span>
-        <h1 className="text-2xl lg:text-3xl text-white mt-4">
+        <h1 className="text-2xl lg:text-3xl  mt-4">
           Simple Development, Enjoyable Applications
         </h1>
-        <p className="text-sm lg:text-base text-white mt-4">
+        <p className="text-sm lg:text-base  mt-4">
           The ecosystem being built by CodeX is poised to improve rapid adoption and development of blockchain technologies by removing the common barriers to entering the industry - the steep learning curve to build on web 3.0 infrastructures and the ambiguous safety and security risks associated blockchain interactions for new web 3.0 users. With Codex’s reliable infrastructure, developers can focus on making great applications and end-users can enjoy a friendly, seamless experience.
         </p>
         <div className="w-full mt-4">
