@@ -2,7 +2,6 @@
 
 import Script from "next/script";
 import "./global.css";
-import "@near-wallet-selector/modal-ui/styles.css";
 import Head from "./head";
 
 import { RecoilRoot } from "recoil";
