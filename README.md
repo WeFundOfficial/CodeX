@@ -1,4 +1,4 @@
-# Aptos Explorer
+# CodeX Explorer
 
 ## How to use
 
