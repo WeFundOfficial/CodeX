@@ -7,7 +7,7 @@ const Core = () => {
       style={{ backgroundImage: `url(${CoreBG.src})`, backgroundSize: "cover" }}
     >
       <div className="flex w-full">
-        <span className="text-3xl lg:text-5xl leading-[150%]">
+        <span className="text-3xl lg:text-5xl !leading-[150%]">
           The CodeX<br /> Foundation<br /> Is Key Behind The<br /> CodeX Ecosystem
         </span>
       </div>
