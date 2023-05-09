@@ -1,23 +1,28 @@
-# Aptos Explorer
+# [ThriveIN](https://thrivein-client.vercel.app)
 
-## How to use
+API doc: <https://thrivein.vangel.is/api>
+Base url - frontend: <https://thrivein-client.vercel.app>
 
-Clone the repo. Requires [pnpm](https://pnpm.io/installation)
+Backend dev email: <vangelis.trikoupis@gmail.com>
+Frontend dev email: <ms@onely.us>
 
-Install dependencies:
+## Routes
 
-```sh
-pnpm install
-```
-
-Build dependencies:
-
-```sh
-pnpm build
-```
-
-Run below to start the app:
-
-```sh
-pnpm start
-```
+- `/`
+- `/friend`
+- `/home`
+- `/login`
+- `/message`
+- `/notification`
+- `/profile`
+- `/profile/[username]`
+- `/profile/[username]/edit`
+- `/reset-password`
+- `/search`
+- `/search/events`
+- `/search/gigs`
+- `/search/people`
+- `/search/posts`
+- `/search/talents`
+- `/signup`
+- `/signup/verify-email`

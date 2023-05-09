@@ -1,19 +1,29 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext","es6"],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
+    "checkJs": true,
     "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noEmit": true,
-    "jsx": "react"
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{"name": "next"}],
+    "baseUrl": ".",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["src/*.ts", "src/*.tsx", "typings"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/common/modal-content/add-event-post.content.jsx", "src/components/common/modal-content/add-gig-post.content.jsx", "src/utils/wallet.ts"],
   "exclude": ["node_modules"]
 }
