@@ -2,14 +2,13 @@
   position: relative;
   width: 233px;
   height: 0;
-  flex-shrink: 0;
 }
 .discussionForum,
 .getInvolved,
 .participateInOpen {
   position: relative;
   letter-spacing: 0.05em;
-  font-family: var(--p1sb);
+  font-family: var(--h3sb);
   text-align: left;
 }
 .discussionForum {
@@ -51,7 +50,6 @@
     rgba(50, 181, 255, 0.7) 96.35%
   );
   width: 405px;
-  flex-shrink: 0;
   flex-direction: column;
   padding: var(--padding-13xl);
   box-sizing: border-box;
@@ -68,7 +66,7 @@
   border: 0;
   background-color: transparent;
   font-weight: 600;
-  font-family: var(--p1sb);
+  font-family: var(--h3sb);
   font-size: var(--h3sb-size);
   border-radius: var(--br-base);
   background: linear-gradient(
@@ -78,7 +76,6 @@
     rgba(50, 181, 255, 0.7) 96.35%
   );
   width: 405px;
-  flex-shrink: 0;
   flex-direction: column;
   padding: var(--padding-13xl);
   box-sizing: border-box;

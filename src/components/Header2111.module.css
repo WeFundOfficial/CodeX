@@ -1,0 +1,61 @@
+.codexColor11Icon {
+  position: relative;
+  width: 92.8px;
+  height: 48px;
+  object-fit: cover;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.community {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.community,
+.developers {
+  cursor: pointer;
+}
+.developers,
+.grants {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.communityParent,
+.frameParent,
+.logoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.frameParent,
+.logoParent {
+  align-items: center;
+  gap: var(--gap-29xl);
+}
+.logoParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1440px;
+  padding: var(--padding-0) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-529xl);
+  text-align: left;
+  font-size: var(--p1sb-size);
+  color: var(--wireframe2);
+  font-family: var(--h3sb);
+}

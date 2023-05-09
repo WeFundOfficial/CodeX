@@ -1,4 +1,6 @@
 import { FunctionComponent } from "react";
+import MerkleProofWrapperContainer from "../components/MerkleProofWrapperContainer";
+import MessageBubbleContainer from "../components/MessageBubbleContainer";
 import styles from "./AppbunzzdevByHtmltodesig.module.css";
 const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
   return (
@@ -21,117 +23,25 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.divcss100mnyh}>
-          <div className={styles.divcss1i98udd}>
-            <div className={styles.divcssZ7mtfw}>
-              <div className={styles.divcssZm3m8w}>
-                <div className={styles.divcss8atqhb}>
-                  <div className={styles.divchakraStack1}>
-                    <div className={styles.merkleproofwrapper}>
-                      MerkleProofWrapper
-                    </div>
-                    <div className={styles.h4chakraText}>
-                      <b className={styles.createdByLightfury}>
-                        Created by lightfury
-                      </b>
-                    </div>
-                    <img
-                      className={styles.svgh2d75cde48cIcon}
-                      alt=""
-                      src="/svgh2d75cde48c.svg"
-                    />
-                    <div className={styles.moduleTemplateId}>
-                      Module Template ID
-                    </div>
-                    <div className={styles.divchakraSelectWrapper}>
-                      <div className={styles.pseudo}>
-                        <div className={styles.div}>1.0.0</div>
-                      </div>
-                      <img
-                        className={styles.svgchakraSelectIcon}
-                        alt=""
-                        src="/svgchakraselect--icon.svg"
-                      />
-                    </div>
-                  </div>
-                  <div className={styles.pchakraText}>
-                    <div className={styles.theseFunctionsDealContainer}>
-                      <p className={styles.theseFunctionsDeal}>
-                        These functions deal with verification of Merkle Tree
-                        proofs. The proofs can be generated using the
-                      </p>
-                      <p className={styles.theseFunctionsDeal}>
-                        JavaScript library.
-                        https://github.com/miguelmota/merkletreejs.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.divcss1vuvvya}>
-                  <div className={styles.divchakraStack2}>
-                    <div className={styles.divcss1xm084l}>
-                      <div className={styles.overview}>Overview</div>
-                    </div>
-                    <div className={styles.divcss1xm084l1}>
-                      <div className={styles.overview}>How To Use</div>
-                    </div>
-                    <div className={styles.divcss1xm084l2}>
-                      <div className={styles.overview}>Module Parameters</div>
-                    </div>
-                    <div className={styles.divcss1xm084l3}>
-                      <div className={styles.overview}>Functions</div>
-                    </div>
-                    <div className={styles.divcss1xm084l4}>
-                      <div className={styles.overview}>Events</div>
-                    </div>
-                    <div className={styles.divcss1chbo8a}>
-                      <div className={styles.code}>Code</div>
-                    </div>
-                  </div>
-                  <div className={styles.divchakraStack3}>
-                    <img
-                      className={styles.copyLinkIcon}
-                      alt=""
-                      src="/copy-link.svg"
-                    />
-                    <img
-                      className={styles.copyLinkIcon}
-                      alt=""
-                      src="/tweet.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className={styles.divchakraStack4}>
-                <div className={styles.getStarted}>Get started</div>
-                <div className={styles.buttonchakraButton}>
-                  <div className={styles.signUp}>Sign Up</div>
-                </div>
-                <div className={styles.buttonchakraButton1}>
-                  <div className={styles.logIn}>Log In</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <MerkleProofWrapperContainer />
           <div className={styles.divcssOh1d2g}>
             <div className={styles.divcssOvn3gg}>
-              <div className={styles.divchakraStack5}>
-                <div className={styles.divchakraStack6}>
-                  <div className={styles.theseFunctionsDealContainer}>
+              <div className={styles.divchakraStack1}>
+                <div className={styles.divchakraStack2}>
+                  <div className={styles.merkleproofwrapper}>
                     MerkleProofWrapper
                   </div>
-                  <div className={styles.div1}>/</div>
+                  <div className={styles.div}>/</div>
                 </div>
-                <div className={styles.divchakraStack7}>
-                  <div className={styles.theseFunctionsDealContainer}>
-                    interfaces
-                  </div>
-                  <div className={styles.div1}>/</div>
+                <div className={styles.divchakraStack3}>
+                  <div className={styles.merkleproofwrapper}>interfaces</div>
+                  <div className={styles.div}>/</div>
                 </div>
                 <div className={styles.imerkleproofwrappersol}>
                   IMerkleProofWrapper.sol
                 </div>
               </div>
-              <div className={styles.buttonchakraButton2}>
+              <div className={styles.buttonchakraButton}>
                 <div className={styles.customizeThisCode}>
                   Customize this code in an IDE
                 </div>
@@ -142,7 +52,7 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                 </div>
                 <div className={styles.pragma}>pragma</div>
                 <div className={styles.solidity}>solidity</div>
-                <div className={styles.div3}>
+                <div className={styles.div2}>
                   <span className={styles.txt}>
                     <span>^</span>
                     <span className={styles.span}>0.8.0</span>
@@ -153,7 +63,7 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                 <div className={styles.imerkleproofwrapper}>
                   IMerkleProofWrapper
                 </div>
-                <div className={styles.div4}>{`{`}</div>
+                <div className={styles.div3}>{`{`}</div>
                 <div className={styles.function}>function</div>
                 <div className={styles.verify}>
                   <span className={styles.txt}>
@@ -175,14 +85,14 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                 </div>
                 <div className={styles.bytes32RootBytes32Container}>
                   <span className={styles.txt}>
-                    <p className={styles.theseFunctionsDeal}>
+                    <p className={styles.bytes32Root}>
                       <span>bytes32</span>
                       <span className={styles.proof}> root,</span>
                     </p>
-                    <p className={styles.theseFunctionsDeal}>bytes32</p>
+                    <p className={styles.bytes32Root}>bytes32</p>
                   </span>
                 </div>
-                <div className={styles.div5}>)</div>
+                <div className={styles.div4}>)</div>
                 <div className={styles.external}>external</div>
                 <div className={styles.pure}>pure</div>
                 <div className={styles.returns}>returns</div>
@@ -214,14 +124,14 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                 </div>
                 <div className={styles.bytes32RootBytes32Container2}>
                   <span className={styles.txt}>
-                    <p className={styles.theseFunctionsDeal}>
+                    <p className={styles.bytes32Root}>
                       <span>bytes32</span>
                       <span className={styles.proof}> root,</span>
                     </p>
-                    <p className={styles.theseFunctionsDeal}>bytes32</p>
+                    <p className={styles.bytes32Root}>bytes32</p>
                   </span>
                 </div>
-                <div className={styles.div6}>)</div>
+                <div className={styles.div5}>)</div>
                 <div className={styles.external1}>external</div>
                 <div className={styles.pure1}>pure</div>
                 <div className={styles.returns1}>returns</div>
@@ -327,18 +237,18 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                 </div>
                 <div className={styles.bytes32RootBytes32Container4}>
                   <span className={styles.txt}>
-                    <p className={styles.theseFunctionsDeal}>
+                    <p className={styles.bytes32Root}>
                       <span>bytes32</span>
                       <span className={styles.proof}> root,</span>
                     </p>
-                    <p className={styles.theseFunctionsDeal}>
+                    <p className={styles.bytes32Root}>
                       <span>bytes32</span>
                       <span className={styles.proof}>[]</span>
                     </p>
                   </span>
                 </div>
                 <div className={styles.memory}>memory</div>
-                <div className={styles.div7}>)</div>
+                <div className={styles.div6}>)</div>
                 <div className={styles.external4}>external</div>
                 <div className={styles.pure4}>pure</div>
                 <div className={styles.returns4}>returns</div>
@@ -382,18 +292,18 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                 </div>
                 <div className={styles.bytes32RootBytes32Container6}>
                   <span className={styles.txt}>
-                    <p className={styles.theseFunctionsDeal}>
+                    <p className={styles.bytes32Root}>
                       <span>bytes32</span>
                       <span className={styles.proof}> root,</span>
                     </p>
-                    <p className={styles.theseFunctionsDeal}>
+                    <p className={styles.bytes32Root}>
                       <span>bytes32</span>
                       <span className={styles.proof}>[]</span>
                     </p>
                   </span>
                 </div>
                 <div className={styles.memory1}>memory</div>
-                <div className={styles.div8}>)</div>
+                <div className={styles.div7}>)</div>
                 <div className={styles.external5}>external</div>
                 <div className={styles.pure5}>pure</div>
                 <div className={styles.returns5}>returns</div>
@@ -442,7 +352,7 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                   </span>
                 </div>
                 <div className={styles.memory2}>memory</div>
-                <div className={styles.div9}>)</div>
+                <div className={styles.div8}>)</div>
                 <div className={styles.external6}>external</div>
                 <div className={styles.pure6}>pure</div>
                 <div className={styles.returns6}>returns</div>
@@ -491,7 +401,7 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                   </span>
                 </div>
                 <div className={styles.memory3}>memory</div>
-                <div className={styles.div10}>)</div>
+                <div className={styles.div9}>)</div>
                 <div className={styles.external7}>external</div>
                 <div className={styles.pure7}>pure</div>
                 <div className={styles.returns7}>returns</div>
@@ -502,31 +412,14 @@ const AppbunzzdevByHtmltodesig: FunctionComponent = () => {
                     <span>);</span>
                   </span>
                 </div>
-                <div className={styles.div11}>{`}`}</div>
+                <div className={styles.div10}>{`}`}</div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className={styles.divcontinuallyMessageContai}>
-        <div className={styles.divcontinuallyMessageBubble}>
-          <img
-            className={styles.divcloseContinuallyMessageIcon}
-            alt=""
-            src="/divclosecontinuallymessagebutton.svg"
-          />
-          <div className={styles.divcontinuallyMessageText}>
-            <div className={styles.ifYouHaveContainer}>
-              <p className={styles.theseFunctionsDeal}>
-                👋 If you have any questions,
-              </p>
-              <p className={styles.theseFunctionsDeal}>
-                Let's reach out to support
-              </p>
-              <p className={styles.theseFunctionsDeal}>staff!</p>
-            </div>
-          </div>
-        </div>
+        <MessageBubbleContainer productId="/divclosecontinuallymessagebutton.svg" />
         <div className={styles.divcontinuallyMessageAvatar}>
           <img
             className={styles.anonymousNeutralpngIcon}

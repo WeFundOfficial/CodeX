@@ -1,4 +1,7 @@
 import { FunctionComponent } from "react";
+import EcosystemContainer from "../components/EcosystemContainer";
+import DiscussionContainer from "../components/DiscussionContainer";
+import CommunitySection1111 from "../components/CommunitySection1111";
 import styles from "./AndreaVersion.module.css";
 const AndreaVersion: FunctionComponent = () => {
   return (
@@ -68,54 +71,12 @@ const AndreaVersion: FunctionComponent = () => {
           </span>
         </div>
       </div>
-      <div className={styles.theCodexFoundationIsKeyBeParent}>
-        <div className={styles.theCodexFoundationContainer}>
-          <p className={styles.theCodexFoundation}>{`The Codex Foundation `}</p>
-          <p className={styles.theCodexFoundation}>
-            is Key Behind the CodeX Ecosystem
-          </p>
-        </div>
-        <div className={styles.frameGroup}>
-          <div className={styles.missionParent}>
-            <div className={styles.theFutureProofNetwork}>Mission</div>
-            <div className={styles.withAUniqueContainer}>
-              <p className={styles.theCodexFoundation}>
-                Support Codex in fostering the growth of the network,
-                cultivating a strong and evolving ecosystem, and attracting
-                developers to continually improve the infrastructure of the
-                Codex Layer 1 blockchain.
-              </p>
-            </div>
-          </div>
-          <div className={styles.coreFocusParent}>
-            <div className={styles.coreFocus}>Core Focus</div>
-            <div className={styles.theCodexFoundation1}>
-              The Codex Foundation is dedicated to supporting the growth and
-              development of the Codex protocol, decentralized network, and
-              developer ecosystem.
-            </div>
-            <div className={styles.fosterParticipationAndContainer}>
-              <p className={styles.theCodexFoundation}>
-                <span className={styles.span}>→</span>
-                <span> Foster participation and growth</span>
-              </p>
-              <p className={styles.theCodexFoundation}>
-                <span className={styles.span}>→</span>
-                <span> Encourage application development</span>
-              </p>
-              <p className={styles.theCodexFoundation}>
-                <span className={styles.span}>→</span>
-                <span> Cultivate a strong developer ecosystem</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <EcosystemContainer />
       <div className={styles.codexTokenomicsOverview}>
         Codex Tokenomics Overview
       </div>
       <div className={styles.theCodexFoundationPresentsWrapper}>
-        <div className={styles.theCodexFoundation2}>
+        <div className={styles.theCodexFoundation}>
           The Codex Foundation presents a summary version of the Codex protocol
           tokenomics.
         </div>
@@ -124,107 +85,12 @@ const AndreaVersion: FunctionComponent = () => {
         <div className={styles.buildOnCodex}>VIEW TOKENOMICS</div>
       </div>
       <div className={styles.xpander1}>Xpander</div>
-      <div className={styles.rectangleParent}>
-        <div className={styles.groupChild} />
-        <div className={styles.groupItem} />
-        <div className={styles.groupInner} />
-        <div className={styles.participateInOpenContainer}>
-          <p
-            className={styles.theCodexFoundation}
-          >{`Participate in open discussions across various threads, explore opportunities `}</p>
-          <p className={styles.theCodexFoundation}>
-            to collaborate, and get more involved in projects building on Codex.
-          </p>
-        </div>
-        <div className={styles.discussionForum}>Discussion Forum</div>
-        <div className={styles.getInvolved}>get involved</div>
-        <div className={styles.documentationParent}>
-          <div className={styles.documentation}>Documentation</div>
-          <div className={styles.guidesToDevelop}>
-            Guides to develop applications for the Codex blockchain, run nodes,
-            and get involved in the Codex ecosystem.
-          </div>
-        </div>
-        <div className={styles.getStarted}>get started</div>
-        <div className={styles.telegramParent}>
-          <div className={styles.theFutureProofNetwork}>Telegram</div>
-          <div className={styles.joinOurTelegram}>
-            Join our Telegram to chat with us directly, take part in our growing
-            ecosystem.
-          </div>
-        </div>
-        <div className={styles.joinUs}>join us</div>
-        <div className={styles.groupChild1} />
-        <div className={styles.groupChild2} />
-        <div className={styles.groupChild3} />
-        <div className={styles.participateInOpenContainer1}>
-          <p
-            className={styles.theCodexFoundation}
-          >{`Participate in open discussions across various threads, explore opportunities `}</p>
-          <p className={styles.theCodexFoundation}>
-            to collaborate, and get more involved in projects building on Codex.
-          </p>
-        </div>
-        <div className={styles.discussionForum1}>Discussion Forum</div>
-        <div className={styles.getInvolved1}>get involved</div>
-        <div className={styles.documentationGroup}>
-          <div className={styles.documentation}>Documentation</div>
-          <div className={styles.guidesToDevelop}>
-            Guides to develop applications for the Codex blockchain, run nodes,
-            and get involved in the Codex ecosystem.
-          </div>
-        </div>
-        <div className={styles.getStarted1}>get started</div>
-        <div className={styles.discordParent}>
-          <div className={styles.theFutureProofNetwork}>Discord</div>
-          <div className={styles.joinOurTelegram}>
-            Join our Discord to chat with us directly, take part in our growing
-            ecosystem, and participate in Move Mondays.
-          </div>
-        </div>
-        <div className={styles.joinUs1}>join us</div>
-      </div>
-      <div className={styles.frameContainer}>
-        <div className={styles.logoNewParent}>
-          <div className={styles.logoNew}>
-            <img className={styles.image12Icon} alt="" src="/image-12@2x.png" />
-          </div>
-          <div className={styles.frameDiv}>
-            <div className={styles.communityParent}>
-              <div className={styles.buildOnCodex}>community</div>
-              <div className={styles.buildOnCodex}>Developers</div>
-              <div className={styles.buildOnCodex}>Grants</div>
-              <div className={styles.buildOnCodex}>About us</div>
-            </div>
-            <div className={styles.communityParent}>
-              <div className={styles.buildOnCodex}>whitepaper</div>
-              <div className={styles.buildOnCodex}>brand</div>
-              <div className={styles.buildOnCodex}>privacy</div>
-              <div className={styles.buildOnCodex}>terms</div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.findUsParent}>
-          <div className={styles.buildOnCodex}>find us</div>
-          <div className={styles.mditwitterParent}>
-            <img
-              className={styles.mditwitterIcon}
-              alt=""
-              src="/mditwitter1.svg"
-            />
-            <img
-              className={styles.mditwitterIcon}
-              alt=""
-              src="/icoutlinediscord.svg"
-            />
-            <img
-              className={styles.mditwitterIcon}
-              alt=""
-              src="/mdigithub.svg"
-            />
-          </div>
-        </div>
-      </div>
+      <DiscussionContainer />
+      <CommunitySection11111
+        communitySection11111FramBottom="unset"
+        communitySection11111FramLeft="5px"
+        communitySection11111FramTop="4670px"
+      />
       <div className={styles.xpander2}>Xpander</div>
       <div className={styles.andreaVersionChild3} />
       <div className={styles.lineDiv} />
@@ -249,20 +115,20 @@ const AndreaVersion: FunctionComponent = () => {
       <div className={styles.andreaVersionChild8} />
       <div className={styles.andreaVersionChild9} />
       <div className={styles.groupDiv}>
-        <div className={styles.groupChild4} />
+        <div className={styles.groupChild} />
       </div>
-      <div className={styles.frameParent1}>
-        <div className={styles.communityGroup}>
+      <div className={styles.frameGroup}>
+        <div className={styles.communityParent}>
           <div className={styles.buildOnCodex}>community</div>
-          <div className={styles.ecosystemProjects}>Developers</div>
-          <div className={styles.ecosystemProjects}>Grants</div>
-          <div className={styles.ecosystemProjects}>About us</div>
+          <div className={styles.developers}>Developers</div>
+          <div className={styles.developers}>Grants</div>
+          <div className={styles.developers}>About us</div>
         </div>
         <div className={styles.buildOnCodexContainer}>
           <div className={styles.buildOnCodex}>{`build on Codex `}</div>
         </div>
       </div>
-      <div className={styles.logoNew1}>
+      <div className={styles.logoNew}>
         <img className={styles.image12Icon} alt="" src="/image-122@2x.png" />
       </div>
       <div className={styles.xpanderParent}>
@@ -308,23 +174,23 @@ const AndreaVersion: FunctionComponent = () => {
         </div>
         <div className={styles.joinTheCodex2}>JOIN THE Codex MOVEMENT ↗</div>
       </div>
-      <div className={styles.frameParent2}>
+      <div className={styles.frameContainer}>
         <div className={styles.codexCommunityWrapper}>
           <div className={styles.buildOnCodex}>Codex Community</div>
         </div>
         <div className={styles.discussionForumWrapper}>
-          <div className={styles.ecosystemProjects}>Discussion Forum</div>
+          <div className={styles.developers}>Discussion Forum</div>
         </div>
         <div className={styles.discussionForumWrapper}>
-          <div className={styles.ecosystemProjects}>Ecosystem Projects</div>
+          <div className={styles.developers}>Ecosystem Projects</div>
         </div>
       </div>
       <div className={styles.andreaVersionChild10} />
       <img className={styles.groupIcon} alt="" src="/group.svg" />
       <img className={styles.groupIcon1} alt="" src="/group1.svg" />
       <img className={styles.groupIcon2} alt="" src="/group2.svg" />
-      <div className={styles.logoNew2}>
-        <img className={styles.image12Icon2} alt="" src="/image-123@2x.png" />
+      <div className={styles.logoNew1}>
+        <img className={styles.image12Icon1} alt="" src="/image-123@2x.png" />
       </div>
     </div>
   );

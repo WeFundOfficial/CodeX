@@ -1,4 +1,6 @@
 import { FunctionComponent } from "react";
+import MultiTokenMarketplaceContainer from "../components/MultiTokenMarketplaceContainer";
+import MessageBubbleContainer from "../components/MessageBubbleContainer";
 import styles from "./AppbunzzdevByHtmltodesig2.module.css";
 const AppbunzzdevByHtmltodesig2: FunctionComponent = () => {
   return (
@@ -299,130 +301,38 @@ const AppbunzzdevByHtmltodesig2: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.divcss1v21fwj11}>
-                  <div className={styles.divcssX6ul581}>
-                    <div className={styles.divcss19idom9}>
-                      <div className={styles.pchakraText}>
-                        <b className={styles.simpleMarketplaceFor}>
-                          Simple Marketplace (For MultiToken)
-                        </b>
-                      </div>
-                      <div className={styles.pchakraText34}>
-                        <div className={styles.moduleUsedToContainer1}>
-                          <span className={styles.implementsAllTheContainer1}>
-                            <p className={styles.theseFunctionsDeal}>
-                              Module used to create a fixed price marketplace
-                              for selling semi-fungible tokens, fully
-                            </p>
-                            <p className={styles.theseFunctionsDeal}>
-                              compatible with ERC1155, in exchange for native
-                              chain token (i.e. ether)
-                            </p>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.divcssBasxhu8}>
-                      <div className={styles.pchakraText2}>
-                        <div className={styles.div}>Created by bunzz</div>
-                      </div>
-                      <div className={styles.div}>2022-12-27</div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.divcss1v21fwj12}>
-                  <div className={styles.divcssX6ul581}>
-                    <div className={styles.divcss19idom9}>
-                      <div className={styles.pchakraText}>
-                        <b className={styles.simpleMarketplaceFor1}>
-                          Simple Marketplace (For NFT)
-                        </b>
-                      </div>
-                      <div className={styles.pchakraText37}>
-                        <div className={styles.moduleUsedToContainer3}>
-                          <span className={styles.implementsAllTheContainer1}>
-                            <p className={styles.theseFunctionsDeal}>
-                              Module used to create a fixed price marketplace
-                              for selling non-fungible tokens, fully
-                            </p>
-                            <p className={styles.theseFunctionsDeal}>
-                              compatible with ERC721, in exchange for native
-                              chain token (i.e. ether)
-                            </p>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.divcssBasxhu8}>
-                      <div className={styles.pchakraText2}>
-                        <div className={styles.div}>Created by bunzz</div>
-                      </div>
-                      <div className={styles.div}>2022-12-27</div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.divcss1v21fwj13}>
-                  <div className={styles.divcssX6ul581}>
-                    <div className={styles.divcss19idom9}>
-                      <div className={styles.pchakraText}>
-                        <b className={styles.auctionMarketplaceFor}>
-                          Auction Marketplace (For Multi Token)
-                        </b>
-                      </div>
-                      <div className={styles.pchakraText40}>
-                        <div className={styles.moduleUsedToContainer5}>
-                          <span className={styles.implementsAllTheContainer1}>
-                            <p className={styles.theseFunctionsDeal}>
-                              Module used to create a auction-type marketplace
-                              for selling semi-fungible tokens, fully
-                            </p>
-                            <p className={styles.theseFunctionsDeal}>
-                              compatible with ERC1155, in exchange for native
-                              chain token (i.e. ether)
-                            </p>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.divcssBasxhu8}>
-                      <div className={styles.pchakraText2}>
-                        <div className={styles.div}>Created by bunzz</div>
-                      </div>
-                      <div className={styles.div}>2022-12-27</div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.divcss1v21fwj14}>
-                  <div className={styles.divcssX6ul581}>
-                    <div className={styles.divcss19idom9}>
-                      <div className={styles.pchakraText}>
-                        <b className={styles.auctionMarketplaceNft}>
-                          Auction Marketplace (NFT)
-                        </b>
-                      </div>
-                      <div className={styles.pchakraText43}>
-                        <div className={styles.moduleUsedToContainer7}>
-                          <span className={styles.implementsAllTheContainer1}>
-                            <p className={styles.theseFunctionsDeal}>
-                              Module used to create a auction-type marketplace
-                              for selling non-fungible tokens, fully
-                            </p>
-                            <p className={styles.theseFunctionsDeal}>
-                              compatible with ERC721, in exchange for native
-                              chain token (i.e. ether)
-                            </p>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.divcssBasxhu8}>
-                      <div className={styles.pchakraText2}>
-                        <div className={styles.div}>Created by bunzz</div>
-                      </div>
-                      <div className={styles.div}>2022-12-27</div>
-                    </div>
-                  </div>
-                </div>
+                <MultiTokenMarketplaceContainer
+                  marketplaceType="Simple Marketplace (For MultiToken)"
+                  marketplaceModuleText="Module used to create a fixed price marketplace for selling semi-fungible tokens, fully"
+                  marketplaceERC1155Text="compatible with ERC1155, in exchange for native chain token (i.e. ether)"
+                />
+                <MultiTokenMarketplaceContainer
+                  marketplaceType="Simple Marketplace (For NFT)"
+                  marketplaceModuleText="Module used to create a fixed price marketplace for selling non-fungible tokens, fully"
+                  marketplaceERC1155Text="compatible with ERC721, in exchange for native chain token (i.e. ether)"
+                  propTop="2016px"
+                  propWidth="245.09px"
+                  propPadding="var(--padding-0) 82.41998291015625px var(--padding-0) var(--padding-0)"
+                  propWidth1="625.58px"
+                />
+                <MultiTokenMarketplaceContainer
+                  marketplaceType="Auction Marketplace (For Multi Token)"
+                  marketplaceModuleText="Module used to create a auction-type marketplace for selling semi-fungible tokens, fully"
+                  marketplaceERC1155Text="compatible with ERC1155, in exchange for native chain token (i.e. ether)"
+                  propTop="2196px"
+                  propWidth="313.21px"
+                  propPadding="var(--padding-0) 54.95001220703125px var(--padding-0) var(--padding-0)"
+                  propWidth1="653.05px"
+                />
+                <MultiTokenMarketplaceContainer
+                  marketplaceType="Auction Marketplace (NFT)"
+                  marketplaceModuleText="Module used to create a auction-type marketplace for selling non-fungible tokens, fully"
+                  marketplaceERC1155Text="compatible with ERC721, in exchange for native chain token (i.e. ether)"
+                  propTop="2376px"
+                  propWidth="222.09px"
+                  propPadding="var(--padding-0) 61.59002685546875px var(--padding-0) var(--padding-0)"
+                  propWidth1="646.41px"
+                />
               </div>
               <div className={styles.ulscBdvaja}>
                 <img
@@ -489,24 +399,7 @@ const AppbunzzdevByHtmltodesig2: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.divcontinuallyMessageContai}>
-        <div className={styles.divcontinuallyMessageBubble}>
-          <img
-            className={styles.divcloseContinuallyMessageIcon}
-            alt=""
-            src="/divclosecontinuallymessagebutton1.svg"
-          />
-          <div className={styles.divcontinuallyMessageText}>
-            <div className={styles.ifYouHaveContainer}>
-              <p className={styles.theseFunctionsDeal}>
-                👋 If you have any questions,
-              </p>
-              <p className={styles.theseFunctionsDeal}>
-                Let's reach out to support
-              </p>
-              <p className={styles.theseFunctionsDeal}>staff!</p>
-            </div>
-          </div>
-        </div>
+        <MessageBubbleContainer productId="/divclosecontinuallymessagebutton1.svg" />
         <div className={styles.divcontinuallyMessageAvatar}>
           <img
             className={styles.anonymousNeutralpngIcon}

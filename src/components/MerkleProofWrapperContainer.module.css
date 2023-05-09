@@ -1,0 +1,313 @@
+.merkleproofwrapper {
+  position: absolute;
+  top: 0.5px;
+  left: 0;
+  font-size: var(--font-size-9xl);
+  line-height: 39px;
+  font-weight: 500;
+}
+.createdByLightfury {
+  position: relative;
+  line-height: 21px;
+}
+.h4chakraText {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: 288.24px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-lg) var(--padding-12xs)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.6;
+  color: var(--color-royalblue-200);
+}
+.svgh2d75cde48cIcon {
+  position: absolute;
+  top: 8px;
+  left: 480.24px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.moduleTemplateId {
+  position: absolute;
+  top: 8.5px;
+  left: 511.24px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  width: 41.06px;
+  height: 19px;
+}
+.pseudo,
+.svgchakraSelectIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pseudo {
+  width: 40.86px;
+  height: 19px;
+  opacity: 0.6;
+}
+.svgchakraSelectIcon {
+  width: 20px;
+  height: 20px;
+}
+.divchakraSelectWrapper {
+  position: absolute;
+  width: calc(100% - 671.14px);
+  top: calc(50% - 20px);
+  right: 0;
+  left: 671.14px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--p1sb-size);
+}
+.divchakraStack {
+  position: relative;
+  width: 760px;
+  height: 40px;
+}
+.theseFunctionsDeal {
+  margin: 0;
+}
+.theseFunctionsDealContainer {
+  position: relative;
+  line-height: 24px;
+}
+.divcss8atqhb,
+.pchakraText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pchakraText {
+  flex-direction: row;
+  padding: var(--padding-12xs-5) var(--padding-lg) var(--padding-0)
+    var(--padding-0);
+  font-size: var(--p1sb-size);
+}
+.divcss8atqhb {
+  position: absolute;
+  width: calc(100% - 80px);
+  top: 40px;
+  right: 40px;
+  left: 40px;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.overview {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.divcss1xm084l,
+.divcss1xm084l1,
+.divcss1xm084l2,
+.divcss1xm084l3,
+.divcss1xm084l4 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs-5) 8.769996643066406px var(--padding-4xs-5)
+    var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcss1xm084l1,
+.divcss1xm084l2,
+.divcss1xm084l3,
+.divcss1xm084l4 {
+  padding: var(--padding-12xs-5) 9.480003356933594px var(--padding-4xs-5)
+    var(--padding-3xs);
+}
+.divcss1xm084l2,
+.divcss1xm084l3,
+.divcss1xm084l4 {
+  padding: var(--padding-12xs-5) 6.1300048828125px var(--padding-4xs-5)
+    var(--padding-3xs);
+}
+.divcss1xm084l3,
+.divcss1xm084l4 {
+  padding: var(--padding-12xs-5) 8.529998779296875px var(--padding-4xs-5)
+    var(--padding-3xs);
+}
+.divcss1xm084l4 {
+  padding: var(--padding-12xs-5) 8.980003356933594px var(--padding-4xs-5)
+    var(--padding-3xs);
+}
+.code {
+  position: absolute;
+  top: 2.5px;
+  left: 11px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39.57px;
+  height: 19px;
+}
+.divcss1chbo8a {
+  position: relative;
+  background: linear-gradient(
+    0deg,
+    rgba(54, 113, 233, 0.4) 1.39%,
+    rgba(54, 113, 233, 0)
+  );
+  border-bottom: 1px solid var(--color-royalblue-200);
+  box-sizing: border-box;
+  width: 60.32px;
+  height: 33px;
+}
+.divchakraStack1 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0.00000762939453125px var(--padding-0)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyLinkIcon {
+  position: relative;
+  border-radius: var(--br-5xl);
+  width: 48px;
+  height: 48px;
+}
+.divchakraStack2,
+.divcss1vuvvya {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.divchakraStack2 {
+  padding: var(--padding-0) var(--padding-0) var(--padding-base);
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.divcss1vuvvya {
+  position: absolute;
+  top: 135px;
+  left: 40px;
+  align-items: flex-end;
+  gap: 61.79px;
+  text-align: center;
+  font-size: var(--p1sb-size);
+}
+.divcssZm3m8w {
+  position: absolute;
+  width: calc(100% - 360px);
+  top: 0;
+  right: 360px;
+  left: 0;
+  height: 199px;
+}
+.getStarted,
+.signUp {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.getStarted {
+  top: 19px;
+  left: 107.48px;
+  font-size: var(--h6sb-size);
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--color-gray-1900);
+  text-align: left;
+  width: 110.05px;
+  height: 23.5px;
+}
+.signUp {
+  top: 10.4px;
+  left: 115.13px;
+  line-height: 19.2px;
+  font-weight: 600;
+  justify-content: center;
+  width: 59.99px;
+  height: 19px;
+}
+.buttonchakraButton {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: calc(50% - 25px);
+  right: 16px;
+  left: 16px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-royalblue-200);
+  height: 40px;
+}
+.logIn {
+  position: absolute;
+  top: 10.4px;
+  left: 121.22px;
+  line-height: 19.2px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47.56px;
+  height: 19px;
+}
+.buttonchakraButton1,
+.divchakraStack3 {
+  position: absolute;
+  border-radius: var(--br-7xs);
+}
+.buttonchakraButton1 {
+  width: calc(100% - 32px);
+  top: calc(50% + 23px);
+  right: 16px;
+  left: 16px;
+  background-color: var(--color-royalblue-200);
+  height: 40px;
+}
+.divchakraStack3 {
+  height: calc(100% - 41px);
+  width: calc(100% - 880px);
+  top: 15px;
+  right: 40px;
+  bottom: 26px;
+  left: 840px;
+  background-color: var(--color-darkslategray-300);
+  text-align: center;
+  font-size: var(--p1sb-size);
+  color: var(--wireframe2);
+}
+.divcss1i98udd,
+.divcssZ7mtfw {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 199px;
+}
+.divcss1i98udd {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--color-gray-1300);
+  border-bottom: 1px solid var(--color-gray-1500);
+  box-sizing: border-box;
+  height: 200px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-1900);
+  font-family: var(--font-rubik);
+}

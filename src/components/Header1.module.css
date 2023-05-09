@@ -23,8 +23,8 @@
   position: relative;
   width: 119px;
   height: 80px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
   cursor: pointer;
 }
 .community,
@@ -52,7 +52,7 @@
   line-height: 160%;
   text-transform: capitalize;
   font-weight: 600;
-  font-family: var(--p1sb);
+  font-family: var(--h3sb);
   color: var(--wireframe2);
   text-align: left;
 }
@@ -96,5 +96,5 @@
   text-align: left;
   font-size: var(--p1sb-size);
   color: var(--wireframe2);
-  font-family: var(--p1sb);
+  font-family: var(--h3sb);
 }

@@ -14,14 +14,14 @@ const DarkExplorer: FunctionComponent = () => {
           <img
             className={styles.svgmuisvgiconRoot}
             alt=""
-            src="/svgmuisvgiconroot3.svg"
+            src="/svgmuisvgiconroot31.svg"
           />
           <div className={styles.back}>Back</div>
           <div className={styles.search}>
             <img
               className={styles.svgmuisvgiconRoot1}
               alt=""
-              src="/svgmuisvgiconroot11.svg"
+              src="/svgmuisvgiconroot1110.svg"
             />
             <div className={styles.divplaceholder}>
               <div className={styles.searchExplorer}>Search Explorer</div>
@@ -42,7 +42,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot2}
                   alt=""
-                  src="/svgmuisvgiconroot21.svg"
+                  src="/svgmuisvgiconroot211.svg"
                 />
               </div>
               <div className={styles.timestamp}>Timestamp</div>
@@ -55,7 +55,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot3}
                   alt=""
-                  src="/svgmuisvgiconroot31.svg"
+                  src="/svgmuisvgiconroot311.svg"
                 />
                 <div className={styles.div1}>05/07/2023 15:41:50</div>
                 <div className={styles.divmuistackRoot3}>
@@ -69,7 +69,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot4.svg"
+                      src="/svgmuisvgiconroot41.svg"
                     />
                   </div>
                 </div>
@@ -84,7 +84,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot5.svg"
+                      src="/svgmuisvgiconroot51.svg"
                     />
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const DarkExplorer: FunctionComponent = () => {
                       <img
                         className={styles.svgmuisvgiconRoot6}
                         alt=""
-                        src="/svgmuisvgiconroot6.svg"
+                        src="/svgmuisvgiconroot61.svg"
                       />
                       <div className={styles.coinTransfer}>Coin Transfer</div>
                     </div>
@@ -118,7 +118,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot3}
                   alt=""
-                  src="/svgmuisvgiconroot7.svg"
+                  src="/svgmuisvgiconroot71.svg"
                 />
                 <div className={styles.div1}>05/07/2023 15:41:50</div>
                 <div className={styles.divmuistackRoot7}>
@@ -190,7 +190,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot1110.svg"
+                      src="/svgmuisvgiconroot11101.svg"
                     />
                   </div>
                 </div>
@@ -379,7 +379,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot211.svg"
+                      src="/svgmuisvgiconroot2111.svg"
                     />
                   </div>
                 </div>
@@ -580,7 +580,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot3}
                   alt=""
-                  src="/svgmuisvgiconroot311.svg"
+                  src="/svgmuisvgiconroot3111.svg"
                 />
                 <div className={styles.div1}>05/07/2023 15:41:44</div>
                 <div className={styles.divmuistackRoot7}>
@@ -768,7 +768,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot41.svg"
+                      src="/svgmuisvgiconroot411.svg"
                     />
                   </div>
                 </div>
@@ -955,7 +955,7 @@ const DarkExplorer: FunctionComponent = () => {
                     <img
                       className={styles.svgmuisvgiconRoot4}
                       alt=""
-                      src="/svgmuisvgiconroot51.svg"
+                      src="/svgmuisvgiconroot511.svg"
                     />
                   </div>
                 </div>
@@ -1165,7 +1165,7 @@ const DarkExplorer: FunctionComponent = () => {
                 <img
                   className={styles.svgmuisvgiconRoot3}
                   alt=""
-                  src="/svgmuisvgiconroot61.svg"
+                  src="/svgmuisvgiconroot611.svg"
                 />
                 <div className={styles.div7}>05/07/2023 15:41:34</div>
                 <div className={styles.divmuistackRoot7}>
@@ -1292,7 +1292,7 @@ const DarkExplorer: FunctionComponent = () => {
         <Footer />
         <MainHeader
           productIds="/svgmuisvgiconroot73.svg"
-          productDimensions="/icondark.svg"
+          productDimensions="/icondark1.svg"
           productIds24x24="/svgmuisvgiconroot74.svg"
           productIds40x40="/codex3-1@2x.png"
         />

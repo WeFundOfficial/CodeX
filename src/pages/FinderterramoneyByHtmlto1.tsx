@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import SearchBlockContainer from "../components/SearchBlockContainer";
 import styles from "./FinderterramoneyByHtmlto1.module.css";
 const FinderterramoneyByHtmlto1: FunctionComponent = () => {
   return (
@@ -34,35 +35,10 @@ const FinderterramoneyByHtmlto1: FunctionComponent = () => {
         </div>
         <div className={styles.search}>search</div>
       </div>
-      <div className={styles.divheaderHeader1rp9o}>
-        <div className={styles.divheaderInnerRfkiw}>
-          <img
-            className={styles.logo909802fasvgIcon1}
-            alt=""
-            src="/logo909802fasvg.svg"
-          />
-          <div className={styles.divsearchGroup1zhcg1}>
-            <div className={styles.inputh2d6fdf89e}>
-              <div className={styles.pseudo2}>
-                <div className={styles.searchBlock1}>
-                  Search Block / Tx / Account
-                </div>
-              </div>
-            </div>
-            <div className={styles.search1}>search</div>
-          </div>
-          <div className={styles.divselectoptionsRight2qqmj1}>
-            <div className={styles.selectselectnetworksSelect1}>
-              <div className={styles.pseudo}>
-                <div className={styles.mainnet}>Mainnet</div>
-              </div>
-            </div>
-            <div className={styles.divselectnetworksAddon2gxn}>
-              <div className={styles.arrowDropDown}>arrow_drop_down</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SearchBlockContainer
+        divHeaderInnerRFKIWBackgroundColor="unset"
+        divHeaderInnerRFKIWBackground="linear-gradient(-82.77deg, #089df1, #082df1 62.19%, #08abf1)"
+      />
     </div>
   );
 };

@@ -118,8 +118,8 @@
   position: relative;
   width: 15px;
   height: 15px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .divmuistackRoot2,
 .timestamp {
@@ -211,8 +211,8 @@
   position: relative;
   width: 18px;
   height: 18px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
   opacity: 0.75;
 }
 .amuitypographyRoot {
@@ -257,7 +257,8 @@
 .divmuiboxRoot2 {
   border-radius: var(--br-581xl);
   background-color: var(--color-deepskyblue-200);
-  padding: 4.590000152587891px 110px 6.180000305175781px var(--padding-base);
+  padding: 4.590000152587891px var(--padding-91xl) 6.180000305175781px
+    var(--padding-base);
 }
 .tdmuitablecellRoot {
   position: absolute;
@@ -294,7 +295,6 @@
   position: relative;
   width: 78.14px;
   height: 18px;
-  flex-shrink: 0;
 }
 .gas00000682 {
   top: -1px;
@@ -323,7 +323,6 @@
   position: relative;
   width: 132.03px;
   height: 15.72px;
-  flex-shrink: 0;
   font-size: var(--font-size-2xs);
   color: var(--color-gray-300);
 }
@@ -636,7 +635,6 @@
   position: relative;
   width: 43.42px;
   height: 18px;
-  flex-shrink: 0;
 }
 .divmuistackRoot17 {
   position: absolute;
@@ -1112,7 +1110,6 @@
   position: relative;
   width: 121.55px;
   height: 18px;
-  flex-shrink: 0;
 }
 .trmuitablerowRoot16 {
   position: absolute;
@@ -1172,7 +1169,6 @@
   position: relative;
   width: 69.47px;
   height: 18px;
-  flex-shrink: 0;
 }
 .trmuitablerowRoot19 {
   position: absolute;
@@ -1194,8 +1190,8 @@
   position: relative;
   width: 20px;
   height: 20px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .goToFirstPage,
 .goToPreviousPage {
@@ -1368,7 +1364,6 @@
   box-sizing: border-box;
   width: 146px;
   height: 34px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   padding: var(--padding-5xs);
@@ -1412,7 +1407,7 @@
   flex-direction: column;
   font-size: var(--p1sb-size);
   color: var(--contrast-black-99);
-  font-family: var(--p1sb);
+  font-family: var(--h3sb);
 }
 .divmuiboxRoot {
   position: absolute;

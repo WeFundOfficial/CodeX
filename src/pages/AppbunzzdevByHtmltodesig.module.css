@@ -60,325 +60,16 @@
   left: 43px;
   width: 1338px;
 }
+.div,
 .merkleproofwrapper {
-  position: absolute;
-  top: 0.5px;
-  left: 0;
-  font-size: var(--font-size-9xl);
-  line-height: 39px;
-  font-weight: 500;
-}
-.createdByLightfury {
   position: relative;
-  line-height: 21px;
-}
-.h4chakraText {
-  position: absolute;
-  top: calc(50% - 11.5px);
-  left: 288.24px;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-0) var(--padding-lg) var(--padding-12xs)
-    var(--padding-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  opacity: 0.6;
-  color: var(--color-royalblue-200);
-}
-.svgh2d75cde48cIcon {
-  position: absolute;
-  top: 8px;
-  left: 480.24px;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-}
-.moduleTemplateId {
-  position: absolute;
-  top: 8.5px;
-  left: 511.24px;
-  line-height: 21px;
-  font-weight: 500;
-  text-align: center;
+  line-height: 24px;
 }
 .div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  width: 41.06px;
-  height: 19px;
+  color: var(--color-gray-1900);
 }
-.pseudo,
-.svgchakraSelectIcon {
-  position: relative;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-.pseudo {
-  width: 40.86px;
-  height: 19px;
-  opacity: 0.6;
-}
-.svgchakraSelectIcon {
-  width: 20px;
-  height: 20px;
-}
-.divchakraSelectWrapper {
-  position: absolute;
-  width: calc(100% - 671.14px);
-  top: calc(50% - 20px);
-  right: 0;
-  left: 671.14px;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs)
-    var(--padding-base);
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-11xs);
-  font-size: var(--p1sb-size);
-}
-.divchakraStack1 {
-  position: relative;
-  width: 760px;
-  height: 40px;
-  flex-shrink: 0;
-}
-.theseFunctionsDeal {
-  margin: 0;
-}
-.theseFunctionsDealContainer {
-  position: relative;
-  line-height: 24px;
-}
-.divcss8atqhb,
-.pchakraText {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.pchakraText {
-  flex-direction: row;
-  padding: var(--padding-12xs-5) var(--padding-lg) var(--padding-0)
-    var(--padding-0);
-  font-size: var(--p1sb-size);
-}
-.divcss8atqhb {
-  position: absolute;
-  width: calc(100% - 80px);
-  top: 40px;
-  right: 40px;
-  left: 40px;
-  flex-direction: column;
-  gap: 7px;
-}
-.overview {
-  position: relative;
-  line-height: 24px;
-  font-weight: 500;
-}
-.divcss1xm084l,
-.divcss1xm084l1,
-.divcss1xm084l2,
-.divcss1xm084l3,
-.divcss1xm084l4 {
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-12xs-5) 8.769996643066406px var(--padding-4xs-5)
-    var(--padding-3xs);
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.divcss1xm084l1,
-.divcss1xm084l2,
-.divcss1xm084l3,
-.divcss1xm084l4 {
-  padding: var(--padding-12xs-5) 9.480003356933594px var(--padding-4xs-5)
-    var(--padding-3xs);
-}
-.divcss1xm084l2,
-.divcss1xm084l3,
-.divcss1xm084l4 {
-  padding: var(--padding-12xs-5) 6.1300048828125px var(--padding-4xs-5)
-    var(--padding-3xs);
-}
-.divcss1xm084l3,
-.divcss1xm084l4 {
-  padding: var(--padding-12xs-5) 8.529998779296875px var(--padding-4xs-5)
-    var(--padding-3xs);
-}
-.divcss1xm084l4 {
-  padding: var(--padding-12xs-5) 8.980003356933594px var(--padding-4xs-5)
-    var(--padding-3xs);
-}
-.code {
-  position: absolute;
-  top: 2.5px;
-  left: 11px;
-  line-height: 24px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 39.57px;
-  height: 19px;
-}
-.divcss1chbo8a {
-  position: relative;
-  background: linear-gradient(
-    0deg,
-    rgba(54, 113, 233, 0.4) 1.39%,
-    rgba(54, 113, 233, 0)
-  );
-  border-bottom: 1px solid var(--color-royalblue-200);
-  box-sizing: border-box;
-  width: 60.32px;
-  height: 33px;
-  flex-shrink: 0;
-}
-.divchakraStack2 {
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-0) 0.00000762939453125px var(--padding-0)
-    var(--padding-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.copyLinkIcon {
-  position: relative;
-  border-radius: var(--br-5xl);
-  width: 48px;
-  height: 48px;
-  flex-shrink: 0;
-}
-.divchakraStack3,
-.divcss1vuvvya {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
+.divchakraStack2,
 .divchakraStack3 {
-  padding: var(--padding-0) var(--padding-0) var(--padding-base);
-  align-items: flex-start;
-  gap: var(--gap-5xs);
-}
-.divcss1vuvvya {
-  position: absolute;
-  top: 135px;
-  left: 40px;
-  align-items: flex-end;
-  gap: 61.79px;
-  text-align: center;
-  font-size: var(--p1sb-size);
-}
-.divcssZm3m8w {
-  position: absolute;
-  width: calc(100% - 360px);
-  top: 0;
-  right: 360px;
-  left: 0;
-  height: 199px;
-}
-.getStarted,
-.signUp {
-  position: absolute;
-  display: flex;
-  align-items: center;
-}
-.getStarted {
-  top: 19px;
-  left: 107.48px;
-  font-size: var(--h6sb-size);
-  line-height: 30px;
-  font-weight: 500;
-  color: var(--color-gray-1900);
-  text-align: left;
-  width: 110.05px;
-  height: 23.5px;
-}
-.signUp {
-  top: 10.4px;
-  left: 115.13px;
-  line-height: 19.2px;
-  font-weight: 600;
-  justify-content: center;
-  width: 59.99px;
-  height: 19px;
-}
-.buttonchakraButton {
-  position: absolute;
-  width: calc(100% - 32px);
-  top: calc(50% - 25px);
-  right: 16px;
-  left: 16px;
-  border-radius: var(--br-7xs);
-  background-color: var(--color-royalblue-200);
-  height: 40px;
-}
-.logIn {
-  position: absolute;
-  top: 10.4px;
-  left: 121.22px;
-  line-height: 19.2px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 47.56px;
-  height: 19px;
-}
-.buttonchakraButton1,
-.divchakraStack4 {
-  position: absolute;
-  border-radius: var(--br-7xs);
-}
-.buttonchakraButton1 {
-  width: calc(100% - 32px);
-  top: calc(50% + 23px);
-  right: 16px;
-  left: 16px;
-  background-color: var(--color-royalblue-200);
-  height: 40px;
-}
-.divchakraStack4 {
-  height: calc(100% - 41px);
-  width: calc(100% - 880px);
-  top: 15px;
-  right: 40px;
-  bottom: 26px;
-  left: 840px;
-  background-color: var(--color-darkslategray-300);
-  text-align: center;
-  font-size: var(--p1sb-size);
-  color: var(--wireframe2);
-}
-.divcss1i98udd,
-.divcssZ7mtfw {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 199px;
-}
-.divcss1i98udd {
-  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
-  background-color: var(--color-gray-1300);
-  border-bottom: 1px solid var(--color-gray-1500);
-  box-sizing: border-box;
-  height: 200px;
-}
-.div1 {
-  position: relative;
-  line-height: 24px;
-  color: var(--color-gray-1900);
-}
-.divchakraStack6,
-.divchakraStack7 {
   position: absolute;
   top: calc(50% - 12px);
   left: 0;
@@ -389,7 +80,7 @@
   justify-content: flex-start;
   gap: 7.99px;
 }
-.divchakraStack7 {
+.divchakraStack3 {
   left: 169.71px;
   gap: 7.74px;
 }
@@ -403,7 +94,7 @@
   width: 179.97px;
   height: 19px;
 }
-.divchakraStack5 {
+.divchakraStack1 {
   position: absolute;
   top: 40px;
   left: 0;
@@ -415,7 +106,7 @@
   line-height: 19.2px;
   font-weight: 600;
 }
-.buttonchakraButton2 {
+.buttonchakraButton {
   position: absolute;
   top: 96px;
   left: 860px;
@@ -461,7 +152,7 @@
   line-break: anywhere;
   width: 100%;
 }
-.div3 {
+.div2 {
   position: absolute;
   top: 66px;
   left: 169.63px;
@@ -476,7 +167,7 @@
   left: 16px;
   width: 86.61px;
 }
-.div4,
+.div3,
 .imerkleproofwrapper,
 .interface {
   position: absolute;
@@ -491,7 +182,7 @@
   color: #f8c555;
   width: 182.63px;
 }
-.div4 {
+.div3 {
   left: 304.05px;
   color: var(--color-lightgray-200);
   width: 9.8px;
@@ -525,15 +216,21 @@
   color: var(--color-lightgray-200);
 }
 .memoryProof {
+  position: absolute;
   top: 162px;
   left: 188.83px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
   width: 125.02px;
   height: 20px;
 }
+.bytes32Root {
+  margin: 0;
+}
 .bytes32RootBytes32Container,
-.div5,
+.div4,
 .external,
-.memoryProof,
 .pure,
 .returns {
   position: absolute;
@@ -547,14 +244,14 @@
   width: 125.02px;
   height: 44px;
 }
-.div5,
+.div4,
 .external,
 .pure,
 .returns {
   top: 234px;
   height: 20px;
 }
-.div5 {
+.div4 {
   left: 54.41px;
   color: var(--color-lightgray-200);
   width: 9.8px;
@@ -629,7 +326,7 @@
   height: 44px;
 }
 .bool2,
-.div6,
+.div5,
 .external1,
 .pure1,
 .returns1 {
@@ -640,7 +337,7 @@
   align-items: center;
   height: 20px;
 }
-.div6 {
+.div5 {
   left: 54.41px;
   color: var(--color-lightgray-200);
   width: 9.8px;
@@ -834,7 +531,7 @@
   height: 20px;
 }
 .bytes32RootBytes32Container4,
-.div7,
+.div6,
 .external4,
 .memory,
 .memoryProofflag,
@@ -850,7 +547,7 @@
   width: 125.02px;
   height: 44px;
 }
-.div7,
+.div6,
 .external4,
 .memory,
 .pure4 {
@@ -861,12 +558,12 @@
   left: 188.83px;
   width: 57.81px;
 }
-.div7,
+.div6,
 .external4,
 .pure4 {
   top: 642px;
 }
-.div7 {
+.div6 {
   left: 54.41px;
   color: var(--color-lightgray-200);
   width: 9.8px;
@@ -952,7 +649,7 @@
   height: 44px;
 }
 .bool8,
-.div8,
+.div7,
 .external5,
 .memory1,
 .pure5,
@@ -969,13 +666,13 @@
   width: 57.81px;
 }
 .bool8,
-.div8,
+.div7,
 .external5,
 .pure5,
 .returns5 {
   top: 810px;
 }
-.div8 {
+.div7 {
   left: 54.41px;
   color: var(--color-lightgray-200);
   width: 9.8px;
@@ -1055,7 +752,7 @@
   width: 86.62px;
 }
 .bytes3215,
-.div9,
+.div8,
 .external6,
 .memory2,
 .pure6 {
@@ -1070,12 +767,12 @@
   left: 188.83px;
   width: 57.81px;
 }
-.div9,
+.div8,
 .external6,
 .pure6 {
   top: 954px;
 }
-.div9 {
+.div8 {
   left: 54.41px;
   color: var(--color-lightgray-200);
   width: 9.8px;
@@ -1158,7 +855,7 @@
 .bytes3219,
 .bytes3220,
 .div10,
-.div11,
+.div9,
 .external7,
 .memory3,
 .pure7,
@@ -1176,19 +873,19 @@
 }
 .bytes3220,
 .div10,
-.div11,
+.div9,
 .external7,
 .pure7,
 .returns7 {
   top: 1098px;
 }
-.div10 {
+.div9 {
   left: 54.41px;
   color: var(--color-lightgray-200);
   width: 9.8px;
 }
 .bytes3220,
-.div11,
+.div10,
 .external7,
 .pure7,
 .returns7 {
@@ -1196,25 +893,25 @@
   width: 77.01px;
 }
 .bytes3220,
-.div11,
+.div10,
 .pure7,
 .returns7 {
   left: 160.02px;
   width: 38.61px;
 }
 .bytes3220,
-.div11,
+.div10,
 .returns7 {
   left: 208.03px;
   width: 67.41px;
 }
 .bytes3220,
-.div11 {
+.div10 {
   left: 284.84px;
   width: 96.22px;
   color: var(--color-lightgray-200);
 }
-.div11 {
+.div10 {
   top: 1122px;
   left: 16px;
   width: 9.8px;
@@ -1246,8 +943,6 @@
   left: 0;
   background-color: var(--color-gray-1300);
   height: 1352px;
-  font-size: var(--p1sb-size);
-  color: var(--color-royalblue-100);
 }
 .divcss100mnyh {
   position: absolute;
@@ -1256,8 +951,7 @@
   right: 112px;
   left: 112px;
   height: 1552px;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-1900);
+  color: var(--color-royalblue-100);
 }
 .divcss120bx7o {
   position: absolute;
@@ -1266,44 +960,6 @@
   background-color: var(--color-gray-1500);
   width: 1424px;
   height: 1661px;
-  font-family: var(--font-rubik);
-}
-.divcloseContinuallyMessageIcon {
-  position: absolute;
-  margin: 0 !important;
-  top: 1px;
-  left: -26px;
-  border-radius: var(--br-5xs);
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  z-index: 0;
-}
-.ifYouHaveContainer {
-  position: relative;
-  line-height: 20.8px;
-}
-.divcontinuallyMessageBubble,
-.divcontinuallyMessageText {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.divcontinuallyMessageText {
-  padding: var(--padding-4xl-5) var(--padding-12xl) 25.889999389648438px
-    var(--padding-6xl);
-  z-index: 1;
-}
-.divcontinuallyMessageBubble {
-  position: absolute;
-  height: calc(100% + 111.39px);
-  top: -112.39px;
-  right: 59px;
-  bottom: 1px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-darkslategray-200);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
 }
 .anonymousNeutralpngIcon,
 .divcontinuallyMessageAvatar {
@@ -1329,7 +985,6 @@
   left: 1404px;
   width: 1px;
   height: 1px;
-  font-size: var(--font-size-mini);
 }
 .poweredByContinually {
   position: relative;
@@ -1350,6 +1005,7 @@
   text-align: right;
   font-size: var(--font-size-2xs);
   color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
 }
 .appbunzzdevByHtmltodesig {
   position: relative;
@@ -1359,5 +1015,5 @@
   text-align: left;
   font-size: var(--p1sb-size);
   color: var(--wireframe2);
-  font-family: var(--font-inter);
+  font-family: var(--font-rubik);
 }

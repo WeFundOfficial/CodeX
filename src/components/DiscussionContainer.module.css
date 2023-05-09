@@ -1,0 +1,268 @@
+.groupChild {
+  top: 3px;
+  left: 0;
+  background: linear-gradient(
+    125.84deg,
+    rgba(50, 181, 255, 0.7),
+    rgba(0, 26, 255, 0.7) 46.88%,
+    rgba(50, 181, 255, 0.7) 96.35%
+  );
+}
+.groupChild,
+.groupInner,
+.groupItem {
+  position: absolute;
+  border-radius: var(--br-sm);
+  width: 373px;
+  height: 280px;
+}
+.groupItem {
+  top: 2px;
+  left: 434px;
+  background: linear-gradient(
+    125.84deg,
+    rgba(50, 181, 255, 0.7),
+    rgba(0, 26, 255, 0.7) 46.88%,
+    rgba(50, 181, 255, 0.7) 96.35%
+  );
+}
+.groupInner {
+  top: 0;
+  left: 868px;
+  background-color: var(--primary-sky-blue);
+}
+.participateInOpen {
+  margin: 0;
+}
+.participateInOpenContainer {
+  position: absolute;
+  top: 92px;
+  left: 30px;
+  font-size: var(--p1sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  width: 326px;
+  height: 104px;
+}
+.discussionForum,
+.getInvolved {
+  position: absolute;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.discussionForum {
+  top: 24px;
+  left: 29px;
+  line-height: 140%;
+  display: inline-block;
+  width: 328px;
+}
+.getInvolved {
+  top: 204px;
+  left: 30px;
+  font-size: var(--h6sb-size);
+  line-height: 160%;
+  color: var(--color-skyblue);
+}
+.documentation,
+.guidesToDevelop {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.documentation {
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 290px;
+}
+.guidesToDevelop {
+  align-self: stretch;
+  font-size: var(--p1sb-size);
+  line-height: 160%;
+  font-weight: 500;
+  height: 104px;
+  flex-shrink: 0;
+}
+.documentationParent {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 158.5px);
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.getStarted {
+  position: absolute;
+  top: 202px;
+  left: 463px;
+  font-size: var(--h6sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-skyblue);
+}
+.joinOurTelegram,
+.telegram {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.telegram {
+  align-self: stretch;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.joinOurTelegram {
+  font-size: var(--p1sb-size);
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  width: 332px;
+  height: 104px;
+  flex-shrink: 0;
+}
+.joinUs,
+.telegramParent {
+  position: absolute;
+  left: 892px;
+}
+.telegramParent {
+  top: 22px;
+  width: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.joinUs {
+  top: 200px;
+  font-size: var(--h6sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-skyblue);
+}
+.groupChild1,
+.groupChild2,
+.rectangleDiv {
+  position: absolute;
+  top: 324px;
+  left: 870px;
+  border-radius: var(--br-sm);
+  background: linear-gradient(
+    125.84deg,
+    rgba(50, 181, 255, 0.7),
+    rgba(0, 26, 255, 0.7) 46.88%,
+    rgba(50, 181, 255, 0.7) 96.35%
+  );
+  width: 373px;
+  height: 280px;
+}
+.groupChild1,
+.groupChild2 {
+  top: 323px;
+  left: 0;
+}
+.groupChild2 {
+  top: 325px;
+  left: 434px;
+}
+.participateInOpenContainer1 {
+  position: absolute;
+  top: 422px;
+  left: 30px;
+  font-size: var(--p1sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  width: 326px;
+  height: 104px;
+}
+.discussionForum1,
+.getInvolved1 {
+  position: absolute;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.discussionForum1 {
+  top: 354px;
+  left: 29px;
+  line-height: 140%;
+  display: inline-block;
+  width: 328px;
+}
+.getInvolved1 {
+  top: 534px;
+  left: 30px;
+  font-size: var(--h6sb-size);
+  line-height: 160%;
+  color: var(--color-skyblue);
+}
+.documentationGroup {
+  position: absolute;
+  top: 354px;
+  left: calc(50% - 158.5px);
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.getStarted1 {
+  position: absolute;
+  top: 532px;
+  left: 463px;
+  font-size: var(--h6sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-skyblue);
+}
+.discordParent,
+.joinUs1 {
+  position: absolute;
+  left: 892px;
+}
+.discordParent {
+  top: 352px;
+  width: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.joinUs1 {
+  top: 530px;
+  font-size: var(--h6sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-skyblue);
+}
+.rectangleParent {
+  position: absolute;
+  top: 3281px;
+  left: 110px;
+  width: 1243px;
+  height: 605px;
+  text-align: left;
+  font-size: var(--h3sb-size);
+  color: var(--wireframe2);
+  font-family: var(--h3sb);
+}

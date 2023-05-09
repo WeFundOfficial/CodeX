@@ -32,7 +32,7 @@ const Footer: FunctionComponent = () => {
           <img
             className={styles.svgmuisvgiconRoot}
             alt=""
-            src="/svgmuisvgiconroot71.svg"
+            src="/svgmuisvgiconroot711.svg"
           />
           <img
             className={styles.svgmuisvgiconRoot}

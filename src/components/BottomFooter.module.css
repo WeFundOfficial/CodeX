@@ -39,8 +39,8 @@
   position: relative;
   width: 24px;
   height: 24px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .divmuigrid2Root2 {
   position: absolute;
@@ -58,7 +58,6 @@
   position: relative;
   width: 1496px;
   height: 54px;
-  flex-shrink: 0;
 }
 .divmuiboxRoot {
   position: absolute;

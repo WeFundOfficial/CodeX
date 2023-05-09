@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import DiscussionForm111 from "./DiscussionForm111";
+import DiscussionForm1111 from "./DiscussionForm1111";
 import styles from "./DocumentationSection.module.css";
 const DocumentationSection: FunctionComponent = () => {
   return (
@@ -18,7 +18,7 @@ const DocumentationSection: FunctionComponent = () => {
           </div>
           <div className={styles.getInvolved}>get started</div>
         </form>
-        <DiscussionForm1111 getInvolvedDisplay="inline-block" />
+        <DiscussionForm11111 getInvolvedDisplay="inline-block" />
         <textarea
           className={styles.cardBottom1}
           placeholder="telegram"

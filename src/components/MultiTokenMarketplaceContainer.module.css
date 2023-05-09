@@ -1,0 +1,96 @@
+.simpleMarketplaceFor {
+  position: relative;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  width: 300.72px;
+  flex-shrink: 0;
+}
+.pchakraText {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moduleUsedTo {
+  margin: 0;
+}
+.moduleUsedToContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.moduleUsedToContainer {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 632.22px;
+  flex-shrink: 0;
+}
+.divcss19idom,
+.pchakraText1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pchakraText1 {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-0) 75.780029296875px var(--padding-0) var(--padding-0);
+  margin-top: -9px;
+  font-size: var(--p1sb-size);
+}
+.divcss19idom {
+  position: absolute;
+  top: -13.5px;
+  left: 0;
+  flex-direction: column;
+}
+.createdByBunzz {
+  position: relative;
+  line-height: 21px;
+  font-weight: 500;
+}
+.divcssBasxhu,
+.pchakraText2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pchakraText2 {
+  padding: var(--padding-0) var(--padding-0) var(--padding-12xs);
+}
+.divcssBasxhu {
+  position: absolute;
+  height: calc(100% - 98px);
+  top: 98px;
+  bottom: 0;
+  left: 0;
+  gap: 515.02px;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightsteelblue);
+}
+.divcssX6ul58 {
+  position: absolute;
+  width: calc(100% - 80px);
+  top: calc(50% - 60px);
+  right: 40px;
+  left: 40px;
+  height: 120px;
+}
+.divcss1v21fwj {
+  position: absolute;
+  width: 100%;
+  top: 1836px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-300);
+  height: 160px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-1900);
+  font-family: var(--font-rubik);
+}

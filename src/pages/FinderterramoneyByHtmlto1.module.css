@@ -74,7 +74,6 @@
   right: 40px;
   bottom: 100px;
   left: 1240px;
-  color: var(--wireframe2);
 }
 .logo909802fasvgIcon {
   position: absolute;
@@ -134,104 +133,8 @@
   right: 416px;
   left: 416px;
   height: 50px;
-  font-size: 22px;
-}
-.logo909802fasvgIcon1 {
-  position: absolute;
-  top: 28px;
-  left: 40px;
-  width: 160px;
-  height: 21px;
-  overflow: hidden;
-}
-.pseudo2,
-.searchBlock1 {
-  position: absolute;
-  height: 19.5px;
-}
-.searchBlock1 {
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  width: 434.79px;
-}
-.pseudo2 {
-  top: 9.75px;
-  left: 10px;
-  width: 434.59px;
-  overflow: hidden;
-}
-.inputh2d6fdf89e {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  border-bottom: 1px solid var(--color-gray-2500);
-  box-sizing: border-box;
-  height: 40px;
-}
-.search1 {
-  position: absolute;
-  top: 9px;
-  left: 463.59px;
-  font-size: var(--font-size-2xl);
-  line-height: 39px;
-  font-family: var(--font-material-icons);
-  color: var(--wireframe2);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 21.2px;
-  height: 21px;
-}
-.divsearchGroup1zhcg1 {
-  position: absolute;
-  width: calc(100% - 950.41px);
-  top: 20px;
-  right: 330px;
-  left: 620.41px;
-  height: 40px;
-}
-.selectselectnetworksSelect1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-10xs);
-  border: 1px solid var(--color-gray-2600);
-  box-sizing: border-box;
-  width: 160px;
-  height: 36px;
-}
-.divselectoptionsRight2qqmj1 {
-  position: absolute;
-  height: calc(100% - 43.5px);
-  width: calc(100% - 1280px);
-  top: 24px;
-  right: 40px;
-  bottom: 19.5px;
-  left: 1240px;
-  font-size: var(--font-size-smi);
-  color: var(--wireframe2);
-}
-.divheaderInnerRfkiw {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 720px);
-  width: 1440px;
-  height: 79.5px;
-}
-.divheaderHeader1rp9o {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(-82.77deg, #089df1, #082df1 62.19%, #08abf1);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 1440px;
-  height: 80px;
-  font-size: var(--p1sb-size);
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-2600);
 }
 .finderterramoneyByHtmlto {
   position: relative;
@@ -239,6 +142,6 @@
   height: 160px;
   text-align: left;
   font-size: var(--font-size-smi);
-  color: var(--color-gray-2600);
+  color: var(--wireframe2);
   font-family: var(--font-inter);
 }

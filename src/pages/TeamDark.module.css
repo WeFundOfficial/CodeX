@@ -15,7 +15,6 @@
   position: relative;
   width: 226.57px;
   height: 120px;
-  flex-shrink: 0;
 }
 .community {
   position: relative;
@@ -43,7 +42,6 @@
 }
 .logoNewParent {
   width: 632px;
-  flex-shrink: 0;
   align-items: flex-start;
   justify-content: space-between;
 }
@@ -51,8 +49,8 @@
   position: relative;
   width: 24px;
   height: 24px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .mditwitterParent {
   flex-direction: row;
@@ -92,8 +90,8 @@
   position: relative;
   width: 119px;
   height: 80px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .community1 {
   position: relative;
@@ -241,8 +239,8 @@
   position: relative;
   width: 32px;
   height: 32px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .frameDiv,
 .socialNetwork {
@@ -329,8 +327,8 @@
   background-color: var(--wireframe2);
   width: 180px;
   height: 180px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .ceoAndCoFounders1 {
   position: relative;
@@ -383,7 +381,6 @@
   position: relative;
   width: 233px;
   height: 0;
-  flex-shrink: 0;
 }
 .lineGroup,
 .lineParent {
@@ -409,5 +406,5 @@
   text-align: left;
   font-size: var(--p1sb-size);
   color: var(--wireframe2);
-  font-family: var(--p1sb);
+  font-family: var(--h3sb);
 }

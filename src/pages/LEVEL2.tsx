@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import TypeScriptContainer from "../components/TypeScriptContainer";
 import styles from "./LEVEL2.module.css";
 const LEVEL2: FunctionComponent = () => {
   return (
@@ -9,7 +10,7 @@ const LEVEL2: FunctionComponent = () => {
         <img
           className={styles.svgmuisvgiconRoot}
           alt=""
-          src="/svgmuisvgiconroot.svg"
+          src="/svgmuisvgiconroot7.svg"
         />
       </div>
       <div className={styles.divhomeContainerBcohy}>
@@ -41,47 +42,16 @@ const LEVEL2: FunctionComponent = () => {
               <div className={styles.div}>�</div>
             </div>
           </div>
-          <div className={styles.divmuigridRoot2}>
-            <div className={styles.divmuioutlinedinputRoot}>
-              <div className={styles.divmuiselectSelect}>
-                <div className={styles.fieldsetmuioutlinedinputNotc}>
-                  <div className={styles.typescript}>TypeScript</div>
-                </div>
-              </div>
-              <img
-                className={styles.svgmuisvgiconRoot1}
-                alt=""
-                src="/svgmuisvgiconroot1.svg"
-              />
-            </div>
-            <div className={styles.labelfromSelect}>
-              <div className={styles.fromLanguage}>From Language</div>
-            </div>
-            <div className={styles.divmuioutlinedinputRoot1}>
-              <div className={styles.divmuiselectSelect1}>
-                <div className={styles.labeltoSelect}>
-                  <div className={styles.toLanguage}>To Language</div>
-                </div>
-              </div>
-              <img
-                className={styles.svgmuisvgiconRoot2}
-                alt=""
-                src="/svgmuisvgiconroot2.svg"
-              />
-              <div className={styles.fieldsetmuioutlinedinputNotc1}>
-                <div className={styles.java}>JAVA</div>
-              </div>
-            </div>
-          </div>
+          <TypeScriptContainer />
           <div className={styles.buttonmuibuttonRoot}>
             <div className={styles.convertCode}>Convert Code!</div>
           </div>
-          <div className={styles.divmuigridRoot3}>
+          <div className={styles.divmuigridRoot2}>
             <div className={styles.sampleCode1}>Sample Code 1</div>
             <div className={styles.sampleCode2}>Sample Code 2</div>
             <div className={styles.sampleCode3}>Sample Code 3</div>
           </div>
-          <div className={styles.divmuigridRoot4}>
+          <div className={styles.divmuigridRoot3}>
             <div className={styles.divmuipaperRoot1}>
               <div className={styles.divh2dB98e7c60}>
                 <div className={styles.textareanpmReactSimpleCod}>

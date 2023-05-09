@@ -2,8 +2,8 @@
   position: relative;
   width: 32px;
   height: 32px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .image {
   overflow: hidden;
@@ -16,8 +16,8 @@
   position: relative;
   width: 27px;
   height: 27px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .edit {
   position: relative;
@@ -38,8 +38,8 @@
   position: relative;
   width: 20px;
   height: 20px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .anavLink1 {
   display: flex;
@@ -54,8 +54,8 @@
   position: relative;
   width: 17px;
   height: 17px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .anavLink2,
 .divbtnGroup,
@@ -150,8 +150,8 @@
   box-sizing: border-box;
   width: 72px;
   height: 36px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .signUp {
   position: absolute;
@@ -170,8 +170,8 @@
   box-sizing: border-box;
   width: 75.2px;
   height: 36px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .divflexVerticalAlign {
   display: flex;
@@ -201,8 +201,8 @@
   box-sizing: border-box;
   width: 90px;
   height: 36px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .divheaderShareButtonRight {
   position: absolute;
@@ -220,7 +220,6 @@
   background-color: var(--color-gray-2400);
   width: 1440px;
   height: 42px;
-  flex-shrink: 0;
 }
 .divasSplitGutterIcon {
   position: absolute;
@@ -574,8 +573,8 @@
   position: relative;
   width: 22px;
   height: 22px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
   z-index: 0;
 }
 .pseudo,
@@ -612,7 +611,6 @@
   background-color: #ff5b1a;
   width: 6px;
   height: 6px;
-  flex-shrink: 0;
 }
 .divcodeEditorControlsWrapp {
   height: calc(100% - 603px);
@@ -1181,7 +1179,6 @@
   position: relative;
   width: 1077px;
   height: 645px;
-  flex-shrink: 0;
 }
 .svgh2dAcc7c661 {
   position: absolute;
@@ -1213,7 +1210,6 @@
   position: relative;
   width: 42px;
   height: 42px;
-  flex-shrink: 0;
 }
 .divbtnGroup1,
 .divbtnGroup2 {
@@ -1237,7 +1233,6 @@
   position: relative;
   width: 42px;
   height: 42px;
-  flex-shrink: 0;
   opacity: 0.4;
 }
 .divbtnGroup3 {
@@ -1258,8 +1253,8 @@
   background-color: var(--color-gray-2100);
   width: 1077px;
   height: 645px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .asSplitArea1 {
   position: absolute;
@@ -1280,8 +1275,8 @@
   position: relative;
   width: 1440px;
   height: 645px;
-  flex-shrink: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .divcontentArea,
 .divmainContainer {

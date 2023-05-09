@@ -1,0 +1,295 @@
+.erc20daotoken {
+  position: absolute;
+  top: 1.5px;
+  left: 0;
+  font-size: var(--font-size-9xl);
+  line-height: 39px;
+  font-weight: 500;
+}
+.createdBy {
+  margin: 0;
+}
+.createdByHungrywarrior081Container {
+  position: relative;
+  line-height: 21px;
+}
+.h4chakraText {
+  position: absolute;
+  top: calc(50% - 21px);
+  left: 244.05px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 34.05000305175781px var(--padding-0)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.6;
+  color: var(--color-royalblue-200);
+}
+.svgh2d96b3489fIcon {
+  position: absolute;
+  top: 9px;
+  left: 439.1px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.moduleTemplateId {
+  position: absolute;
+  top: 9.5px;
+  left: 470.1px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  width: 82.2px;
+  height: 19px;
+}
+.pseudo,
+.svgchakraSelectIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pseudo {
+  width: 82px;
+  height: 19px;
+  opacity: 0.6;
+}
+.svgchakraSelectIcon {
+  width: 20px;
+  height: 20px;
+}
+.divchakraSelectWrapper {
+  position: absolute;
+  width: calc(100% - 630px);
+  top: calc(50% - 20px);
+  right: 0;
+  left: 630px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--p1sb-size);
+}
+.divchakraStack {
+  position: relative;
+  width: 760px;
+  height: 42px;
+}
+.aErc20Token {
+  position: relative;
+  font-size: var(--p1sb-size);
+  line-height: 24px;
+}
+.divcss8atqhb,
+.overview {
+  position: absolute;
+  display: flex;
+}
+.divcss8atqhb {
+  width: calc(100% - 80px);
+  top: 40px;
+  right: 40px;
+  left: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-5);
+}
+.overview {
+  top: 2.5px;
+  left: 11px;
+  line-height: 24px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  width: 71.5px;
+  height: 19px;
+}
+.divcss1chbo8a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(54, 113, 233, 0.4) 1.39%,
+    rgba(54, 113, 233, 0)
+  );
+  border-bottom: 1px solid var(--color-royalblue-200);
+  box-sizing: border-box;
+  width: 90.77px;
+  height: 33px;
+}
+.code,
+.events,
+.functions,
+.howToUse,
+.moduleParameters {
+  position: absolute;
+  top: 0.5px;
+  left: 100.77px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.code,
+.events,
+.functions,
+.moduleParameters {
+  left: 208.25px;
+}
+.code,
+.events,
+.functions {
+  left: 374.38px;
+}
+.code,
+.events {
+  left: 470.91px;
+}
+.code {
+  left: 543.89px;
+}
+.copyLinkIcon,
+.divchakraStack1 {
+  position: relative;
+  width: 594.21px;
+  height: 33px;
+}
+.copyLinkIcon {
+  border-radius: var(--br-5xl);
+  width: 48px;
+  height: 48px;
+}
+.divchakraStack2,
+.divcss1vuvvya {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.divchakraStack2 {
+  padding: var(--padding-0) var(--padding-0) var(--padding-base);
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.divcss1vuvvya {
+  position: absolute;
+  top: 124px;
+  left: 40px;
+  align-items: flex-end;
+  gap: 61.79px;
+  text-align: center;
+  font-size: var(--p1sb-size);
+}
+.divcssZm3m8w {
+  position: absolute;
+  width: calc(100% - 360px);
+  top: 0;
+  right: 360px;
+  left: 0;
+  height: 188px;
+}
+.getStarted,
+.signUp {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.getStarted {
+  top: 19px;
+  left: 107.48px;
+  font-size: var(--h6sb-size);
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--color-gray-1900);
+  text-align: left;
+  width: 110.05px;
+  height: 23.5px;
+}
+.signUp {
+  top: 10.4px;
+  left: 115.13px;
+  line-height: 19.2px;
+  font-weight: 600;
+  justify-content: center;
+  width: 59.99px;
+  height: 19px;
+}
+.buttonchakraButton {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: calc(50% - 25px);
+  right: 16px;
+  left: 16px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-royalblue-200);
+  height: 40px;
+}
+.logIn {
+  position: absolute;
+  top: 10.4px;
+  left: 121.22px;
+  line-height: 19.2px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47.56px;
+  height: 19px;
+}
+.buttonchakraButton1,
+.divchakraStack3 {
+  position: absolute;
+  border-radius: var(--br-7xs);
+}
+.buttonchakraButton1 {
+  width: calc(100% - 32px);
+  top: calc(50% + 23px);
+  right: 16px;
+  left: 16px;
+  background-color: var(--color-royalblue-200);
+  height: 40px;
+}
+.divchakraStack3 {
+  height: calc(100% - 30px);
+  width: calc(100% - 880px);
+  top: 15px;
+  right: 40px;
+  bottom: 15px;
+  left: 840px;
+  background-color: var(--color-darkslategray-300);
+  text-align: center;
+  font-size: var(--p1sb-size);
+  color: var(--wireframe2);
+}
+.divcss1i98udd,
+.divcssZ7mtfw {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 188px;
+}
+.divcss1i98udd {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--color-gray-1300);
+  border-bottom: 1px solid var(--color-gray-1500);
+  box-sizing: border-box;
+  height: 189px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-1900);
+  font-family: var(--font-rubik);
+}

@@ -1,0 +1,50 @@
+.frameChild {
+  position: relative;
+  width: 233px;
+  height: 0;
+}
+.codexTokenomicsOverview,
+.theCodexFoundation {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  width: 721px;
+}
+.theCodexFoundation {
+  line-height: 160%;
+  width: 872px;
+}
+.theCodexFoundationPresentsWrapper {
+  width: 1163px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--h6sb-size);
+}
+.codexTokenomicsOverviewParent,
+.lineParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.codexTokenomicsOverviewParent {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.lineParent {
+  position: absolute;
+  top: 2948px;
+  left: 2px;
+  width: 1438px;
+  align-items: flex-start;
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--h1sb-size);
+  color: var(--wireframe2);
+  font-family: var(--h3sb);
+}
