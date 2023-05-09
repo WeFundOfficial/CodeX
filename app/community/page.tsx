@@ -6,6 +6,8 @@ import Compatibility from "@/components/community/compatibility";
 import Scalable from "@/components/community/scalable";
 import Simple from "@/components/community/simple";
 import Overview from "@/components/community/overview";
+import Channel from "@/components/community/channel";
+import Core from "@/components/community/core";
 
 const Community = () => {
 
@@ -21,6 +23,8 @@ const Community = () => {
         <Scalable />
         <Simple />
         <Overview />
+        <Channel />
+        <Core />
       </div>
     </div>
   )
