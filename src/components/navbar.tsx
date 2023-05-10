@@ -49,7 +49,7 @@ const Navbar = () => {
   )
 };
 const SubMenu = ({ menus }: { menus: any[] }) => {
-  const render = window != undefined
+  const render = typeof window != undefined
   return (
     <>
       {render &&
