@@ -4,7 +4,7 @@ const Core = () => {
   return (
     <div
       className="w-full flex flex-col lg:flex-row py-4 lg:py-16 px-4 lg:px-20 gap-34 relative left-markbar"
-      style={{ backgroundImage: `url(${CoreBG.src})`, backgroundSize: "cover" }}
+      style={{ background: "linear-gradient(280.57deg, rgba(0, 8, 77, 0) 50%, rgba(10, 35, 252, 0.5) 100%)" }}
     >
       <div className="flex w-full">
         <span className="text-3xl lg:text-5xl !leading-[150%]">

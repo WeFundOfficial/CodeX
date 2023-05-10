@@ -6,7 +6,7 @@ const Simple = () => {
   return (
     <div
       className="flex flex-col lg:flex-row ml-4 lg:ml-[40%] pr-4 lg:pr-16 py-16 gap-4 lg:gap-16 rounded-sm relative right-markbar"
-      style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 100%)" }}
+      style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 35%)" }}
     >
       <div
         className="w-40 h-40 flex justify-center items-center rounded-lg"
@@ -34,7 +34,7 @@ const Simple = () => {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
             }}>
-            JOIN THE Codex MOVEMENT ↗
+            JOIN THE CODEX MOVEMENT ↗
           </Link>
         </div>
       </div>

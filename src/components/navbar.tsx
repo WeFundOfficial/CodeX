@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full h-20 bg-[#0E0F2DE5] px-2 lg:px-20 items-center justify-between">
-      <img src="/images/logo.png" className="h-12" alt="logo" />
+      <img src="/images/community/logo.png" className="h-12" alt="logo" />
       <div className="hidden lg:flex gap-8 items-center">
         {Menus.map((menu, index) => (
           <Link href={menu.route} key={index}
@@ -103,8 +103,8 @@ export const Menus = [
     route: "/developers"
   },
   {
-    label: "Grants",
-    route: "/grants"
+    label: "Explorer",
+    route: "/explorer"
   },
   {
     label: "About us",
