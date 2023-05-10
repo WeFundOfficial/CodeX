@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between w-full pt-12 px-4 lg:px-20 pb-24 bg-[#000426]">
       <div className="flex">
-        <img src="/images/logo.png" className="w-24 lg:w-48 h-14 lg:h-28" alt="logo" />
+        <img src="/images/community/logo.png" className="w-24 lg:w-48 h-14 lg:h-28" alt="logo" />
         <div className="flex flex-col gap-8 ml-8 lg:ml-40">
           {Menus.map((menu, index) => (
             <Link href={menu.route} key={index} className="text-base">

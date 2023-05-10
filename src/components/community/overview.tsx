@@ -6,6 +6,8 @@ const Overview = () => {
   return (
     <div
       className="flex flex-col px-4 lg:px-16 py-16 w-full gap-4 lg:gap-8 items-center relative left-markbar"
+      style={{ background: "linear-gradient(280.57deg, rgba(0, 8, 77, 0) 50%, rgba(10, 35, 252, 0.5) 100%)" }}
+
     >
       <h1 className="text-3xl lg:text-5xl  text-center">
         Codex Tokenomics Overview

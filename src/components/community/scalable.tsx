@@ -6,7 +6,7 @@ const Scalable = () => {
   return (
     <div
       className="flex flex-col lg:flex-row px-4 lg:px-16 py-16 w-full lg:w-[900px] gap-4 lg:gap-16 rounded-sm relative left-markbar"
-      style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 100%)" }}
+      style={{ background: "linear-gradient(280.57deg, rgba(0, 8, 77, 0) 50%, rgba(10, 35, 252, 0.5) 100%)" }}
     >
       <div
         className="w-40 h-40 flex justify-center items-center rounded-lg"
@@ -34,7 +34,7 @@ const Scalable = () => {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
             }}>
-            JOIN THE Codex MOVEMENT ↗
+            JOIN THE CODEX MOVEMENT ↗
           </Link>
         </div>
       </div>

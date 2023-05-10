@@ -1,7 +1,10 @@
 import "./community.css";
 const Ecosystem = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full pb-12 px-4 lg:px-40 items-center relative right-markbar">
+    <div className="flex flex-col lg:flex-row w-full pb-12 px-4 lg:px-40 items-center relative right-markbar"
+    style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 35%)" }}
+
+    >
       <h1 className="text-3xl lg:text-5xl  mt-12">
         The First Ecosystem provides No-Code for developers
       </h1>

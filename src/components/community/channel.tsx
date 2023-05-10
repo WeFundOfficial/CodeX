@@ -2,7 +2,12 @@ import Link from "next/link";
 
 const Channel = () => {
   return (
-    <div className="flex flex-wrap w-full gap-14 pt-4 pb-24 px-4 lg:px-24 justify-center relative right-markbar">
+    <div className="flex flex-wrap w-full gap-14 pt-4 pb-24 px-4 lg:px-24 justify-center relative right-markbar"
+
+    style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 35%)" }}
+
+    >
+      
       {Channels.map((channel, index) => (
         <div
           className="w-60 lg:w-[370px] h-50 lg:h-[270px] py-5 px-3 lg:px-7 rounded-lg" key={index}
