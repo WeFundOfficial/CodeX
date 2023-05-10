@@ -53,7 +53,10 @@ const SubMenu = ({ menus }: { menus: any[] }) => {
   return (
     <>
       {render &&
-        <div className="hidden group-hover:flex flex-col w-50 p-1 bg-[#00084D80] rounded-sm absolute">
+        <div 
+          className="hidden group-hover:flex flex-col w-50 p-1 bg-[#00084D80] rounded-sm absolute"
+          style={{minWidth: "100px"}}
+        >
           {menus.map((menu, index) => (
             <Link href={menu.route} className="h-10 p-1 whitespace-nowrap border-b border-b-[#08ABF1] hover:bg-[#2B35C3]" key={index}>
               <div>{menu.label}</div>
@@ -105,6 +108,20 @@ export const Menus = [
   },
   {
     label: "About us",
-    route: "/aboutus"
+    route: "/aboutus",
+    submenu: [
+      {
+        label: "Team",
+        route: "/codex-community"
+      },
+      {
+        label: "Blog",
+        route: "/codex-community"
+      },
+      {
+        label: "Career",
+        route: "/codex-community"
+      },
+    ]
   },
 ]
