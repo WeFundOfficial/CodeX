@@ -2,12 +2,13 @@
 "use client"
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Suspense, useEffect, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const path = usePathname();
   const [show, setShow] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const handleClick = (e: any) => {
@@ -24,13 +25,15 @@ const Navbar = () => {
       <img src="/images/community/logo.png" className="h-12" alt="logo" />
       <div className="hidden lg:flex gap-8 items-center">
         {Menus.map((menu, index) => (
-          <Link href={menu.route} key={index}
-            className={`text-base relative group`}
+          <div
+            onClick={() => router.push(menu.route)}
+            key={index}
+            className="text-base relative group cursor-pointer"
             style={{ opacity: path?.includes(menu.route) ? 1 : 0.5 }}
           >
             {menu.label}
             {menu.submenu && <SubMenu menus={menu.submenu} />}
-          </Link>
+          </div>
         ))}
         <button className="w-40 h-10 p-2 rounded-lg "
           style={{ background: "linear-gradient(125.84deg, rgba(50, 181, 255, 0.7) 6.42%, rgba(0, 26, 255, 0.7) 49.21%, rgba(50, 181, 255, 0.7) 94.38%)" }}
@@ -49,22 +52,17 @@ const Navbar = () => {
   )
 };
 const SubMenu = ({ menus }: { menus: any[] }) => {
-  const render = typeof window != undefined
   return (
-    <>
-      {render &&
-        <div 
-          className="hidden group-hover:flex flex-col w-50 p-1 bg-[#00084D80] rounded-sm absolute"
-          style={{minWidth: "100px"}}
-        >
-          {menus.map((menu, index) => (
-            <Link href={menu.route} className="h-10 p-1 whitespace-nowrap border-b border-b-[#08ABF1] hover:bg-[#2B35C3]" key={index}>
-              <div>{menu.label}</div>
-            </Link>
-          ))}
-        </div>
-      }
-    </>
+    <div
+      className="hidden group-hover:flex flex-col w-50 p-1 bg-[#00084D80] rounded-sm absolute"
+      style={{ minWidth: "100px" }}
+    >
+      {menus.map((menu, index) => (
+        <Link href={menu.route} className="h-10 p-1 whitespace-nowrap border-b border-b-[#08ABF1] hover:bg-[#2B35C3]" key={index}>
+          <div>{menu.label}</div>
+        </Link>
+      ))}
+    </div>
   )
 }
 const SideMenu = ({ show }: { show: boolean }) => {
