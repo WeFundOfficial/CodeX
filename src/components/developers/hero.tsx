@@ -14,7 +14,8 @@ const Hero = () => {
         CodeX Us Designed For Those Who Thrilled To Not Quit
       </h1>
       <p className=" text-sm lg:text-xl !leading-[150%] max-w-5xl mt-8 lg:w-[550px] font-semibold">
-        Whether you have questions about the Xpander Compiler or requesting a new library, hit a roadblock with your application, or just want to share bounce ideas off our community, this resource page is all about equipping you to bring your Web3 solutions to life. You can even read about success stories and projects across the Codex community and get some new inspiration.      </p>
+        Whether you have questions about the Xpander Compiler or requesting a new library, hit a roadblock with your application, or just want to share bounce ideas off our community, this resource page is all about equipping you to bring your Web3 solutions to life. You can even read about success stories and projects across the Codex community and get some new inspiration.      
+      </p>
     </div>
   )
 }

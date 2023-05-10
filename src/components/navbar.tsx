@@ -111,7 +111,7 @@ export const Menus = [
     submenu: [
       {
         label: "Team",
-        route: "/codex-community"
+        route: "/team"
       },
       {
         label: "Blog",
