@@ -85,15 +85,15 @@ export const Menus = [
     submenu: [
       {
         label: "Codex Community",
-        route: "/codex-community"
+        route: "/community/codex-community"
       },
       {
         label: "Discussion Forum",
-        route: "/codex-community"
+        route: "/community/codex-community"
       },
       {
         label: "Ecosystem Projects",
-        route: "/codex-community"
+        route: "/community/codex-community"
       },
     ]
   },
@@ -111,15 +111,15 @@ export const Menus = [
     submenu: [
       {
         label: "Team",
-        route: "/team"
+        route: "/aboutus/team"
       },
       {
         label: "Blog",
-        route: "/blog"
+        route: "/aboutus/blog"
       },
       {
         label: "Career",
-        route: "/codex-community"
+        route: "/aboutus/career"
       },
     ]
   },

@@ -1,6 +1,6 @@
 import Hero from "@/components/community/hero";
 import FirstEcosystem from "@/components/community/first-ecosystem"
-import EffectImage from "../../src/assets/images/community/effect.png";
+import EffectImage from "../../../src/assets/images/community/effect.png";
 import Xpander from "@/components/community/xpander";
 import Compatibility from "@/components/community/compatibility";
 import Scalable from "@/components/community/scalable";
