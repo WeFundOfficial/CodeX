@@ -9,21 +9,21 @@ const Footer = () => {
         <img src="/images/community/logo.png" className="w-24 lg:w-48 h-14 lg:h-28" alt="logo" />
         <div className="flex flex-col gap-8 ml-8 lg:ml-40">
           {Menus.map((menu, index) => (
-            <Link href={menu.route} key={index} className="text-base">
+            <Link href={menu.route} key={index} className="text-base font-semibold">
               {menu.label}
             </Link>
           ))}
         </div>
         <div className="flex flex-col gap-8 ml-12">
           {Links.map((menu, index) => (
-            <Link href={menu.route} key={index} className="text-base">
+            <Link href={menu.route} key={index} className="text-base  font-semibold">
               {menu.label}
             </Link>
           ))}
         </div>
       </div>
       <div >
-        <span>Find Us</span>
+        <span className="font-semibold">Find Us</span>
         <div className="flex gap-12 mt-5">
           {Socials.map((social, index)=> (
             <Link href={social.route} key={index}>

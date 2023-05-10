@@ -11,17 +11,16 @@ const Hero = () => {
         <img src="/images/community/logo_xl.png" className="w-full" alt="log" />
       </div>
       <div className="w-full">
-        <h1 className="text-3xl lg:text-5xl font-bold leading-[150%] relative">
+        <h1 className="text-3xl lg:text-5xl font-semibold !leading-[150%] relative">
           Building Widely-Used<br />Web3 Applications.
         </h1>
-        <p className=" text-sm lg:text-xl max-w-5xl mt-8">
+        <p className=" text-sm lg:text-xl !leading-[150%] max-w-5xl mt-8">
           CodeX is a dedicated project for the mass adoption of<br />blockchain users.
         </p>
         <div className="flex gap-4 lg:gap-8 mt-8">
           <button className="w-40 lg:w-56 h-12 lg:h-16 p-1 lg:p-2 rounded-lg  text-sm lg:text-lg"
             style={{
               background: "linear-gradient(277.23deg, #089DF1 14.86%, #082DF1 80.61%, #08ABF1 120.59%)",
-             
             }}
           >
             Build on Codex

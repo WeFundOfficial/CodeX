@@ -19,9 +19,9 @@ const Simple = () => {
       </div>
       <div className="w-full lg:w-[596px]" style={{ maxWidth: "596px" }}>
         <span className="text-xl text-[#999999]">
-          User Experiance
+          User Experience
         </span>
-        <h1 className="text-2xl lg:text-3xl  mt-4">
+        <h1 className="text-2xl lg:text-3xl font-semibold mt-4">
           Simple Development, Enjoyable Applications
         </h1>
         <p className="text-sm lg:text-base  mt-4">
@@ -29,6 +29,7 @@ const Simple = () => {
         </p>
         <div className="w-full mt-4">
           <Link href=""
+            className="font-semibold"
             style={{
               background: "linear-gradient(270deg, #00C2FF 0%, #5A72C9 34.38%, #03C3FF 61.98%, #5E89F8 98.44%)",
               WebkitBackgroundClip: "text",

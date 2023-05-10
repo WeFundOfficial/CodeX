@@ -28,8 +28,8 @@ const Level = () => {
               <img src={level.icon} className="h-[70%] lg:h-auto" alt="icon" />
             </div>
             <div className="flex flex-col gap-2 lg:gap-4">
-              <span className="text-xl lg:text-4xl">{level.label}</span>
-              <p className="text-sm lg:text-base">{level.title}</p>
+              <span className="text-xl lg:text-4xl font-semibold">{level.label}</span>
+              <p className="text-sm lg:text-base font-medium">{level.title}</p>
             </div>
           </div>
         ))}

@@ -7,18 +7,18 @@ const Core = () => {
       style={{ background: "linear-gradient(280.57deg, rgba(0, 8, 77, 0) 50%, rgba(10, 35, 252, 0.5) 100%)" }}
     >
       <div className="flex w-full">
-        <span className="text-3xl lg:text-5xl !leading-[150%]">
+        <span className="text-3xl lg:text-5xl !leading-[150%] font-semibold">
           The CodeX<br /> Foundation<br /> Is Key Behind The<br /> CodeX Ecosystem
         </span>
       </div>
       <div className="flex flex-col w-full gap-4">
-        <h1 className="text-2xl lg:text-3xl">
+        <h1 className="text-2xl lg:text-3xl font-semibold">
           Mission
         </h1>
         <p className="text-sm lg:text-base lg:w-[70%]">
           Support CodeX in to ensure the growth of the network, fostering a strong and evolving ecosystem, and attracting builders and developers to continually improve the infrastructure of the CodeX Ecosystem to reach the goal for mass adoption.
         </p>
-        <h1 className="text-2xl lg:text-3xl">
+        <h1 className="text-2xl lg:text-3xl font-semibold">
           Core Focus
         </h1>
         <p className="text-sm lg:text-base lg:w-[70%]">

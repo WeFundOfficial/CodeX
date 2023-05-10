@@ -26,12 +26,13 @@ const Navbar = () => {
       <div className="hidden lg:flex gap-8 items-center">
         {Menus.map((menu, index) => (
           <div
-            onClick={() => router.push(menu.route)}
             key={index}
             className="text-base relative group cursor-pointer"
             style={{ opacity: path?.includes(menu.route) ? 1 : 0.5 }}
           >
-            {menu.label}
+            <div onClick={() => router.push(menu.route)}>
+              {menu.label}
+            </div>
             {menu.submenu && <SubMenu menus={menu.submenu} />}
           </div>
         ))}
