@@ -115,7 +115,7 @@ export const Menus = [
       },
       {
         label: "Blog",
-        route: "/codex-community"
+        route: "/blog"
       },
       {
         label: "Career",
