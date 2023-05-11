@@ -28,7 +28,9 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full h-20 px-2 lg:px-6 items-center justify-between">
-      <img src="/images/explorer/logo.png" className="h-12" alt="logo" />
+      <img src="/images/explorer/logo.png" className="h-12 cursor-pointer" alt="logo" 
+        onClick = {() => router.push("/community")}
+      />
       <div className="hidden lg:flex gap-24 items-center">
         {Menus.map((menu, index) => (
           <div
