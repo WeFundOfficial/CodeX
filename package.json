@@ -65,6 +65,9 @@
     "test:one": "polkadot-dev-run-test --env browser",
     "test:skipped": "echo 'tests skipped'"
   },
+  "dependencies": {
+    "webpack": "^5.82.1"
+  },
   "devDependencies": {
     "@crustio/crust-pin": "^1.0.0",
     "@pinata/sdk": "^1.2.1",
@@ -124,8 +127,5 @@
     "@polkadot/x-ws": "^12.2.1",
     "styled-components": "^5.3.1",
     "typescript": "^5.0.4"
-  },
-  "dependencies": {
-    "webpack": "^5.82.1"
   }
 }
