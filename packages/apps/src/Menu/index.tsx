@@ -28,16 +28,16 @@ interface Props {
 function createExternals (t: TFunction): ItemRoute[] {
   return [
     {
-      href: 'https://github.com/polkadot-js/apps',
-      icon: 'code-branch',
-      name: 'github',
-      text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' })
+     // href: 'https://github.com/polkadot-js/apps',
+     // icon: 'code-branch',
+     // name: 'github',
+     // text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' })
     },
     {
-      href: 'https://wiki.polkadot.network',
-      icon: 'book',
-      name: 'wiki',
-      text: t<string>('nav.wiki', 'Wiki', { ns: 'apps-routing' })
+    //  href: 'https://wiki.polkadot.network',
+    //  icon: 'book',
+    //  name: 'wiki',
+    //  text: t<string>('nav.wiki', 'Wiki', { ns: 'apps-routing' })
     }
   ];
 }
@@ -101,8 +101,8 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
   const groupRef = useRef({
     accounts: t<string>('Accounts'),
     developer: t<string>('Developer'),
-    files: t<string>('Files'),
-    governance: t<string>('Governance'),
+    //files: t<string>('Files'),
+    //governance: t<string>('Governance'),
     network: t<string>('Network'),
     settings: t<string>('Settings')
   });

@@ -20,12 +20,11 @@ function NodeInfo ({ className = '' }: Props): React.ReactElement<Props> {
     <StyledDiv className={`${className} media--1400 highlight--color-contrast ui--NodeInfo`}>
       {isApiReady && (
         <div className='node'>
-          <NodeName />&nbsp;
-          <NodeVersion label='v' />
+       
         </div>
       )}
-      <div>{api.libraryInfo.replace('@polkadot/', '')}</div>
-      <div>{uiInfo}</div>
+      <div></div>
+      <div></div>
     </StyledDiv>
   );
 }
