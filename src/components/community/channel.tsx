@@ -4,7 +4,6 @@ const Channel = () => {
   return (
     <div
       className="flex flex-wrap w-full gap-14 pt-4 pb-24 px-4 lg:px-24 justify-center relative right-markbar"
-      style={{ background: "linear-gradient(280.57deg, rgba(10, 35, 252, 0.5) 0%, rgba(0, 8, 77, 0) 35%)" }}
     >
       {Channels.map((channel, index) => (
         <div

@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import HeroImage from "../../assets/images/community/hero-background.png";
 
 const Hero = () => {
   return (

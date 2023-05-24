@@ -1,16 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import HeroImage from "../../assets/images/community/hero-background.png";
 
 const Hero = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row w-full h-auto lg:h-screen bg-no-repeat px-4 lg:px-24 pt-4 lg:pt-[160px] pb-8 lg:pb-0 gap-20"
-      style={{ backgroundImage: `logo_xk.png`, backgroundSize: "cover" }}
+      className="flex flex-col lg:flex-row lg:items-center w-full h-auto px-4 pb-10 lg:h-4/5 bg-no-repeat overflow-hidden"
+      style={{ backgroundSize: "cover" }}
     >
-      <div className="w-full">
-        <img src="/images/community/logo_xl.png" className="w-full" alt="log" />
+      <div className="w-full lg:w-1/2 z-0">
+        <img src="/images/community/hero1.png" className="w-full lg:min-w-[850px]" alt="log"  />
       </div>
-      <div className="w-full">
+      <div className="w-full lg:w-1/2 pr-4 lg:pr-24 z-10">
         <h1 className="text-3xl lg:text-5xl font-semibold !leading-[150%] relative">
           Building Widely-Used<br />Web3 Applications.
         </h1>

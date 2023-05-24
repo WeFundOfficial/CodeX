@@ -7,7 +7,7 @@ const Level = () => {
   const [level, setLevel] = useState(0);
   const info = Levels[level];
   return (
-    <div className="flex flex-col lg:flex-row w-full px-2 lg:px-20 pb-64 gap-4 relative right-markbar">
+    <div className="flex flex-col lg:flex-row w-full px-2 lg:px-20 pb-64 gap-4 relative right-markbar mt-20">
       <div className="w-full">
         {Levels.map((level, index) => (
           <div
