@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import Link from "next/link";
+import Pagination from "@/components/common/pagination";
 
 const Blog = () => {
   const [posts, setPosts] = useState<any[] | undefined>();
@@ -43,42 +44,55 @@ const Blog = () => {
     tag.innerHTML = node;
     return tag.innerText;
   }
-  console.log(posts)
+
+  const [page, setPage] = useState({ start: 0, count: 0 });
+  const onChangePage = (start: number, count: number) => {
+      setPage({ start, count })
+      console.log("hrere", start, count)
+    };
+  console.log(page)
+
   return (
-    <div
-      className="flex flex-wrap w-full gap-14 pt-24 pb-24 justify-center bg-black"
-    // style={{ background: "linear-gradient(261deg, #089DF1 11.69%, #082DF1 59.3%, #08ABF1 104.96%)" }}
-    >
-      {posts && posts.map((post, index) => (
-        <div
-          className="w-60 lg:w-[400px] h-50 lg:h-[540px] py-12 px-3 lg:px-10 rounded-lg" key={index}
-          style={{
-            background: "linear-gradient(125.84deg, rgba(50, 181, 255, 0.7) 6.42%, rgba(0, 26, 255, 0.7) 49.21%, rgba(50, 181, 255, 0.7) 94.38%)"
-          }}
-        >
-          <img src={post.thumbnail} className="w-full h-[100px] lg:h-[168px] rounded-sm" alt="avatar" />
-          <h1 className="text-sm lg:text-base font-semibold h-16 mt-5">
-            {shorten(post.title, 100)}
-          </h1>
-          <p className="text-sm lg:text-base !leading-[150%] text-[#B0B0B0] h-4 mt-6">
-            {post.pubDate}
-          </p>
-          <p className="text-sm lg:text-base !leading-[150%] text-[#B0B0B0] h-16 mt-6">
-            {shorten(toText(post.description), 100)}
-          </p>
-          <div className="flex w-full justify-end mt-2">
-            <Link
-              href={post.link}
-              className="text-base lg:text-xl w-28 h-9 flex justify-center items-center rounded-lg mt-8"
-              style={{
-                background: "linear-gradient(277.23deg, #089DF1 14.86%, #082DF1 80.61%, #08ABF1 120.59%)"
-              }}
-            >
-              Read More
-            </Link>
+    <div className="w-full">
+      <h1 className="text-3xl lg:text-5xl text-center capitalize pt-10 !leading-normal">
+        find interesting articles<br />
+        about building web 3
+      </h1>
+      <div className="flex flex-wrap w-full gap-14 pt-10 pb-24 justify-center bg-black" >
+        {posts && posts.slice(page.start, page.start + page.count).map((post, index) => (
+          <div
+            className="w-60 lg:w-[400px] h-50 lg:h-[540px] py-12 px-3 lg:px-10 rounded-lg" key={index}
+            style={{
+              background: "#0E0F2D"
+            }}
+          >
+            <img src={post.thumbnail} className="w-full h-[100px] lg:h-[168px] rounded-sm" alt="avatar" />
+            <h1 className="text-2xl lg:text-4xl font-semibold h-16 mt-5 text-white break-all">
+              {shorten(post.title, 28)}
+            </h1>
+            <p className="text-sm lg:text-base !leading-[150%] text-[#009DFF] h-4 mt-6">
+              {post.pubDate}
+            </p>
+            <p className="text-sm lg:text-base !leading-[150%] text-[#B0B0B0] h-16 mt-6">
+              {shorten(toText(post.description), 100)}
+            </p>
+            <div className="flex w-full justify-end mt-2">
+              <Link
+                href={post.link}
+                className="text-sm lg:text-base w-28 h-9 flex justify-center items-center rounded-lg mt-8"
+                style={{
+                  background: "linear-gradient(277.23deg, #089DF1 14.86%, #082DF1 80.61%, #08ABF1 120.59%)"
+                }}
+              >
+                Read More
+              </Link>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
+      <div className="w-full my-10">
+        <Pagination total={posts?.length} countPerPage={2} onChangePage={onChangePage} />
+      </div>
     </div>
   )
 };
