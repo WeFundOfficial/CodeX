@@ -121,7 +121,7 @@ export const Menus = [
       },
       {
         label: "Career",
-        route: "/aboutus/career"
+        route: "/aboutus/careers"
       },
     ]
   },

@@ -5,35 +5,18 @@ import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import Link from "next/link";
 import Pagination from "@/components/common/pagination";
+import { useRouter } from "next/navigation";
+import { loadBlog } from "@/util/blog";
 
 const Blog = () => {
-  const [posts, setPosts] = useState<any[] | undefined>();
+  const router = useRouter();
+  const [blogs, setBlogs] = useState<any[] | undefined>();
 
   useEffect(() => {
-    const loadBlog = async () => {
-      try {
-        const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wefundofficial";
-
-        const data: any = (await axios.get(mediumURL)).data;
-        const avatar = data.feed.image;
-        const profileLink = data.feed.link;
-        const res = data.items;
-        const posts = res.filter((item: any) => item.categories.length > 0);
-
-        const itemRows: any[] = [];
-        posts.forEach((item: any, i: number) => {
-          item["avatar"] = avatar;
-          item["profilelink"] = profileLink;
-          const row = Math.floor(i / 3);
-          if (!itemRows[row]) itemRows[row] = [];
-          itemRows[row].push(item);
-        });
-        setPosts(posts);
-      } catch (e) {
-        console.log(e)
-      }
+    const load = async () => {
+      setBlogs(await loadBlog());
     }
-    loadBlog();
+    load();
   }, []);
 
   const shorten = (cnt: string, len: number) => {
@@ -47,10 +30,8 @@ const Blog = () => {
 
   const [page, setPage] = useState({ start: 0, count: 0 });
   const onChangePage = (start: number, count: number) => {
-      setPage({ start, count })
-      console.log("hrere", start, count)
-    };
-  console.log(page)
+    setPage({ start, count })
+  };
 
   return (
     <div className="w-full">
@@ -59,12 +40,14 @@ const Blog = () => {
         about building web 3
       </h1>
       <div className="flex flex-wrap w-full gap-14 pt-10 pb-24 justify-center bg-black" >
-        {posts && posts.slice(page.start, page.start + page.count).map((post, index) => (
+        {blogs && blogs.slice(page.start, page.start + page.count).map((post, index) => (
           <div
-            className="w-60 lg:w-[400px] h-50 lg:h-[540px] py-12 px-3 lg:px-10 rounded-lg" key={index}
+            className="w-60 lg:w-[400px] h-50 lg:h-[540px] py-12 px-3 lg:px-10 rounded-lg cursor-pointer" 
+            key={index}
             style={{
               background: "#0E0F2D"
             }}
+            onClick={() => router.push(`/aboutus/blog/${page.start + index}`)}
           >
             <img src={post.thumbnail} className="w-full h-[100px] lg:h-[168px] rounded-sm" alt="avatar" />
             <h1 className="text-2xl lg:text-4xl font-semibold h-16 mt-5 text-white break-all">
@@ -91,7 +74,7 @@ const Blog = () => {
         ))}
       </div>
       <div className="w-full my-10">
-        <Pagination total={posts?.length} countPerPage={2} onChangePage={onChangePage} />
+        <Pagination total={blogs?.length} countPerPage={2} onChangePage={onChangePage} />
       </div>
     </div>
   )
