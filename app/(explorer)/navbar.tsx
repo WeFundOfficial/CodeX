@@ -27,8 +27,8 @@ const Navbar = () => {
   })
 
   return (
-    <div className="flex w-full h-20 px-2 lg:px-6 items-center justify-between">
-      <img src="/images/explorer/logo.png" className="h-12 cursor-pointer" alt="logo" 
+    <div className="flex w-full h-20 px-2 lg:px-20 items-center justify-between">
+      <img src="/images/logo.png" className="h-12 cursor-pointer" alt="logo" 
         onClick = {() => router.push("/community")}
       />
       <div className="hidden lg:flex gap-24 items-center">
@@ -79,7 +79,7 @@ const Navbar = () => {
             className="flex w-10 justify-center items-center cursor-pointer"
             onClick={() => setDark(!dark)}
           >
-            <img src={dark ? "/images/explorer/dark.png" : "/images/explorer/sun.png"} alt="theme" />
+            <img src={dark ? "/images/dark.png" : "/images/sun.png"} alt="theme" />
           </div>
 
           <button className="flex px-4 py-2 rounded-lg whitespace-nowrap gap-2"
@@ -89,8 +89,8 @@ const Navbar = () => {
               fill={`${dark ? "white" : "black"}`}
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M21.11 7.28V5C21.11 3.9 20.21 3 19.11 3H5.10999C3.99999 3 3.10999 3.9 3.10999 5V19C3.10999 20.1 3.99999 21 5.10999 21H19.11C20.21 21 21.11 20.1 21.11 19V16.72C21.7 16.37 22.11 15.74 22.11 15V9C22.11 8.26 21.7 7.63 21.11 7.28ZM20.11 9V15H13.11V9H20.11ZM5.10999 19V5H19.11V7H13.11C12.01 7 11.11 7.9 11.11 9V15C11.11 16.1 12.01 17 13.11 17H19.11V19H5.10999Z" fill-opacity="0.87" />
-              <path d="M16.11 13.5C16.9384 13.5 17.61 12.8284 17.61 12C17.61 11.1716 16.9384 10.5 16.11 10.5C15.2816 10.5 14.61 11.1716 14.61 12C14.61 12.8284 15.2816 13.5 16.11 13.5Z" fill-opacity="0.87" />
+              <path d="M21.11 7.28V5C21.11 3.9 20.21 3 19.11 3H5.10999C3.99999 3 3.10999 3.9 3.10999 5V19C3.10999 20.1 3.99999 21 5.10999 21H19.11C20.21 21 21.11 20.1 21.11 19V16.72C21.7 16.37 22.11 15.74 22.11 15V9C22.11 8.26 21.7 7.63 21.11 7.28ZM20.11 9V15H13.11V9H20.11ZM5.10999 19V5H19.11V7H13.11C12.01 7 11.11 7.9 11.11 9V15C11.11 16.1 12.01 17 13.11 17H19.11V19H5.10999Z" fillOpacity="0.87" />
+              <path d="M16.11 13.5C16.9384 13.5 17.61 12.8284 17.61 12C17.61 11.1716 16.9384 10.5 16.11 10.5C15.2816 10.5 14.61 11.1716 14.61 12C14.61 12.8284 15.2816 13.5 16.11 13.5Z" fillOpacity="0.87" />
             </svg>
             Connect Wallet
           </button>
@@ -123,20 +123,20 @@ export default Navbar;
 
 export const Menus = [
   {
+    label: "Account",
+    route: "/account",
+  },
+  {
     label: "Transactions",
-    route: "/explorer/transactions",
+    route: "/transactions",
   },
   {
     label: "Analytics",
-    route: "/explorer/analytics"
+    route: "/analytics"
   },
   {
     label: "Validators",
-    route: "/explorer/validators"
-  },
-  {
-    label: "Blocks",
-    route: "/explorer/blocks",
+    route: "/validators"
   }
 ]
 

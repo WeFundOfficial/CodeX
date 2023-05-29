@@ -61,7 +61,7 @@ const TransactionList = () => {
                     }}
                   >
                     {shorten(t.sender.address)}
-                    <img src="/images/explorer/copy.png" className="w-4 h-4" alt="copy" />
+                    <img src="/images/transactions/copy.png" className="w-4 h-4" alt="copy" />
                   </div>
                 </div>
               </td>
@@ -75,7 +75,7 @@ const TransactionList = () => {
                     }}
                   >
                     {shorten(t.receiver.address)}
-                    <img src="/images/explorer/copy.png" className="w-4 h-4" alt="copy" />
+                    <img src="/images/transactions/copy.png" className="w-4 h-4" alt="copy" />
                   </div>
                 </div>
               </td>
@@ -105,11 +105,11 @@ const Transactions = new Array(8).fill(
     type: 0,
     timestamp: "05/07/2023 15:41:50",
     sender: {
-      avatar: "/images/explorer/sender.png",
+      avatar: "/images/transactions/sender.png",
       address: "0x834dwoeirlskdjfowiea5d7"
     },
     receiver: {
-      avatar: "/images/explorer/receiver.png",
+      avatar: "/images/transactions/receiver.png",
       address: "0xc3503453453453456cc9"
     },
     function: 0,
