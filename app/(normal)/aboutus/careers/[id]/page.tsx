@@ -1,7 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation";
-import { Jobs } from "../page";
+import Jobs from "../jobs";
 
 const CareerDetail = ({ params }: { params: any }) => {
   const router = useRouter();
