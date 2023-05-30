@@ -31,7 +31,7 @@ const Navbar = () => {
       <img src="/images/logo.png" className="h-12 cursor-pointer" alt="logo" 
         onClick = {() => router.push("/community")}
       />
-      <div className="hidden lg:flex gap-24 items-center">
+      <div className="hidden lg:flex gap-8 items-center">
         {Menus.map((menu, index) => (
           <div
             key={index}
