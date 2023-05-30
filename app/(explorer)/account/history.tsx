@@ -36,7 +36,7 @@ export default Historys;
 
 const History = () => {
   return (
-    <div className="grid w-full items-center justify-between" style={{ gridTemplateColumns: "auto auto auto auto", gridRowGap: "10px" }}>
+    <div className="grid gap-y-3 w-full items-center justify-between" style={{ gridTemplateColumns: "auto auto auto auto", gridRowGap: "10px" }}>
       <div className="flex gap-4">
         <div>
           <img src="/images/account/unnamed.png" alt="unnamed" />
@@ -53,7 +53,7 @@ const History = () => {
       <div className="bg-[#F0F0F0] p-1 rounded-sm">
         <img src="/images/account/setting.svg" alt="setting" />
       </div>
-      <div className="h-4">
+      <div>
         <div className="flex gap-2">
           <div className="bg-[#F0F0F0] p-1 rounded-sm">
             <img src="/images/account/sent.svg" alt="setting" />

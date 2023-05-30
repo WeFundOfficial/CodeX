@@ -27,7 +27,7 @@ const Navbar = () => {
   })
 
   return (
-    <div className="flex w-full h-20 px-2 lg:px-20 items-center justify-between">
+    <div className="flex w-full h-20 px-2 lg:px-20 items-center justify-between z-2 relative">
       <img src="/images/logo.png" className="h-12 cursor-pointer" alt="logo" 
         onClick = {() => router.push("/community")}
       />

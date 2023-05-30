@@ -21,7 +21,7 @@ const Navbar = () => {
   })
 
   return (
-    <div className="flex w-full h-20 bg-[#0E0F2DE5] px-2 lg:px-20 items-center justify-between">
+    <div className="flex w-full h-20 bg-[#0E0F2DE5] px-2 lg:px-20 items-center justify-between relative z-20">
       <img src="/images/community/logo.png" className="h-12" alt="logo"
         onClick={() => router.push("/community")}
       />
@@ -105,7 +105,7 @@ export const Menus = [
   },
   {
     label: "Explorer",
-    route: "/explorer"
+    route: "/account"
   },
   {
     label: "About us",

@@ -1,14 +1,19 @@
 "use client"
 
 import { themeState } from "@/state/theme";
+import { useState } from "react";
 import { useRecoilValue } from "recoil";
 import Filter from "./filter";
 import Historys from "./history";
+import Login from "./login";
+import SignUp from "./signup";
 import Total from "./total";
 
 /* eslint-disable @next/next/no-img-element */
 const Account = () => {
   const dark = useRecoilValue(themeState);
+  const [openSignup, toggleSignup] = useState(false);
+  const [openLogin, toggleLogin] = useState(true)
   return (
     <div className={`px-4 lg:px-20 mt-8 mb-8 ${dark ? "text-white" : "text-black"}`}>
       <div className="flex justify-between">
@@ -32,6 +37,8 @@ const Account = () => {
         </p>
       </div>
       <Historys />
+      <SignUp open={openSignup} toggleOpen={toggleSignup} />
+      <Login open={openLogin} toggleOpen={toggleLogin} />
     </div>
   )
 };
