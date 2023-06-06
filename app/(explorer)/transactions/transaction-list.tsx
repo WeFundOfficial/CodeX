@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { themeState } from "@/state/theme";
+import { Fragment } from "react";
 import { useRecoilValue } from "recoil";
 import TransactionFunction from "./transaction-function";
 import TransactionType from "./transaction-type";
@@ -44,7 +45,7 @@ const TransactionList = () => {
       <tbody>
         <tr className="h-2 px-3" />
         {Transactions.map((t, index, all) => (
-          <>
+          <Fragment key={index}>
             <tr className={`h-12 px-3 py-2 text-sm rounded-sm`}
               style={{ background: dark ? "#1B1F1E" : "#FAFAFA" }}
             >
@@ -90,7 +91,7 @@ const TransactionList = () => {
               </td>
             </tr>
             <tr className="h-2" />
-          </>
+          </Fragment>
         ))}
       </tbody>
     </table>
