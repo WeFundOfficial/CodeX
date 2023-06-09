@@ -7,9 +7,10 @@ import Search from "../../../src/components/developers/transactions/search";
 import ChainInfo from "@/components/developers/transactions/chain-info";
 import Tabs from "@/components/developers/transactions/tab";
 import BlockDetails from "@/components/developers/transactions/block-details";
+import Latency from "@/components/developers/transactions/latency";
 
 const Transactions = () => {
-  const [tab, setTab] = useState(1);
+  const [tab, setTab] = useState(2);
   const dark = useRecoilValue(themeState);
   return (
     <div className={`px-4 lg:px-20 mt-8 mb-8 ${dark ? "text-white" : "text-black"}`}>
@@ -23,6 +24,7 @@ const Transactions = () => {
       
       {tab == 0 && <ChainInfo />}
       {tab == 1 && <BlockDetails />}
+      {tab == 2 && <Latency />}
     </div>
   );
 }

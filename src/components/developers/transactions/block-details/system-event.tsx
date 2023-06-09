@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const SystemEvent = () => {
-  const [isOpen, toggleOpen] = useState(true);
+  const [isOpen, toggleOpen] = useState(false);
   return (
     <div className="flex flex-col lg:flex-row mt-16 gap-8 lg:gap-80" style={{ color: "#999999" }}>
       <div>
