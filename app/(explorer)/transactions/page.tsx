@@ -8,9 +8,12 @@ import ChainInfo from "@/components/developers/transactions/chain-info";
 import Tabs from "@/components/developers/transactions/tab";
 import BlockDetails from "@/components/developers/transactions/block-details";
 import Latency from "@/components/developers/transactions/latency";
+import Forks from "@/components/developers/transactions/forks";
+import NodeInfo from "@/components/developers/transactions/node-info";
+import ApiStats from "@/components/developers/transactions/api-stats";
 
 const Transactions = () => {
-  const [tab, setTab] = useState(2);
+  const [tab, setTab] = useState(5);
   const dark = useRecoilValue(themeState);
   return (
     <div className={`px-4 lg:px-20 mt-8 mb-8 ${dark ? "text-white" : "text-black"}`}>
@@ -25,6 +28,9 @@ const Transactions = () => {
       {tab == 0 && <ChainInfo />}
       {tab == 1 && <BlockDetails />}
       {tab == 2 && <Latency />}
+      {tab == 3 && <Forks />}
+      {tab == 4 && <NodeInfo />}
+      {tab == 5 && <ApiStats />}
     </div>
   );
 }
