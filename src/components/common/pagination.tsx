@@ -1,4 +1,6 @@
+import { themeState } from "@/state/theme";
 import { ReactNode, useEffect, useMemo, useState } from "react";
+import { useRecoilValue } from "recoil";
 
 enum ButtonType {
   Normal,
@@ -48,17 +50,18 @@ const Pagination: React.FC<Props> = ({ total = 0, countPerPage = 10, onChangePag
   const isLast = totalPage - start + 1 <= max;
   const count = isLast ? totalPage - start + 1 : max;
 
+  const dark = useRecoilValue(themeState);
   return (
     <div className="flex justify-center w-full gap-6">
       <PageButton onClick={() => prevBulk()}>
         <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12.5898 12L13.9998 10.59L9.41984 6L13.9998 1.41L12.5898 0L6.58984 6L12.5898 12Z" fill="white" />
-          <path d="M6 12L7.41 10.59L2.83 6L7.41 1.41L6 0L0 6L6 12Z" fill="white" />
+          <path d="M12.5898 12L13.9998 10.59L9.41984 6L13.9998 1.41L12.5898 0L6.58984 6L12.5898 12Z" fill="#999999" />
+          <path d="M6 12L7.41 10.59L2.83 6L7.41 1.41L6 0L0 6L6 12Z" fill="#999999" />
         </svg>
       </PageButton>
       <PageButton onClick={() => prevPage()}>
         <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M7.41 10.59L2.83 6L7.41 1.41L6 0L0 6L6 12L7.41 10.59Z" fill="white" />
+          <path d="M7.41 10.59L2.83 6L7.41 1.41L6 0L0 6L6 12L7.41 10.59Z" fill="#999999" />
         </svg>
       </PageButton>
       {Array(count).fill(null).map((_, i) => (
@@ -73,13 +76,13 @@ const Pagination: React.FC<Props> = ({ total = 0, countPerPage = 10, onChangePag
       {!isLast && <span>...</span>}
       <PageButton onClick={() => nextPage()}>
         <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0.59 10.59L5.17 6L0.59 1.41L2 0L8 6L2 12L0.59 10.59Z" fill="white" />
+          <path d="M0.59 10.59L5.17 6L0.59 1.41L2 0L8 6L2 12L0.59 10.59Z" fill="#999999" />
         </svg>
       </PageButton>
       <PageButton onClick={() => nextBulk()}>
         <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.41016 12L0.000156403 10.59L4.58016 6L0.000156403 1.41L1.41016 0L7.41016 6L1.41016 12Z" fill="white" />
-          <path d="M8 12L6.59 10.59L11.17 6L6.59 1.41L8 0L14 6L8 12Z" fill="white" />
+          <path d="M1.41016 12L0.000156403 10.59L4.58016 6L0.000156403 1.41L1.41016 0L7.41016 6L1.41016 12Z" fill="#999999" />
+          <path d="M8 12L6.59 10.59L11.17 6L6.59 1.41L8 0L14 6L8 12Z" fill="#999999" />
         </svg>
       </PageButton>
     </div>
@@ -96,11 +99,11 @@ interface PageButtonProps {
 const PageButton: React.FC<PageButtonProps> = ({ children, type = ButtonType.Normal, ...props }) => {
   const color = useMemo(() => {
     switch (type) {
-      case ButtonType.Normal: return "white";
+      case ButtonType.Normal: return "#999999";
       case ButtonType.Active: return "#009DFF";
       case ButtonType.InActive: return "#FFFFFF88";
     }
-    return "white"
+    return "#999999"
   }, [type]);
 
   return (

@@ -13,7 +13,7 @@ import NodeInfo from "@/components/developers/transactions/node-info";
 import ApiStats from "@/components/developers/transactions/api-stats";
 
 const Transactions = () => {
-  const [tab, setTab] = useState(5);
+  const [tab, setTab] = useState(0);
   const dark = useRecoilValue(themeState);
   return (
     <div className={`px-4 lg:px-20 mt-8 mb-8 ${dark ? "text-white" : "text-black"}`}>

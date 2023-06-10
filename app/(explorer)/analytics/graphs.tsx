@@ -6,15 +6,13 @@ import { themeState } from "@/state/theme";
 const Graphs = () => {
   const dark = useRecoilValue(themeState);
 
-  const chartOptions = {
+  const chartOptions1 = {
     title: {
       text: "",
     },
     xAxis: {
       categories: ['05-05', '05-06', '05-07', '05-08'],
-      type: 'datetime',
       labels: {
-        format: '{value:%m-%d}',
         style: {
           fontFamily: 'Inter',
           fontSize: "12px",
@@ -23,10 +21,6 @@ const Graphs = () => {
         rotation: 270
       },
       min: 0,
-      // tickInterval: 5000,
-      // ordinal: false,
-      // visible: true,
-      // zoomEnabled: true,
       // startOnTick: true,
       gridLineWidth: 0,
       plotLines: [{
@@ -49,15 +43,6 @@ const Graphs = () => {
       title: {
         text: ""
       },
-      // tickPositioner: (e) => {
-      // console.log(e)
-      // var ticks = this.tickPositions,
-      //   firstTick = ticks[0],
-      //   lastTick = ticks[ticks.length - 1];
-      // return ticks.filter(function (tick) {
-      //   return tick !== firstTick && tick !== lastTick;
-      // });
-      // },
       min: 100_000,
       max: 150_000,
       // startOnTick: true,
@@ -96,7 +81,64 @@ const Graphs = () => {
         },
       },
     ],
+    credits: {
+      enabled: false
+    },
   };
+
+  const chartOptions2 = {
+    chart: {
+      type: 'column',
+      backgroundColor: 'transparent',
+
+    },
+    title: {
+      text: ''
+    },
+    xAxis: {
+      categories: ['05-05', '05-06', '05-07', '05-08'],
+      crosshair: true,
+      labels: {
+        style: {
+          fontFamily: 'Inter',
+          fontSize: "12px",
+          color: '#999999',
+        },
+        rotation: 0
+      },
+    },
+    yAxis: {
+      min: 100_000,
+      title: {
+        text: ''
+      },
+      labels: {
+        style: {
+          fontFamily: 'Inter',
+          fontSize: "12px",
+          color: '#999999',
+        },
+      },
+      gridLineWidth: 0,
+    },
+    plotOptions: {
+      column: {
+        pointPadding: 0.2,
+        borderWidth: 0
+      },
+      series: {
+        enableMouseTracking: false,
+      },
+    },
+    series: [{
+      showInLegend: false,
+      data: DATAS1,
+      color: '#009DFF'
+    }],
+    credits: {
+      enabled: false
+    },
+  }
   return (
     <div className="flex gap-2 mt-10 ">
       <div className={`w-full ${dark ? "bg-black" : "bg-white"} mx-4 p-6 drop-shadow-xl`}>
@@ -106,7 +148,7 @@ const Graphs = () => {
             style: { height: '300px', width: '100%' },
           }}
           highcharts={Highcharts}
-          options={chartOptions}
+          options={chartOptions1}
         />
       </div>
       <div className={`w-full ${dark ? "bg-black" : "bg-white"} mx-4 p-6 drop-shadow-xl`}>
@@ -116,27 +158,27 @@ const Graphs = () => {
             style: { height: '300px', width: '100%' },
           }}
           highcharts={Highcharts}
-          options={chartOptions}
+          options={chartOptions1}
         />
       </div>
       <div className={`w-full ${dark ? "bg-black" : "bg-white"} mx-4 p-6 drop-shadow-xl`}>
-        <h1 className="text-base ml-2 mb-4">User Transaction</h1>
+        <h1 className="text-base ml-2 mb-4">Daily Activity Accounts</h1>
         <HighchartsReact
           containerProps={{
             style: { height: '300px', width: '100%' },
           }}
           highcharts={Highcharts}
-          options={chartOptions}
+          options={chartOptions2}
         />
       </div>
       <div className={`w-full ${dark ? "bg-black" : "bg-white"} mx-4 p-6 drop-shadow-xl`}>
-        <h1 className="text-base ml-2 mb-4">Peak TPS</h1>
+        <h1 className="text-base ml-2 mb-4">New Accounts Created</h1>
         <HighchartsReact
           containerProps={{
             style: { height: '300px', width: '100%' },
           }}
           highcharts={Highcharts}
-          options={chartOptions}
+          options={chartOptions2}
         />
       </div>
     </div>
@@ -146,7 +188,7 @@ const Graphs = () => {
 export default Graphs;
 
 const DATAS1 = [
-  100_000,
+  110_000,
   140_000,
   120_000,
   145_000,

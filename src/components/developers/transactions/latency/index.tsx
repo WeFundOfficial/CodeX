@@ -82,6 +82,9 @@ const Latency = () => {
         },
       },
     ],
+    credits: {
+      enabled: false
+    },
   };
 
   return (
